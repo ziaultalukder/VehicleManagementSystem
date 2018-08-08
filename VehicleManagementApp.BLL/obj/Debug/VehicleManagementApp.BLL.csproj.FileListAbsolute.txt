@@ -30,3 +30,20 @@ E:\VehicleManagementApp\VehicleManagementApp.BLL\obj\Debug\VehicleManagementApp.
 E:\VehicleManagementApp\VehicleManagementApp.BLL\obj\Debug\VehicleManagementApp.BLL.pdb
 E:\VehicleManagementApp\VehicleManagementApp.BLL\bin\Debug\VehicleManagementApp.BLL.Contracts.dll
 E:\VehicleManagementApp\VehicleManagementApp.BLL\bin\Debug\VehicleManagementApp.BLL.Contracts.pdb
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.BLL\bin\Debug\VehicleManagementApp.BLL.dll
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.BLL\bin\Debug\VehicleManagementApp.BLL.pdb
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.BLL\bin\Debug\VehicleManagementApp.BLL.Contracts.dll
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.BLL\bin\Debug\VehicleManagementApp.Models.Contracts.dll
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.BLL\bin\Debug\VehicleManagementApp.Models.dll
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.BLL\bin\Debug\VehicleManagementApp.Repository.Contracts.dll
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.BLL\bin\Debug\VehicleManagementApp.Repository.dll
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.BLL\bin\Debug\EntityFramework.dll
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.BLL\bin\Debug\VehicleManagementApp.BLL.Contracts.pdb
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.BLL\bin\Debug\VehicleManagementApp.Models.Contracts.pdb
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.BLL\bin\Debug\VehicleManagementApp.Models.pdb
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.BLL\bin\Debug\VehicleManagementApp.Repository.Contracts.pdb
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.BLL\bin\Debug\VehicleManagementApp.Repository.pdb
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.BLL\bin\Debug\EntityFramework.xml
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.BLL\obj\Debug\VehicleManagementApp.BLL.csprojResolveAssemblyReference.cache
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.BLL\obj\Debug\VehicleManagementApp.BLL.dll
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.BLL\obj\Debug\VehicleManagementApp.BLL.pdb

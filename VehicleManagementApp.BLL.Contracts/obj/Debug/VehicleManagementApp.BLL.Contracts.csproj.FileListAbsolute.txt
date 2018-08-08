@@ -9,3 +9,14 @@ E:\VehicleManagementApp\VehicleManagementApp.BLL.Contracts\bin\Debug\VehicleMana
 E:\VehicleManagementApp\VehicleManagementApp.BLL.Contracts\obj\Debug\VehicleManagementApp.BLL.Contracts.csprojResolveAssemblyReference.cache
 E:\VehicleManagementApp\VehicleManagementApp.BLL.Contracts\obj\Debug\VehicleManagementApp.BLL.Contracts.dll
 E:\VehicleManagementApp\VehicleManagementApp.BLL.Contracts\obj\Debug\VehicleManagementApp.BLL.Contracts.pdb
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\bin\Debug\VehicleManagementApp.BLL.Contracts.dll
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\bin\Debug\VehicleManagementApp.BLL.Contracts.pdb
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\bin\Debug\VehicleManagementApp.Models.Contracts.dll
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\bin\Debug\VehicleManagementApp.Models.dll
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\bin\Debug\VehicleManagementApp.Repository.Contracts.dll
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\bin\Debug\VehicleManagementApp.Models.Contracts.pdb
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\bin\Debug\VehicleManagementApp.Models.pdb
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\bin\Debug\VehicleManagementApp.Repository.Contracts.pdb
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\obj\Debug\VehicleManagementApp.BLL.Contracts.csprojResolveAssemblyReference.cache
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\obj\Debug\VehicleManagementApp.BLL.Contracts.dll
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\obj\Debug\VehicleManagementApp.BLL.Contracts.pdb
