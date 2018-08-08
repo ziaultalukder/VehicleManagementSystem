@@ -1,0 +1,95 @@
+﻿<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>VehicleManagementApp</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="stylesheet" href="~/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/css/slicknav.css">
+    <link rel="stylesheet" href="~/css/animate.css">
+    <link rel="stylesheet" href="~/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="~/css/normalize.css">
+    <link rel="stylesheet" href="~/css/style.css">
+    <script src="~/js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+</head>
+<body>
+    <section class="header">
+        <nav class="navbar navbar-inverse">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="navbar-header">
+                            <div class="navbar_brand">
+                                <a href="~/requsition.html">Dashboard</a>
+                            </div>
+                        </div>
+                        <!-- ul/li -->
+                        <div id="navbar" class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav"></ul>
+                        </div><!--/.nav-collapse -->
+                    </div>
+                    <div class="col-md-5">
+                        <div class="logout pull-right">
+                            <ul>
+                                <li><h3>Hi Mr. Ziaul Talukder</h3></li>
+                                <li><a href="#"> LogOut</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="requsition_menu">
+                    <ul>
+                        <li><a href="~/profile.html">Profile</a></li>
+                        <li><a href="~/requsitionList.html">Requsition List</a></li>
+                        <li><a href="~/createRequsition.html">Requsition</a></li>
+                        <li><a href="~/createRequsition.html">Requsition 2</a></li>
+                        <li>@Html.ActionLink("Organaization", "Index", "Organaization")</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="welcome">
+                    @RenderBody()
+                    <h1> Wellcome</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="theme text-centre">
+                        <p>All right Reserved 2017</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- contact section -->
+    <script src="~/js/vendor/jquery-3.2.1.min.js"></script>
+    <script src="~/js/plugins.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+    <script src="~/js/jquery.slicknav.min.js"></script>
+    <script src="~/js/owl.carousel.min.js"></script>
+    <script src="~/js/wow.min.js"></script>
+    <script src="~/js/jquery.fitvids.js"></script>
+    <script>
+          // window.sr = ScrollReveal();
+    </script>
+</body>
+</html>
+

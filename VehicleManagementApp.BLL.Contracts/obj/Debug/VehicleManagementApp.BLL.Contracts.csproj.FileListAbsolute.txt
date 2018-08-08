@@ -1,0 +1,11 @@
+E:\VehicleManagementApp\VehicleManagementApp.BLL.Contracts\bin\Debug\VehicleManagementApp.BLL.Contracts.dll
+E:\VehicleManagementApp\VehicleManagementApp.BLL.Contracts\bin\Debug\VehicleManagementApp.BLL.Contracts.pdb
+E:\VehicleManagementApp\VehicleManagementApp.BLL.Contracts\bin\Debug\VehicleManagementApp.Models.Contracts.dll
+E:\VehicleManagementApp\VehicleManagementApp.BLL.Contracts\bin\Debug\VehicleManagementApp.Models.dll
+E:\VehicleManagementApp\VehicleManagementApp.BLL.Contracts\bin\Debug\VehicleManagementApp.Repository.Contracts.dll
+E:\VehicleManagementApp\VehicleManagementApp.BLL.Contracts\bin\Debug\VehicleManagementApp.Models.Contracts.pdb
+E:\VehicleManagementApp\VehicleManagementApp.BLL.Contracts\bin\Debug\VehicleManagementApp.Models.pdb
+E:\VehicleManagementApp\VehicleManagementApp.BLL.Contracts\bin\Debug\VehicleManagementApp.Repository.Contracts.pdb
+E:\VehicleManagementApp\VehicleManagementApp.BLL.Contracts\obj\Debug\VehicleManagementApp.BLL.Contracts.csprojResolveAssemblyReference.cache
+E:\VehicleManagementApp\VehicleManagementApp.BLL.Contracts\obj\Debug\VehicleManagementApp.BLL.Contracts.dll
+E:\VehicleManagementApp\VehicleManagementApp.BLL.Contracts\obj\Debug\VehicleManagementApp.BLL.Contracts.pdb

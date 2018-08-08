@@ -1,0 +1,45 @@
+C:\Users\Ziaul\documents\visual studio 2015\Projects\VehicleManagementApp\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.csprojResolveAssemblyReference.cache
+C:\Users\Ziaul\documents\visual studio 2015\Projects\VehicleManagementApp\VehicleManagementApp.Repository\bin\Debug\VehicleManagementApp.Repository.dll.config
+C:\Users\Ziaul\documents\visual studio 2015\Projects\VehicleManagementApp\VehicleManagementApp.Repository\bin\Debug\VehicleManagementApp.Repository.dll
+C:\Users\Ziaul\documents\visual studio 2015\Projects\VehicleManagementApp\VehicleManagementApp.Repository\bin\Debug\VehicleManagementApp.Repository.pdb
+C:\Users\Ziaul\documents\visual studio 2015\Projects\VehicleManagementApp\VehicleManagementApp.Repository\bin\Debug\EntityFramework.dll
+C:\Users\Ziaul\documents\visual studio 2015\Projects\VehicleManagementApp\VehicleManagementApp.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ziaul\documents\visual studio 2015\Projects\VehicleManagementApp\VehicleManagementApp.Repository\bin\Debug\VehicleManagementApp.Models.Contracts.dll
+C:\Users\Ziaul\documents\visual studio 2015\Projects\VehicleManagementApp\VehicleManagementApp.Repository\bin\Debug\VehicleManagementApp.Models.dll
+C:\Users\Ziaul\documents\visual studio 2015\Projects\VehicleManagementApp\VehicleManagementApp.Repository\bin\Debug\VehicleManagementApp.Repository.Contracts.dll
+C:\Users\Ziaul\documents\visual studio 2015\Projects\VehicleManagementApp\VehicleManagementApp.Repository\bin\Debug\VehicleManagementApp.Models.Contracts.pdb
+C:\Users\Ziaul\documents\visual studio 2015\Projects\VehicleManagementApp\VehicleManagementApp.Repository\bin\Debug\VehicleManagementApp.Models.pdb
+C:\Users\Ziaul\documents\visual studio 2015\Projects\VehicleManagementApp\VehicleManagementApp.Repository\bin\Debug\VehicleManagementApp.Repository.Contracts.pdb
+C:\Users\Ziaul\documents\visual studio 2015\Projects\VehicleManagementApp\VehicleManagementApp.Repository\bin\Debug\EntityFramework.xml
+C:\Users\Ziaul\documents\visual studio 2015\Projects\VehicleManagementApp\VehicleManagementApp.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ziaul\documents\visual studio 2015\Projects\VehicleManagementApp\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.dll
+C:\Users\Ziaul\documents\visual studio 2015\Projects\VehicleManagementApp\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.pdb
+C:\Users\Ziaul\documents\visual studio 2015\Projects\VehicleManagementApp\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.organaizationAndDesignation.resources
+C:\Users\Ziaul\documents\visual studio 2015\Projects\VehicleManagementApp\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.csproj.GenerateResource.Cache
+E:\VehicleManagementApp\VehicleManagementApp.Repository\bin\Debug\VehicleManagementApp.Repository.dll.config
+E:\VehicleManagementApp\VehicleManagementApp.Repository\bin\Debug\VehicleManagementApp.Repository.dll
+E:\VehicleManagementApp\VehicleManagementApp.Repository\bin\Debug\VehicleManagementApp.Repository.pdb
+E:\VehicleManagementApp\VehicleManagementApp.Repository\bin\Debug\EntityFramework.dll
+E:\VehicleManagementApp\VehicleManagementApp.Repository\bin\Debug\EntityFramework.SqlServer.dll
+E:\VehicleManagementApp\VehicleManagementApp.Repository\bin\Debug\VehicleManagementApp.Models.Contracts.dll
+E:\VehicleManagementApp\VehicleManagementApp.Repository\bin\Debug\VehicleManagementApp.Models.dll
+E:\VehicleManagementApp\VehicleManagementApp.Repository\bin\Debug\VehicleManagementApp.Repository.Contracts.dll
+E:\VehicleManagementApp\VehicleManagementApp.Repository\bin\Debug\VehicleManagementApp.Models.Contracts.pdb
+E:\VehicleManagementApp\VehicleManagementApp.Repository\bin\Debug\VehicleManagementApp.Models.pdb
+E:\VehicleManagementApp\VehicleManagementApp.Repository\bin\Debug\VehicleManagementApp.Repository.Contracts.pdb
+E:\VehicleManagementApp\VehicleManagementApp.Repository\bin\Debug\EntityFramework.xml
+E:\VehicleManagementApp\VehicleManagementApp.Repository\bin\Debug\EntityFramework.SqlServer.xml
+E:\VehicleManagementApp\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.csprojResolveAssemblyReference.cache
+E:\VehicleManagementApp\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.organaizationAndDesignation.resources
+E:\VehicleManagementApp\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.csproj.GenerateResource.Cache
+E:\VehicleManagementApp\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.dll
+E:\VehicleManagementApp\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.pdb
+E:\VehicleManagementApp\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.vehicle.resources
+E:\VehicleManagementApp\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.vehicleModelChange.resources
+E:\VehicleManagementApp\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.Department.resources
+E:\VehicleManagementApp\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.Role.resources
+E:\VehicleManagementApp\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.Employee.resources
+E:\VehicleManagementApp\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.RequsitionStatus.resources
+E:\VehicleManagementApp\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.Comments.resources
+E:\VehicleManagementApp\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.Requsition.resources
+E:\VehicleManagementApp\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.RequsitionTableChange.resources
