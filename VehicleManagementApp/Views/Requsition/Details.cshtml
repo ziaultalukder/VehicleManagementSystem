@@ -1,0 +1,55 @@
+﻿@model VehicleManagementApp.Models.Models.Requsition
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Requsition Description</h1>
+            <table class="table table-bordered table-striped">
+                <tr>
+                    <th>Title</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>Form</td>
+                    <td>@Html.DisplayFor(model => model.Form)</td>
+                </tr>
+                <tr>
+                    <td>To</td>
+                    <td>@Html.DisplayFor(model => model.To)</td>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>@Html.DisplayFor(model => model.Description)</td>
+                </tr>
+                <tr>
+                    <td>Start Time</td>
+                    <td>@Html.DisplayFor(model => model.JourneyStart)</td>
+                </tr>
+                <tr>
+                    <td>End Time</td>
+                    <td>@Html.DisplayFor(model => model.JouneyEnd)</td>
+                </tr>
+            </table>
+
+            <div class="comment_section">
+                <form>
+                    <div class="form-group">
+                        <label for="comment">Comment:</label>
+                        <textarea class="form-control" rows="4" id="comment"></textarea>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

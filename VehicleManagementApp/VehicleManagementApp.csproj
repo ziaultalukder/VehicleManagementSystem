@@ -481,6 +481,7 @@
     <Content Include="Views\Requsition\Index.cshtml" />
     <Content Include="Views\Requsition\Edit.cshtml" />
     <Content Include="Views\Requsition\Delete.cshtml" />
+    <Content Include="Views\Requsition\Details.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

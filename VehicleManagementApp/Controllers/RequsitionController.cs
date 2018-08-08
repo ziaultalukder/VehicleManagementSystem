@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using VehicleManagementApp.BLL.Contracts;
@@ -53,10 +54,14 @@ namespace VehicleManagementApp.Controllers
         {
             if (id == null)
             {
-                return HttpNotFound();
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
             Requsition requsition = _requsitionManager.GetById((int) id);
-            return View();
+            if (requsition == null)
+            {
+                return HttpNotFound();
+            }
+            return View(requsition);
         }
 
         // GET: Requsition/Create
