@@ -1,58 +1,316 @@
 ﻿@using System.Web.UI.WebControls
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html class="no-js" lang="">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
-    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="style.css">
     <link href="~/Content/DataTables/css/dataTables.jqueryui.min.css" rel="stylesheet" />
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
+
+    <!-- header top start -->
+    <section class="header_top">
         <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("Organaization", "Index", "Organaization")</li>
-                    <li>@Html.ActionLink("Designation", "Index", "Designation")</li>
-                    <li>@Html.ActionLink("Vehicle Type", "Index", "VehicleType")</li>
-                    <li>@Html.ActionLink("Vehicle", "Index", "Vehicle")</li>
-                    <li>@Html.ActionLink("Department", "Index", "Department")</li>
-                    <li>@Html.ActionLink("Role", "Index", "Role")</li>
-                    <li>@Html.ActionLink("Employee", "Index", "Employee")</li>
-                    <li>@Html.ActionLink("Requsition Status", "Index", "RequsitionStatus")</li>
-                    <li>@Html.ActionLink("Requsition", "Index", "Requsition")</li>
-                </ul>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="header_top_left pull-left">
+                        <span>9 August 2018</span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="header_top_right pull-right">
+                        <a href="#">LogIn</a>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-        </footer>
-    </div>
-    <script src="~/Scripts/jquery-2.2.4.min.js"></script>
+    </section>
+    <!-- header top end -->
+    <section class="logo">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="logo_images pull-left">
+
+                        <a href="#"><img src="img/logo.png" class="img-responsive" alt="logo"></a>
+                    </div>
+                </div>
+                <div class="col-md-6 pull-right"></div>
+            </div>
+        </div>
+    </section>
+    <!-- header start here -->
+    <section>
+        <nav class="vagigation navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div id="navbar" class="collapse navbar-collapse">
+                    <ul>
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li>                        
+                        <li class="dropdown">
+                            <a href="#">Setup</a>
+                            <ul class="dropdown-menu">
+                                <li>@Html.ActionLink("Employee", "Index", "Employee")</li>
+                                <li>@Html.ActionLink("Role", "Index", "Role")</li>
+                                <li><a href="#">Vehicle</a>
+                                    <ul>
+                                        <li>@Html.ActionLink("Vehicle Type", "Index", "VehicleType")</li>
+                                        <li>@Html.ActionLink("Vehicle", "Index", "Vehicle")</li>
+                                    </ul>
+                                </li>                                
+                                <li>
+                                    @Html.ActionLink("Organaization", "Index", "Organaization")
+                                    <ul>                                        
+                                        <li>@Html.ActionLink("Department", "Index", "Department")</li>
+                                        <li>@Html.ActionLink("Designation", "Index", "Designation")</li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Requsition</a>
+                                    <ul>
+                                        <li>@Html.ActionLink("Requsition Status", "Index", "RequsitionStatus")</li>
+                                        <li>@Html.ActionLink("Requsition", "Index", "Requsition")</li>
+                                    </ul>
+                                </li>                                
+                            </ul>
+                        </li>                        
+                        <li><a href="#aboutus">About Us</a></li>
+                        <li><a href="#contactUs">Contact Us</a></li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div>
+        </nav>
+    </section>
+    <!-- header end here -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="slider_section" style="height:680px;">
+                        @RenderBody()
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="aboutus">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="about">
+                        <h3>About Us</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                    </div>
+                </div>
+                <div class="ourTeam">
+                    <h1>Our Team</h1>
+                </div>
+                <div class="col-md-3">
+                    <div class="member">
+                        <div class="img-thumbnail">
+                            <div class="img-box">
+                                <img src="img/Membar/1.jpg" class="img-responsive" alt="member-image">
+                            </div>
+                            <div class="img-content">
+                                <h3>Md. Ziaul Talukder</h3>
+                                <h4>Team Member</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="member">
+                        <div class="img-thumbnail">
+                            <div class="img-box">
+                                <img src="img/Membar/2.jpg" class="img-responsive" alt="member-image">
+                            </div>
+                            <div class="img-content">
+                                <h3>Md. Ziaul Talukder</h3>
+                                <h4>Team Member</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="member">
+                        <div class="img-thumbnail">
+                            <div class="img-box">
+                                <img src="img/Membar/3.jpg" class="img-responsive" alt="member-image">
+                            </div>
+                            <div class="img-content">
+                                <h3>Md. Ziaul Talukder</h3>
+                                <h4>Team Member</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="member">
+                        <div class="img-thumbnail">
+                            <div class="img-box">
+                                <img src="img/Membar/4.jpg" class="img-responsive" alt="member-image">
+                            </div>
+                            <div class="img-content">
+                                <h3>Md. Ziaul Talukder</h3>
+                                <h4>Team Member</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="contactUs">
+        <div class="container">
+            <div class="row">
+                <div class="contast_Section">
+                    <h1 class="text-centre">Contact Us</h1>
+                </div>
+                <div class="col-md-6">
+                    <div class="contactFormSection">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="inputEmail4">Email</label>
+                                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="inputEmail4">Name</label>
+                                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="inputEmail4">Phone</label>
+                                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="inputEmail4">Website</label>
+                                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="comment">Comment</label>
+                                <textarea class="form-control" rows="5" id="comment"></textarea>
+                            </div>
+                            <button type="submit" class="btn">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="contactSec">
+                        <ul>
+                            <li>
+                                <a href="#">Phone Number</a>
+                                <p> +880 1728-388 751 </p>
+                            </li>
+                            <li>
+                                <a href="#">Email Address</a>
+                                <p>mohammadziaulm62@gmail.com</p>
+                            </li>
+                            <li>
+                                <a href="#">My Address</a>
+                                <p>39/6, North Pirerbag, Mirpur, Dhaka-1216</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="contast_Section">
+                <h1>Our Location</h1>
+            </div>
+            <div class="col-md-12">
+                <div id="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116834.00977784178!2d90.34928578230961!3d23.780777744556723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka!5e0!3m2!1sen!2sbd!4v1533833897303" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="footer-menu">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="theme text-centre">
+                            <p class="text-centre"> All right Reserved 2017</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/vendor/jquery-3.2.1.min.js"></script>
     <script src="~/scripts/jquery.validate.js"></script>
     <script src="~/scripts/jquery.validate.unobtrusive.js"></script>
     <script src="~/scripts/DataTables/jquery.dataTables.min.js"></script>
-
-<script type="text/javascript">
+    <script src="js/plugins.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.fitvids.js"></script>    
+    <script src="js/main.js"></script>
+    
+    <script type="text/javascript">
     $(document).ready(function() {
         $('#myTable').DataTable();
     });
-</script>
-
-    @RenderSection("scripts", required: false)
+    </script>
 </body>
 </html>
+            
+
+
