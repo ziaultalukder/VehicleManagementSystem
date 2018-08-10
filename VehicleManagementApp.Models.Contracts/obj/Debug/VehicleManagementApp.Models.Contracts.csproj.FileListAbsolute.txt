@@ -8,3 +8,8 @@ E:\VehicleManagementApp\VehicleManagementApp.Models.Contracts\bin\Debug\VehicleM
 E:\VehicleManagementApp\VehicleManagementApp.Models.Contracts\obj\Debug\VehicleManagementApp.Models.Contracts.dll
 E:\VehicleManagementApp\VehicleManagementApp.Models.Contracts\obj\Debug\VehicleManagementApp.Models.Contracts.pdb
 E:\VehicleManagementApp\VehicleManagementApp.Models.Contracts\obj\Debug\VehicleManagementApp.Models.Contracts.csprojResolveAssemblyReference.cache
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\bin\Debug\VehicleManagementApp.Models.Contracts.dll
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\bin\Debug\VehicleManagementApp.Models.Contracts.pdb
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\obj\Debug\VehicleManagementApp.Models.Contracts.dll
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\obj\Debug\VehicleManagementApp.Models.Contracts.pdb
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\obj\Debug\VehicleManagementApp.Models.Contracts.csprojResolveAssemblyReference.cache

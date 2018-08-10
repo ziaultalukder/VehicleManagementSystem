@@ -43,3 +43,30 @@ E:\VehicleManagementApp\VehicleManagementApp.Repository\obj\Debug\VehicleManagem
 E:\VehicleManagementApp\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.Comments.resources
 E:\VehicleManagementApp\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.Requsition.resources
 E:\VehicleManagementApp\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.RequsitionTableChange.resources
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.Repository\bin\Debug\VehicleManagementApp.Repository.dll.config
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.Repository\bin\Debug\VehicleManagementApp.Repository.dll
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.Repository\bin\Debug\VehicleManagementApp.Repository.pdb
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.Repository\bin\Debug\EntityFramework.dll
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.Repository\bin\Debug\EntityFramework.SqlServer.dll
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.Repository\bin\Debug\VehicleManagementApp.Models.Contracts.dll
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.Repository\bin\Debug\VehicleManagementApp.Models.dll
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.Repository\bin\Debug\VehicleManagementApp.Repository.Contracts.dll
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.Repository\bin\Debug\VehicleManagementApp.Models.Contracts.pdb
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.Repository\bin\Debug\VehicleManagementApp.Models.pdb
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.Repository\bin\Debug\VehicleManagementApp.Repository.Contracts.pdb
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.Repository\bin\Debug\EntityFramework.xml
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.Repository\bin\Debug\EntityFramework.SqlServer.xml
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.csprojResolveAssemblyReference.cache
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.organaizationAndDesignation.resources
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.vehicle.resources
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.vehicleModelChange.resources
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.Department.resources
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.Role.resources
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.Employee.resources
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.RequsitionStatus.resources
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.Comments.resources
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.Requsition.resources
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.RequsitionTableChange.resources
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.csproj.GenerateResource.Cache
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.dll
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.pdb

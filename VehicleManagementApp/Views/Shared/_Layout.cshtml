@@ -115,6 +115,7 @@
     <hr>
     <section id="aboutus">
         <div class="container">
+<<<<<<< HEAD
             <div class="row">
                 <div class="col-md-12">
                     <div class="about">
@@ -200,6 +201,29 @@
                         </div>
                     </div>
                 </div>
+=======
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Organaization", "Index", "Organaization")</li>
+                    <li>@Html.ActionLink("Department", "Index", "Department")</li>
+                    <li>@Html.ActionLink("Designation", "Index", "Designation")</li>
+                    <li>@Html.ActionLink("Employee", "Index", "Employee")</li>
+                    <li>@Html.ActionLink("Requsition", "Index", "Requsition")</li>
+                    <li>@Html.ActionLink("Requsition Status", "Index", "RequsitionStatus")</li>
+                    <li>@Html.ActionLink("Vehicle Type", "Index", "VehicleType")</li>
+                    <li>@Html.ActionLink("Vehicle", "Index", "Vehicle")</li>                    
+                    <li>@Html.ActionLink("Role", "Index", "Role")</li>
+                </ul>
+>>>>>>> 610a5427cca16bbac343f1a5d57dcd9051cca123
             </div>
         </div>
     </section>

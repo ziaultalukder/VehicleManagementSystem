@@ -16,3 +16,12 @@ E:\VehicleManagementApp\VehicleManagementApp.Repository.Contracts\bin\Debug\Vehi
 E:\VehicleManagementApp\VehicleManagementApp.Repository.Contracts\obj\Debug\VehicleManagementApp.Repository.Contracts.csprojResolveAssemblyReference.cache
 E:\VehicleManagementApp\VehicleManagementApp.Repository.Contracts\obj\Debug\VehicleManagementApp.Repository.Contracts.dll
 E:\VehicleManagementApp\VehicleManagementApp.Repository.Contracts\obj\Debug\VehicleManagementApp.Repository.Contracts.pdb
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\bin\Debug\VehicleManagementApp.Repository.Contracts.dll
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\bin\Debug\VehicleManagementApp.Repository.Contracts.pdb
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\bin\Debug\VehicleManagementApp.Models.Contracts.dll
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\bin\Debug\VehicleManagementApp.Models.dll
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\bin\Debug\VehicleManagementApp.Models.Contracts.pdb
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\bin\Debug\VehicleManagementApp.Models.pdb
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\obj\Debug\VehicleManagementApp.Repository.Contracts.csprojResolveAssemblyReference.cache
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\obj\Debug\VehicleManagementApp.Repository.Contracts.dll
+G:\Project File\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\obj\Debug\VehicleManagementApp.Repository.Contracts.pdb
