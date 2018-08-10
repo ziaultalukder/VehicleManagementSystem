@@ -9,15 +9,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.webmanifest">
     <link rel="apple-touch-icon" href="icon.png">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/slicknav.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="~/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/css/slicknav.css">
+    <link rel="stylesheet" href="~/css/animate.css">
+    <link rel="stylesheet" href="~/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="~/css/normalize.css">
+    <link rel="stylesheet" href="~/css/style.css">
     <link href="~/Content/DataTables/css/dataTables.jqueryui.min.css" rel="stylesheet" />
-    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>    
 </head>
 <body>
 
@@ -105,7 +105,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="slider_section" style="height:680px;">
+                    <div class="slider_section" style="min-height:680px;">
                         @RenderBody()
                     </div>
                 </div>
@@ -115,7 +115,6 @@
     <hr>
     <section id="aboutus">
         <div class="container">
-<<<<<<< HEAD
             <div class="row">
                 <div class="col-md-12">
                     <div class="about">
@@ -201,30 +200,7 @@
                         </div>
                     </div>
                 </div>
-=======
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("Organaization", "Index", "Organaization")</li>
-                    <li>@Html.ActionLink("Department", "Index", "Department")</li>
-                    <li>@Html.ActionLink("Designation", "Index", "Designation")</li>
-                    <li>@Html.ActionLink("Employee", "Index", "Employee")</li>
-                    <li>@Html.ActionLink("Requsition", "Index", "Requsition")</li>
-                    <li>@Html.ActionLink("Requsition Status", "Index", "RequsitionStatus")</li>
-                    <li>@Html.ActionLink("Vehicle Type", "Index", "VehicleType")</li>
-                    <li>@Html.ActionLink("Vehicle", "Index", "Vehicle")</li>                    
-                    <li>@Html.ActionLink("Role", "Index", "Role")</li>
-                </ul>
->>>>>>> 610a5427cca16bbac343f1a5d57dcd9051cca123
-            </div>
+             </div>            
         </div>
     </section>
     <hr>
@@ -327,7 +303,9 @@
     <script src="js/wow.min.js"></script>
     <script src="js/jquery.fitvids.js"></script>    
     <script src="js/main.js"></script>
+
     
+    @RenderSection("scripts", required: false)
     <script type="text/javascript">
     $(document).ready(function() {
         $('#myTable').DataTable();
