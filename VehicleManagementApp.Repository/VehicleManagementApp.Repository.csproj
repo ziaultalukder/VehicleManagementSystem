@@ -93,6 +93,10 @@
     <Compile Include="Migrations\201808080810142_RequsitionTableChange.Designer.cs">
       <DependentUpon>201808080810142_RequsitionTableChange.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201808121600500_OrganaizationModelDescriptionFieldAdded.cs" />
+    <Compile Include="Migrations\201808121600500_OrganaizationModelDescriptionFieldAdded.Designer.cs">
+      <DependentUpon>201808121600500_OrganaizationModelDescriptionFieldAdded.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="OrganaizationRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -153,6 +157,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201808080810142_RequsitionTableChange.resx">
       <DependentUpon>201808080810142_RequsitionTableChange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808121600500_OrganaizationModelDescriptionFieldAdded.resx">
+      <DependentUpon>201808121600500_OrganaizationModelDescriptionFieldAdded.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -7,13 +7,29 @@ using VehicleManagementApp.BLL.Base;
 using VehicleManagementApp.BLL.Contracts;
 using VehicleManagementApp.Models.Models;
 using VehicleManagementApp.Repository;
+using VehicleManagementApp.Repository.Contracts;
 
 namespace VehicleManagementApp.BLL
 {
     public class OrganaizationManager:Manager<Organaization>,IOrganaizationManager
     {
-        public OrganaizationManager():base(new OrganaizationRepository())
+        private IOrganaizationRepository _repository;
+
+        public OrganaizationManager() : base(new OrganaizationRepository())
         {
+            _repository = (OrganaizationRepository)base.BaseRepository;
+        }
+
+        public OrganaizationManager(IOrganaizationRepository baseRepository) : base(baseRepository)
+        {
+            _repository = baseRepository;
+        }
+
+
+        public bool IsExistsByName(string name)
+        {
+            var organization = _repository.Get(c => c.Name.ToLower() == name.ToLower());
+            return organization != null;
         }
     }
 }

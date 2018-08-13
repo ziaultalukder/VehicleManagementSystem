@@ -52,7 +52,7 @@ namespace VehicleManagementApp.Repository.Repository
         {
             return db.Set<T>().ToList();
         }
-
+         
         public virtual T GetById(int id)
         {
             return db.Set<T>().Find(id);
@@ -62,6 +62,7 @@ namespace VehicleManagementApp.Repository.Repository
         {
             return db.Set<T>().Where(query).ToList();
         }
+
     }
 
     public abstract class DeletableRepository<T>:Repository<T> where T:class,IDeletable

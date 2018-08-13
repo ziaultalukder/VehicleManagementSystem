@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using VehicleManagementApp.BLL;
@@ -27,9 +28,18 @@ namespace VehicleManagementApp.Controllers
         }
 
         // GET: Organaization/Details/5
-        public ActionResult Details(int id)
+        public ActionResult Details(int? id)
         {
-            return View();
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            Organaization organaization = _manager.GetById((int)id);
+            if (organaization == null)
+            {
+                return HttpNotFound();
+            }
+            return View(organaization);
         }
 
         // GET: Organaization/Create
@@ -46,6 +56,7 @@ namespace VehicleManagementApp.Controllers
             {
                 Organaization organaization = new Organaization();
                 organaization.Name = organaizationVM.Name;
+                organaization.Description = organaizationVM.Description;
                 bool isSaved = _manager.Add(organaization);
                 if (isSaved)
                 {
@@ -70,6 +81,7 @@ namespace VehicleManagementApp.Controllers
             OrganaizationViewModels organaizationVM = new OrganaizationViewModels();
             organaizationVM.Id = organaization.Id;
             organaizationVM.Name = organaization.Name;
+            organaizationVM.Description = organaization.Description;
             return View(organaizationVM);
         }
 
@@ -82,6 +94,7 @@ namespace VehicleManagementApp.Controllers
                 Organaization organaization = new Organaization();
                 organaization.Id = organaizationVM.Id;
                 organaization.Name = organaizationVM.Name;
+                organaization.Description = organaizationVM.Description;
                 bool isUpdate = _manager.Update(organaization);
                 if (isUpdate)
                 {
@@ -126,6 +139,12 @@ namespace VehicleManagementApp.Controllers
             {
                 return View();
             }
+        }
+
+        public JsonResult IsNameExist(string Name)
+        {
+            var name = _manager.IsExistsByName(Name);
+            return Json(name == null);
         }
     }
 }

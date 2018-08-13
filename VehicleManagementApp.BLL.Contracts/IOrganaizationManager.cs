@@ -9,5 +9,6 @@ namespace VehicleManagementApp.BLL.Contracts
 {
     public interface IOrganaizationManager:IManager<Organaization>
     {
+        bool IsExistsByName(string name);
     }
 }

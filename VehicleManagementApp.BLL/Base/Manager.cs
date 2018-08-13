@@ -10,20 +10,21 @@ namespace VehicleManagementApp.BLL.Base
 {
     public abstract class Manager<T> where T:class
     {
-        private Repository<T> _repository;
-        public Manager(Repository<T> repository )
+        protected IRepository<T> BaseRepository;
+
+        public Manager(IRepository<T> baseRepository )
         {
-            _repository = repository;
+            BaseRepository = baseRepository;
         }
 
         public virtual bool Add(T entity)
         {
-            return _repository.Add(entity);
+            return BaseRepository.Add(entity);
         }
 
         public virtual bool Update(T entity)
         {
-            return _repository.Update(entity);
+            return BaseRepository.Update(entity);
         }
 
         public virtual bool Remove(IDeletable entity)
@@ -33,22 +34,22 @@ namespace VehicleManagementApp.BLL.Base
             {
                 throw new Exception("This Item Is Not Deletable");
             }
-            return _repository.Remove((IDeletable) entity);
+            return BaseRepository.Remove((IDeletable) entity);
         }
 
         public virtual bool Remove(ICollection<IDeletable> entites)
         {
-            return _repository.Remove(entites);
+            return BaseRepository.Remove(entites);
         }
 
         public virtual T GetById(int id)
         {
-            return _repository.GetById(id);
+            return BaseRepository.GetById(id);
         }
 
         public virtual ICollection<T> GetAll(bool withDeleted = false)
         {
-            return _repository.GetAll(withDeleted);
+            return BaseRepository.GetAll(withDeleted);
         }
         
     }

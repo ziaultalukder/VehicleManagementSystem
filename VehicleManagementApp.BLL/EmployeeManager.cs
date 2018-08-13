@@ -7,14 +7,23 @@ using VehicleManagementApp.BLL.Base;
 using VehicleManagementApp.BLL.Contracts;
 using VehicleManagementApp.Models.Models;
 using VehicleManagementApp.Repository;
+using VehicleManagementApp.Repository.Contracts;
 using VehicleManagementApp.Repository.Repository;
 
 namespace VehicleManagementApp.BLL
 {
     public class EmployeeManager:Manager<Employee>,IEmployeeManager
     {
+        private IEmployeeRepository _employeeRepository;
+
         public EmployeeManager() : base(new EmployeeRepository())
         {
+            _employeeRepository = (EmployeeRepository)base.BaseRepository;
+        }
+
+        public EmployeeManager(IEmployeeRepository basEmployeeManager):base(basEmployeeManager)
+        {
+            _employeeRepository = basEmployeeManager;
         }
     }
 }

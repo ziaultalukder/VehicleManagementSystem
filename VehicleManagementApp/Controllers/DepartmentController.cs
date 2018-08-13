@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using VehicleManagementApp.BLL.Contracts;
@@ -40,9 +41,23 @@ namespace VehicleManagementApp.Controllers
         }
 
         // GET: Department/Details/5
-        public ActionResult Details(int id)
+        public ActionResult Details(int? id)
         {
-            return View();
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            
+            var organaization = _organaizationManager.GetAll();
+
+            Department department = _departmentManager.GetById((int)id);
+            
+            DepartmentViewModel departmentVM = new DepartmentViewModel()
+            {
+                Name = department.Name,
+                Organaization = organaization.Where(x=>x.Id == department.OrganaizationId).FirstOrDefault()
+            };
+            return View(departmentVM);
         }
 
         // GET: Department/Create

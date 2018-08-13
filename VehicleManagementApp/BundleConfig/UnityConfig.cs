@@ -3,6 +3,8 @@ using System;
 using Unity;
 using VehicleManagementApp.BLL;
 using VehicleManagementApp.BLL.Contracts;
+using VehicleManagementApp.Repository;
+using VehicleManagementApp.Repository.Contracts;
 
 namespace VehicleManagementApp
 {
@@ -44,17 +46,39 @@ namespace VehicleManagementApp
 
             // TODO: Register your type's mappings here.
             // container.RegisterType<IProductRepository, ProductRepository>();
+
             container.RegisterType<IOrganaizationManager, OrganaizationManager>();
+            container.RegisterType<IOrganaizationRepository, OrganaizationRepository>();
+
             container.RegisterType<IDesignationManager, DesignationManager>();
+            container.RegisterType<IDesignationRepository, DesignationRepository>();
+
             container.RegisterType<IVehicleTypeManager, VehicleTypeManager>();
+            container.RegisterType<IVehicleTypeRepository, VehicleTypeRepository>();
+
             container.RegisterType<IVehicleManager, VehicleManager>();
+            container.RegisterType<IVehicleRepository, VehicleRepository>();
+
             container.RegisterType<IDepartmentManager, DepartmentManager>();
+            container.RegisterType<IDepartmentRepository, DepartmentRepository>();
+
             container.RegisterType<IRoleManager, RoleManager>();
+            container.RegisterType<IRoleRepository, RoleRepository>();
+
             container.RegisterType<IUserManager, UserManager>();
+            container.RegisterType<IUserRepository, UserRepository>();
+
             container.RegisterType<IEmployeeManager, EmployeeManager>();
+            container.RegisterType<IEmployeeRepository, EmployeeRepository>();
+
             container.RegisterType<IRequsitionStatusManager, RequsitionStatusManager>();
+            container.RegisterType<IRequsitionStatusRepoisitory, RequsitionStatusRepository>();
+
             container.RegisterType<ICommentManager, CommentManager>();
+            container.RegisterType<ICommentRepository, CommentRepository>();
+
             container.RegisterType<IRequsitionManager, RequsitionManager>();
+            container.RegisterType<IRequsitionRepository, RequsistionRepository>();
         }
     }
 }

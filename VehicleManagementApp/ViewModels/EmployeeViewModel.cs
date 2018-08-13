@@ -23,6 +23,7 @@ namespace VehicleManagementApp.ViewModels
         [Required]
         public string Address { get; set; }
         public string LicenceNo { get; set; }
+        public string Driver { get; set; }
 
         
         [Display(Name = "Department")]

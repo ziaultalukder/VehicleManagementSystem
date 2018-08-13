@@ -9,5 +9,6 @@ namespace VehicleManagementApp.Repository.Contracts
 {
     public interface IOrganaizationRepository:IRepository<Organaization>
     {
+        
     }
 }

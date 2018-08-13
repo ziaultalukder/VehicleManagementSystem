@@ -106,6 +106,17 @@ body{
 /*body{
     background-image: url("img/backgroud.jpg");
 }*/
+
+/*asp.net create page css*/
+.input_Details{ width: 100%;min-height: 600px;border: 1px solid #dddddd;}
+
+.details_view{}
+.title_name{ width: 180px;font-size: 20px;font-family: lato;font-weight: bold;}
+.details_view tr td{}
+
+.slider_section{ min-height: 680px;}
+/*asp.net create page css*/
+
 .bg-img{   
     background-image: url("img/maxresdefault.jpg");
     width: 100%; 

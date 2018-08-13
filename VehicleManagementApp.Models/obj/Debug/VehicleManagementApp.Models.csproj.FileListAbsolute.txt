@@ -19,3 +19,17 @@ G:\Project File\VehicleManagementSystem\VehicleManagementApp.Models\bin\Debug\Ve
 G:\Project File\VehicleManagementSystem\VehicleManagementApp.Models\obj\Debug\VehicleManagementApp.Models.csprojResolveAssemblyReference.cache
 G:\Project File\VehicleManagementSystem\VehicleManagementApp.Models\obj\Debug\VehicleManagementApp.Models.dll
 G:\Project File\VehicleManagementSystem\VehicleManagementApp.Models\obj\Debug\VehicleManagementApp.Models.pdb
+C:\Users\bcc\Downloads\VehicleManagementApp\VehicleManagementApp.Models\bin\Debug\VehicleManagementApp.Models.dll
+C:\Users\bcc\Downloads\VehicleManagementApp\VehicleManagementApp.Models\bin\Debug\VehicleManagementApp.Models.pdb
+C:\Users\bcc\Downloads\VehicleManagementApp\VehicleManagementApp.Models\bin\Debug\VehicleManagementApp.Models.Contracts.dll
+C:\Users\bcc\Downloads\VehicleManagementApp\VehicleManagementApp.Models\bin\Debug\VehicleManagementApp.Models.Contracts.pdb
+C:\Users\bcc\Downloads\VehicleManagementApp\VehicleManagementApp.Models\obj\Debug\VehicleManagementApp.Models.csprojResolveAssemblyReference.cache
+C:\Users\bcc\Downloads\VehicleManagementApp\VehicleManagementApp.Models\obj\Debug\VehicleManagementApp.Models.dll
+C:\Users\bcc\Downloads\VehicleManagementApp\VehicleManagementApp.Models\obj\Debug\VehicleManagementApp.Models.pdb
+C:\Users\Ziaul\Desktop\VehicleManagementApp_2\VehicleManagementApp\VehicleManagementApp.Models\bin\Debug\VehicleManagementApp.Models.dll
+C:\Users\Ziaul\Desktop\VehicleManagementApp_2\VehicleManagementApp\VehicleManagementApp.Models\bin\Debug\VehicleManagementApp.Models.pdb
+C:\Users\Ziaul\Desktop\VehicleManagementApp_2\VehicleManagementApp\VehicleManagementApp.Models\bin\Debug\VehicleManagementApp.Models.Contracts.dll
+C:\Users\Ziaul\Desktop\VehicleManagementApp_2\VehicleManagementApp\VehicleManagementApp.Models\bin\Debug\VehicleManagementApp.Models.Contracts.pdb
+C:\Users\Ziaul\Desktop\VehicleManagementApp_2\VehicleManagementApp\VehicleManagementApp.Models\obj\Debug\VehicleManagementApp.Models.csprojResolveAssemblyReference.cache
+C:\Users\Ziaul\Desktop\VehicleManagementApp_2\VehicleManagementApp\VehicleManagementApp.Models\obj\Debug\VehicleManagementApp.Models.dll
+C:\Users\Ziaul\Desktop\VehicleManagementApp_2\VehicleManagementApp\VehicleManagementApp.Models\obj\Debug\VehicleManagementApp.Models.pdb

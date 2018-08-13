@@ -302,6 +302,8 @@
     <Content Include="css\normalize.css" />
     <Content Include="css\owl.carousel.min.css" />
     <Content Include="css\slicknav.css" />
+    <Content Include="css\ssss.css" />
+    <Content Include="css\style.css" />
     <Content Include="Global.asax" />
     <Content Include="img\.gitignore" />
     <Content Include="img\1.jpg" />
@@ -316,6 +318,10 @@
     <Content Include="img\slider\1.jpg" />
     <Content Include="img\slider\2.jpg" />
     <Content Include="img\slider\3.jpg" />
+    <Content Include="img\slider\4.jpg" />
+    <Content Include="img\slider\5.jpg" />
+    <Content Include="img\slider\6.jpg" />
+    <Content Include="img\slider\7.jpg" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\jquery.fitvids.js" />
     <Content Include="js\jquery.slicknav.min.js" />
@@ -436,7 +442,6 @@
     <Content Include="scripts\jquery.validate.unobtrusive.js" />
     <Content Include="scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="scripts\modernizr-2.6.2.js" />
-    <Content Include="css\style.css" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -519,6 +524,8 @@
     <Content Include="Views\Requsition\Delete.cshtml" />
     <Content Include="Views\Requsition\Details.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Organaization\Details.cshtml" />
+    <Content Include="Views\Department\Details.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -546,6 +553,10 @@
     <ProjectReference Include="..\VehicleManagementApp.Models\VehicleManagementApp.Models.csproj">
       <Project>{02579fc1-75d9-4a72-83f9-e5cca0109c20}</Project>
       <Name>VehicleManagementApp.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VehicleManagementApp.Repository.Contracts\VehicleManagementApp.Repository.Contracts.csproj">
+      <Project>{D648BDE6-9853-484E-8C4F-87479271DC35}</Project>
+      <Name>VehicleManagementApp.Repository.Contracts</Name>
     </ProjectReference>
     <ProjectReference Include="..\VehicleManagementApp.Repository\VehicleManagementApp.Repository.csproj">
       <Project>{edd22eba-de0b-4c69-bb85-6e5e8cc4a379}</Project>

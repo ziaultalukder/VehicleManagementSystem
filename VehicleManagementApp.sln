@@ -17,8 +17,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleManagementApp.Models
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleManagementApp.BLL.Contracts", "VehicleManagementApp.BLL.Contracts\VehicleManagementApp.BLL.Contracts.csproj", "{983E55AB-A4A7-4E25-9149-D0425C0195F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "layoutProject", "C:\Users\Ziaul\Documents\Visual Studio 2015\Projects\layoutProject\layoutProject.csproj", "{65DD56E5-5BE2-4221-A304-0DD1A7C37422}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,10 +51,6 @@ Global
 		{983E55AB-A4A7-4E25-9149-D0425C0195F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{983E55AB-A4A7-4E25-9149-D0425C0195F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{983E55AB-A4A7-4E25-9149-D0425C0195F9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{65DD56E5-5BE2-4221-A304-0DD1A7C37422}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{65DD56E5-5BE2-4221-A304-0DD1A7C37422}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{65DD56E5-5BE2-4221-A304-0DD1A7C37422}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{65DD56E5-5BE2-4221-A304-0DD1A7C37422}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
