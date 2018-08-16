@@ -6,8 +6,6 @@
     int sl = 1;
 }
 
-<h2>Index</h2>
-
 <p>
     @Html.ActionLink("Create New Vehicle", "Create")
 </p>
@@ -39,8 +37,7 @@
                 <td>
                     @Html.DisplayFor(modelItem => item.VehicleName)
                 </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Description)
+                <td>@Html.Raw(item.Description.Length > 80 ? item.Description.Substring(0, 80) : item.Description)@Html.DisplayFor(modelItem => item.Description)
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.VehicleType.TypeName)

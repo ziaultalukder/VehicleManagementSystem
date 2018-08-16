@@ -4,15 +4,11 @@
     ViewBag.Title = "Create";
 }
 
-<h2>Create</h2>
-
 @using (Html.BeginForm()) 
 {
     @Html.AntiForgeryToken()
     
     <div class="form-horizontal">
-        <h4>VehicleTypeViewModel</h4>
-        <hr/>
         @if (TempData["msg"] != null)
         {
             <div class="alert alert-info">

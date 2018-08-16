@@ -44,11 +44,14 @@
     <Compile Include="Models\Comment.cs" />
     <Compile Include="Models\Department.cs" />
     <Compile Include="Models\Designation.cs" />
+    <Compile Include="Models\District.cs" />
+    <Compile Include="Models\Division.cs" />
     <Compile Include="Models\Employee.cs" />
     <Compile Include="Models\Organaization.cs" />
     <Compile Include="Models\Requsition.cs" />
     <Compile Include="Models\RequsitionStatus.cs" />
     <Compile Include="Models\Role.cs" />
+    <Compile Include="Models\Thana.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Models\Vehicle.cs" />
     <Compile Include="Models\VehicleType.cs" />

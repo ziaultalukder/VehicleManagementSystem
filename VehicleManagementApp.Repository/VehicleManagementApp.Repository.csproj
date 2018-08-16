@@ -52,6 +52,8 @@
     <Compile Include="CommentRepository.cs" />
     <Compile Include="DatabaseContext\VehicleDatabaseContext.cs" />
     <Compile Include="DesignationRepository.cs" />
+    <Compile Include="DistrictRepository.cs" />
+    <Compile Include="DivisionRepository.cs" />
     <Compile Include="EmployeeRepository.cs" />
     <Compile Include="Migrations\201808060516088_organaizationAndDesignation.cs" />
     <Compile Include="Migrations\201808060516088_organaizationAndDesignation.Designer.cs">
@@ -97,6 +99,26 @@
     <Compile Include="Migrations\201808121600500_OrganaizationModelDescriptionFieldAdded.Designer.cs">
       <DependentUpon>201808121600500_OrganaizationModelDescriptionFieldAdded.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201808150529594_CommentTableRequsitionFieldAdded.cs" />
+    <Compile Include="Migrations\201808150529594_CommentTableRequsitionFieldAdded.Designer.cs">
+      <DependentUpon>201808150529594_CommentTableRequsitionFieldAdded.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201808150741149_DivisionAdded.cs" />
+    <Compile Include="Migrations\201808150741149_DivisionAdded.Designer.cs">
+      <DependentUpon>201808150741149_DivisionAdded.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201808150851422_DistrictAdded.cs" />
+    <Compile Include="Migrations\201808150851422_DistrictAdded.Designer.cs">
+      <DependentUpon>201808150851422_DistrictAdded.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201808151104303_ThanaAdded.cs" />
+    <Compile Include="Migrations\201808151104303_ThanaAdded.Designer.cs">
+      <DependentUpon>201808151104303_ThanaAdded.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201808151958286_EmployeeTableChange.cs" />
+    <Compile Include="Migrations\201808151958286_EmployeeTableChange.Designer.cs">
+      <DependentUpon>201808151958286_EmployeeTableChange.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="OrganaizationRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -105,6 +127,7 @@
     <Compile Include="RequsistionRepository.cs" />
     <Compile Include="RequsitionStatusRepository.cs" />
     <Compile Include="RoleRepository.cs" />
+    <Compile Include="ThanaRepository.cs" />
     <Compile Include="UserRepository.cs" />
     <Compile Include="VehicleRepository.cs" />
     <Compile Include="VehicleTypeRepository.cs" />
@@ -160,6 +183,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201808121600500_OrganaizationModelDescriptionFieldAdded.resx">
       <DependentUpon>201808121600500_OrganaizationModelDescriptionFieldAdded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808150529594_CommentTableRequsitionFieldAdded.resx">
+      <DependentUpon>201808150529594_CommentTableRequsitionFieldAdded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808150741149_DivisionAdded.resx">
+      <DependentUpon>201808150741149_DivisionAdded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808150851422_DistrictAdded.resx">
+      <DependentUpon>201808150851422_DistrictAdded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808151104303_ThanaAdded.resx">
+      <DependentUpon>201808151104303_ThanaAdded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808151958286_EmployeeTableChange.resx">
+      <DependentUpon>201808151958286_EmployeeTableChange.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

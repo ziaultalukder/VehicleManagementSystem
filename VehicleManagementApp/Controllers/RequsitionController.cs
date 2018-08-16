@@ -90,7 +90,6 @@ namespace VehicleManagementApp.Controllers
                 requsition.JouneyEnd = requsitionVM.JouneyEnd;
                 requsition.EmployeeId = requsitionVM.EmployeeId;
                 requsition.RequsitionStatusId = requsitionVM.RequsitionStatusId;
-                requsition.CommentId = requsitionVM.CommentId;
 
                 bool isSaved = _requsitionManager.Add(requsition);
                 if (isSaved)
@@ -137,7 +136,6 @@ namespace VehicleManagementApp.Controllers
                 requsition.JouneyEnd = requsitionVM.JouneyEnd;
                 requsition.EmployeeId = requsitionVM.EmployeeId;
                 requsition.RequsitionStatusId = requsitionVM.RequsitionStatusId;
-                requsition.CommentId = requsitionVM.CommentId;
                 _requsitionManager.Add(requsition);
                 return RedirectToAction("Index");
             }

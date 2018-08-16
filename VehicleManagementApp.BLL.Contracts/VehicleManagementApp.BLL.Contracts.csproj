@@ -43,12 +43,15 @@
     <Compile Include="ICommentManager.cs" />
     <Compile Include="IDepartmentManager.cs" />
     <Compile Include="IDesignationManager.cs" />
+    <Compile Include="IDistrictManager.cs" />
+    <Compile Include="IDivisionManager.cs" />
     <Compile Include="IEmployeeManager.cs" />
     <Compile Include="IManager.cs" />
     <Compile Include="IOrganaizationManager.cs" />
     <Compile Include="IRequsitionManager.cs" />
     <Compile Include="IRequsitionStatusManager.cs" />
     <Compile Include="IRoleManager.cs" />
+    <Compile Include="IThanaManager.cs" />
     <Compile Include="IUserManager.cs" />
     <Compile Include="IVehicleManager.cs" />
     <Compile Include="IVehicleTypeManager.cs" />

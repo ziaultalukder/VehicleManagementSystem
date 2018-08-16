@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using VehicleManagementApp.BLL.Contracts;
@@ -25,9 +26,18 @@ namespace VehicleManagementApp.Controllers
         }
 
         // GET: VehicleType/Details/5
-        public ActionResult Details(int id)
+        public ActionResult Details(int? id)
         {
-            return View();
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            VehicleType vehicleType = _typeManager.GetById((int)id);
+            if (vehicleType == null)
+            {
+                return HttpNotFound();
+            }
+            return View(vehicleType);
         }
 
         // GET: VehicleType/Create

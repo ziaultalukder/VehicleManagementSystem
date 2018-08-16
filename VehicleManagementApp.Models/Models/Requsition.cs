@@ -22,9 +22,6 @@ namespace VehicleManagementApp.Models.Models
         public int? EmployeeId { get; set; }
         public Employee Employee { get; set; }
 
-        public int? CommentId { get; set; }
-        public Comment Comment { get; set; }
-
         public int? RequsitionStatusId { get; set; }
         public RequsitionStatus RequsitionStatus { get; set; }
         public bool IsDeleted { get; set; }

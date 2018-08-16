@@ -15,12 +15,19 @@ namespace VehicleManagementApp.Controllers
         private IEmployeeManager _employeeManager;
         private IDepartmentManager _departmentManager;
         private IDesignationManager _designationManager;
+        private IDivisionManager _divisionManager;
+        private IDistrictManager _districtManager;
+        private IThanaManager _thanaManager;
 
-        public EmployeeController(IEmployeeManager employee, IDepartmentManager department, IDesignationManager designation)
+        public EmployeeController(IEmployeeManager employee, IDepartmentManager department, IDesignationManager designation,
+            IDivisionManager division, IDistrictManager district, IThanaManager thana)
         {
             this._employeeManager = employee;
             this._departmentManager = department;
             this._designationManager = designation;
+            this._divisionManager = division;
+            this._districtManager = district;
+            this._thanaManager = thana;
         }
 
         public ActionResult Index()
@@ -28,6 +35,9 @@ namespace VehicleManagementApp.Controllers
             var department = _departmentManager.GetAll();
             var designation = _designationManager.GetAll();
             var employee = _employeeManager.GetAll();
+            var division = _divisionManager.GetAll();
+            var district = _districtManager.GetAll();
+            var thana = _thanaManager.GetAll();
 
             List<EmployeeViewModel> employeeViewList = new List<EmployeeViewModel>();
             foreach (var emploeedata in employee)
@@ -37,10 +47,14 @@ namespace VehicleManagementApp.Controllers
                 employeeVM.Name = emploeedata.Name;
                 employeeVM.ContactNo = emploeedata.ContactNo;
                 employeeVM.Email = emploeedata.Email;
-                employeeVM.Address = emploeedata.Address;
+                employeeVM.Address1 = emploeedata.Address1;
+                employeeVM.Address2 = employeeVM.Address2;
                 employeeVM.LicenceNo = emploeedata.LicenceNo;
                 employeeVM.Department = department.Where(x => x.Id == emploeedata.DepartmentId).FirstOrDefault();
                 employeeVM.Designation = designation.Where(x => x.Id == emploeedata.DesignationId).FirstOrDefault();
+                employeeVM.Division = division.Where(x => x.Id == emploeedata.DivisionId).FirstOrDefault();
+                employeeVM.District = district.Where(x => x.Id == emploeedata.DistrictId).FirstOrDefault();
+                employeeVM.Thana = thana.Where(x => x.Id == emploeedata.ThanaId).FirstOrDefault();
 
                 employeeViewList.Add(employeeVM);
             }
@@ -58,9 +72,22 @@ namespace VehicleManagementApp.Controllers
         {
             var department = _departmentManager.GetAll();
             var designation = _designationManager.GetAll();
+            var division = _divisionManager.GetAll();
+            var district = _districtManager.GetAll();
+            var thana = _thanaManager.GetAll();
+
             EmployeeViewModel employeeVM = new EmployeeViewModel();
             employeeVM.Departments = department;
             employeeVM.Designations = designation;
+            employeeVM.Divisions = division;
+            employeeVM.Districts = district;
+            employeeVM.Thanas = thana;
+
+
+            ViewBag.districtDropDown = new SelectListItem[] {new SelectListItem() {Value="", Text="Select..."} };
+
+            //ViewBag.districtDropDown = new SelectLsistItem[] { new SelectListItem() { Value = "", Text = "Select..." } };
+
             return View(employeeVM);
         }
 
@@ -72,12 +99,16 @@ namespace VehicleManagementApp.Controllers
             {
                 Employee employee = new Employee();
                 employee.Name = employeeVM.Name;
-                employee.ContactNo = employeeVM.Address;
+                employee.ContactNo = employeeVM.ContactNo;
                 employee.Email = employeeVM.Email;
-                employee.Address = employeeVM.Address;
+                employee.Address1 = employeeVM.Address1;
+                employee.Address2 = employeeVM.Address2;
                 employee.LicenceNo = employeeVM.LicenceNo;
                 employee.DepartmentId = employeeVM.DepartmentId;
                 employee.DesignationId = employeeVM.DesignationId;
+                employee.DivisionId = employeeVM.DivisionId;
+                employee.DistrictId = employeeVM.DivisionId;
+                employee.ThanaId = employeeVM.ThanaId;
 
                 bool isSaved = _employeeManager.Add(employee);
                 if (isSaved)
@@ -106,13 +137,21 @@ namespace VehicleManagementApp.Controllers
             employeeVM.Name = employee.Name;
             employeeVM.ContactNo = employee.ContactNo;
             employeeVM.Email = employee.Email;
-            employeeVM.Address = employee.Address;
+            employeeVM.Address1 = employee.Address1;
+            employeeVM.Address2 = employeeVM.Address2;
             employeeVM.LicenceNo = employee.LicenceNo;
             employeeVM.DepartmentId = employee.DepartmentId;
             employeeVM.DesignationId = employee.DesignationId;
+            employeeVM.DivisionId = employee.DivisionId;
+            employeeVM.DistrictId = employee.DistrictId;
+            employeeVM.ThanaId = employee.ThanaId;
 
             ViewBag.DepartmentId = new SelectList(_departmentManager.GetAll(),"Id","Name", employee.DepartmentId);
             ViewBag.DesignationId = new SelectList(_designationManager.GetAll(),"Id","Name", employee.DesignationId);
+            ViewBag.DivisionId = new SelectList(_divisionManager.GetAll(), "Id", "Name", employee.DivisionId);
+            ViewBag.DistrictId = new SelectList(_districtManager.GetAll(), "Id", "Name", employee.DistrictId);
+            ViewBag.ThanaId = new SelectList(_thanaManager.GetAll(), "Id", "Name", employee.ThanaId);
+
             return View(employeeVM);
         }
 
@@ -127,10 +166,15 @@ namespace VehicleManagementApp.Controllers
                 employee.Name = employeeVM.Name;
                 employee.ContactNo = employeeVM.ContactNo;
                 employee.Email = employeeVM.Email;
-                employee.Address = employeeVM.Address;
+                employee.Address1 = employeeVM.Address1;
+                employee.Address2 = employeeVM.Address2;
                 employee.LicenceNo = employeeVM.LicenceNo;
                 employee.DepartmentId = employeeVM.DepartmentId;
                 employee.DesignationId = employeeVM.DesignationId;
+                employee.DivisionId = employeeVM.DivisionId;
+                employee.DistrictId = employeeVM.DistrictId;
+                employee.ThanaId = employeeVM.ThanaId;
+
                 _employeeManager.Update(employee);
                 return RedirectToAction("Index");
             }

@@ -79,6 +79,15 @@ namespace VehicleManagementApp
 
             container.RegisterType<IRequsitionManager, RequsitionManager>();
             container.RegisterType<IRequsitionRepository, RequsistionRepository>();
+
+            container.RegisterType<IDivisionManager, DivisionManager>();
+            container.RegisterType<IDivisionRepository, DivisionRepository>();
+
+            container.RegisterType<IDistrictManager, DistrictManager>();
+            container.RegisterType<IDristictRepository, DistrictRepository>();
+            
+            container.RegisterType<IThanaManager, ThanaManager>();
+            container.RegisterType<IThanaRepository, ThanaRepository>();
         }
     }
 }

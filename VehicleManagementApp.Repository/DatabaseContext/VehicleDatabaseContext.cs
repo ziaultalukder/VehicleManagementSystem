@@ -21,5 +21,8 @@ namespace VehicleManagementApp.Repository.DatabaseContext
         public DbSet<Requsition> Requsitions { get; set; }
         public DbSet<Comment> Comments { get; set; }
         public DbSet<RequsitionStatus> RequsitionStatuses { get; set; }
+        public DbSet<Division> Divisions { get; set; }
+        public DbSet<District> Districts { get; set; }
+        public DbSet<Thana> Thanas { get; set; }
     }
 }

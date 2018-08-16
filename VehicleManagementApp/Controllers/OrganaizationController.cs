@@ -143,8 +143,8 @@ namespace VehicleManagementApp.Controllers
 
         public JsonResult IsNameExist(string Name)
         {
-            var name = _manager.IsExistsByName(Name);
-            return Json(name == null);
+            var names = _manager.IsExistsByName(Name);
+            return Json(names, JsonRequestBehavior.AllowGet);
         }
     }
 }

@@ -127,3 +127,8 @@ C:\Users\Ziaul\Desktop\VehicleManagementApp_2\VehicleManagementApp\VehicleManage
 C:\Users\Ziaul\Desktop\VehicleManagementApp_2\VehicleManagementApp\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.csproj.GenerateResource.Cache
 C:\Users\Ziaul\Desktop\VehicleManagementApp_2\VehicleManagementApp\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.dll
 C:\Users\Ziaul\Desktop\VehicleManagementApp_2\VehicleManagementApp\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.pdb
+E:\VehicleManagementApp\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.CommentTableRequsitionFieldAdded.resources
+E:\VehicleManagementApp\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.DivisionAdded.resources
+E:\VehicleManagementApp\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.DistrictAdded.resources
+E:\VehicleManagementApp\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.ThanaAdded.resources
+E:\VehicleManagementApp\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.EmployeeTableChange.resources

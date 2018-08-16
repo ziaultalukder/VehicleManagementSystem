@@ -24,7 +24,8 @@ namespace VehicleManagementApp.Models.Models
         public string Email { get; set; }
 
         [StringLength(255)]
-        public string Address { get; set; }
+        public string Address1 { get; set; }
+        public string Address2 { get; set; }
 
         [StringLength(255)]
         public string LicenceNo { get; set; }
@@ -34,6 +35,16 @@ namespace VehicleManagementApp.Models.Models
 
         public int DesignationId { get; set; }
         public Designation Designation { get; set; }
+
+        public int DivisionId { get; set; }
+        public Division Division { get; set; }
+
+        public int DistrictId { get; set; }
+        public District District { get; set; }
+
+        public int ThanaId { get; set; }
+        public Thana Thana { get; set; }
+
 
         public bool IsDeleted { get; set; }
         public bool withDeleted()

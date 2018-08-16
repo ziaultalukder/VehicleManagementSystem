@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using VehicleManagementApp.BLL.Contracts;
@@ -40,9 +41,23 @@ namespace VehicleManagementApp.Controllers
         }
 
         // GET: Vehicle/Details/5
-        public ActionResult Details(int id)
+        public ActionResult Details(int? id)
         {
-            return View();
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            var vehicleType = _typeManager.GetAll();
+            Vehicle vehicle = _vehicleManager.GetById((int)id);
+
+            VehicleViewModel vehicleVM = new VehicleViewModel()
+            {
+              Id  = vehicle.Id,
+              VehicleName = vehicle.VehicleName,
+              Description = vehicle.Description,
+              VehicleType = vehicleType.Where(x=>x.Id == vehicle.VehicleTypeId).FirstOrDefault()
+            };
+            return View(vehicleVM);
         }
 
         // GET: Vehicle/Create

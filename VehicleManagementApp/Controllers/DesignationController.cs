@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using VehicleManagementApp.BLL;
@@ -41,9 +42,23 @@ namespace VehicleManagementApp.Controllers
         }
 
         // GET: Designation/Details/5
-        public ActionResult Details(int id)
+        public ActionResult Details(int? id)
         {
-            return View();
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            var organaization = _organaizationManager.GetAll();
+            Designation designation = _designationManager.GetById((int) id);
+
+            DesignationViewModel designationVM = new DesignationViewModel()
+            {
+                Id = designation.Id,
+                Name = designation.Name,
+                Organaization = organaization.Where(x=>x.Id == designation.OrganaizationId).FirstOrDefault()
+
+            };
+            return View(designationVM);
         }
 
         // GET: Designation/Create

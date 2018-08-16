@@ -43,12 +43,15 @@
     <Compile Include="ICommentRepository.cs" />
     <Compile Include="IDepartment.cs" />
     <Compile Include="IDesignationRepository.cs" />
+    <Compile Include="IDivisionRepository.cs" />
+    <Compile Include="IDristictRepository.cs" />
     <Compile Include="IEmployeeRepository.cs" />
     <Compile Include="IRepository.cs" />
     <Compile Include="IOrganaizationRepository.cs" />
     <Compile Include="IRequsitionRepository.cs" />
     <Compile Include="IRequsitionStatusRepoisitory.cs" />
     <Compile Include="IRoleRepository.cs" />
+    <Compile Include="IThana.cs" />
     <Compile Include="IUserRepository.cs" />
     <Compile Include="IVehicleRepository.cs" />
     <Compile Include="IVehicleTypeRepository.cs" />
