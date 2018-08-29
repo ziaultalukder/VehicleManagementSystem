@@ -119,6 +119,10 @@
     <Compile Include="Migrations\201808151958286_EmployeeTableChange.Designer.cs">
       <DependentUpon>201808151958286_EmployeeTableChange.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201808290254488_RequsitionTableEmployeeIdNullable.cs" />
+    <Compile Include="Migrations\201808290254488_RequsitionTableEmployeeIdNullable.Designer.cs">
+      <DependentUpon>201808290254488_RequsitionTableEmployeeIdNullable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="OrganaizationRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -198,6 +202,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201808151958286_EmployeeTableChange.resx">
       <DependentUpon>201808151958286_EmployeeTableChange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808290254488_RequsitionTableEmployeeIdNullable.resx">
+      <DependentUpon>201808290254488_RequsitionTableEmployeeIdNullable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

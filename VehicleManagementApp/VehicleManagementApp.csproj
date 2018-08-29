@@ -298,6 +298,7 @@
     <Content Include="css\animate.css" />
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\jquery.datetimepicker.min.css" />
     <Content Include="css\main.css" />
     <Content Include="css\normalize.css" />
     <Content Include="css\owl.carousel.min.css" />
@@ -435,6 +436,7 @@
     <Content Include="scripts\Employee\employee.js" />
     <Content Include="scripts\jquery-2.2.4.js" />
     <Content Include="scripts\jquery-2.2.4.min.js" />
+    <Content Include="scripts\jquery.datetimepicker.full.min.js" />
     <Content Include="scripts\jquery.unobtrusive-ajax.js" />
     <Content Include="scripts\jquery.unobtrusive-ajax.min.js" />
     <None Include="scripts\jquery.validate-vsdoc.js" />

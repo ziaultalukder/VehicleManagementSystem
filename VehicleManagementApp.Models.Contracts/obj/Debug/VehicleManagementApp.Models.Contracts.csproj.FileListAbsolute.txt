@@ -22,3 +22,8 @@ C:\Users\Ziaul\Desktop\VehicleManagementApp_2\VehicleManagementApp\VehicleManage
 C:\Users\Ziaul\Desktop\VehicleManagementApp_2\VehicleManagementApp\VehicleManagementApp.Models.Contracts\obj\Debug\VehicleManagementApp.Models.Contracts.dll
 C:\Users\Ziaul\Desktop\VehicleManagementApp_2\VehicleManagementApp\VehicleManagementApp.Models.Contracts\obj\Debug\VehicleManagementApp.Models.Contracts.pdb
 E:\VehicleManagementApp\VehicleManagementApp.Models.Contracts\obj\Debug\VehicleManagementApp.Models.Contracts.csprojResolveAssemblyReference.cache
+E:\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\bin\Debug\VehicleManagementApp.Models.Contracts.dll
+E:\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\bin\Debug\VehicleManagementApp.Models.Contracts.pdb
+E:\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\obj\Debug\VehicleManagementApp.Models.Contracts.csprojResolveAssemblyReference.cache
+E:\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\obj\Debug\VehicleManagementApp.Models.Contracts.dll
+E:\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\obj\Debug\VehicleManagementApp.Models.Contracts.pdb

@@ -113,12 +113,17 @@ namespace VehicleManagementApp.Controllers
             }
             Requsition requsition = _requsitionManager.GetById((int) id);
             RequsitionViewModel requsitionView = new RequsitionViewModel();
+
             requsitionView.Id = requsition.Id;
             requsitionView.Form = requsition.Form;
             requsitionView.To = requsition.To;
             requsitionView.Description = requsition.Description;
             requsitionView.JourneyStart = requsition.JourneyStart;
             requsitionView.JouneyEnd = requsition.JouneyEnd;
+            requsitionView.EmployeeId = requsition.EmployeeId;
+
+            ViewBag.EmployeeId = new SelectList(_employeeManager.GetAll(), "Id", "Name", requsition.EmployeeId);
+
             return View(requsitionView);
         }
 
@@ -132,11 +137,14 @@ namespace VehicleManagementApp.Controllers
                 requsition.Id = requsitionVM.Id;
                 requsition.Form = requsitionVM.Form;
                 requsition.To = requsitionVM.To;
+                requsition.Description = requsitionVM.Description;
                 requsition.JourneyStart = requsitionVM.JourneyStart;
                 requsition.JouneyEnd = requsitionVM.JouneyEnd;
                 requsition.EmployeeId = requsitionVM.EmployeeId;
                 requsition.RequsitionStatusId = requsitionVM.RequsitionStatusId;
-                _requsitionManager.Add(requsition);
+
+                _requsitionManager.Update(requsition);
+
                 return RedirectToAction("Index");
             }
             catch
