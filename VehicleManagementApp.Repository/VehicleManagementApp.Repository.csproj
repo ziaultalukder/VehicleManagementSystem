@@ -132,6 +132,10 @@
     <Compile Include="Migrations\201809030658150_RequsitionTableAddedColumnStatus.Designer.cs">
       <DependentUpon>201809030658150_RequsitionTableAddedColumnStatus.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201809031829551_changevihicletable.cs" />
+    <Compile Include="Migrations\201809031829551_changevihicletable.Designer.cs">
+      <DependentUpon>201809031829551_changevihicletable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="OrganaizationRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -220,6 +224,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201809030658150_RequsitionTableAddedColumnStatus.resx">
       <DependentUpon>201809030658150_RequsitionTableAddedColumnStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809031829551_changevihicletable.resx">
+      <DependentUpon>201809031829551_changevihicletable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

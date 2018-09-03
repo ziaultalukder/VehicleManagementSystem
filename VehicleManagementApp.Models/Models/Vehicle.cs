@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Dynamic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,6 +13,10 @@ namespace VehicleManagementApp.Models.Models
     {
         public int Id { get; set; }
         public string VehicleName { get; set; }
+        public string VModel {get;set;}
+        public string VRegistrationNo { get; set; }
+        public string VChesisNo { get; set; }
+        public string VCapacity { get; set; }
         public string Description { get; set; }
         public int VehicleTypeId { get; set; }
         public VehicleType VehicleType { get; set; }

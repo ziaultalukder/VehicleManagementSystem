@@ -32,9 +32,12 @@ namespace VehicleManagementApp.Controllers
                 var vechileViewModel = new VehicleViewModel();
                 vechileViewModel.Id = vehicledata.Id;
                 vechileViewModel.VehicleName = vehicledata.VehicleName;
+                vechileViewModel.VModel = vehicledata.VModel;
+                vechileViewModel.VRegistrationNo = vehicledata.VRegistrationNo;
+                vechileViewModel.VChesisNo = vehicledata.VChesisNo;
+                vechileViewModel.VCapacity = vehicledata.VCapacity;
                 vechileViewModel.Description = vehicledata.Description;
-                vechileViewModel.VehicleType =
-                vehicleType.Where(x => x.Id == vehicledata.VehicleTypeId).FirstOrDefault();
+                vechileViewModel.VehicleType = vehicleType.Where(x => x.Id == vehicledata.VehicleTypeId).FirstOrDefault();
                 vehicleVM.Add(vechileViewModel);
             }
             return View(vehicleVM);
@@ -54,6 +57,10 @@ namespace VehicleManagementApp.Controllers
             {
               Id  = vehicle.Id,
               VehicleName = vehicle.VehicleName,
+              VModel = vehicle.VModel,
+              VRegistrationNo = vehicle.VRegistrationNo,
+              VChesisNo = vehicle.VChesisNo,
+              VCapacity = vehicle.VCapacity,
               Description = vehicle.Description,
               VehicleType = vehicleType.Where(x=>x.Id == vehicle.VehicleTypeId).FirstOrDefault()
             };
@@ -79,6 +86,10 @@ namespace VehicleManagementApp.Controllers
                 Vehicle vehicle = new Vehicle()
                 {
                     VehicleName = vehicleViewModel.VehicleName,
+                    VModel = vehicleViewModel.VModel,
+                    VRegistrationNo = vehicleViewModel.VRegistrationNo,
+                    VChesisNo = vehicleViewModel.VChesisNo,
+                    VCapacity = vehicleViewModel.VCapacity,
                     Description = vehicleViewModel.Description,
                     VehicleTypeId = vehicleViewModel.VehicleTypeId
                 };
@@ -107,6 +118,10 @@ namespace VehicleManagementApp.Controllers
             {
                 Id = vehicle.Id,
                 VehicleName = vehicle.VehicleName,
+                VModel = vehicle.VModel,
+                VRegistrationNo = vehicle.VRegistrationNo,
+                VChesisNo = vehicle.VChesisNo,
+                VCapacity = vehicle.VCapacity,
                 Description = vehicle.Description,
                 VehicleTypeId = vehicle.VehicleTypeId
             };
@@ -124,6 +139,10 @@ namespace VehicleManagementApp.Controllers
                 {
                     Id = vehicleVM.Id,
                     VehicleName = vehicleVM.VehicleName,
+                    VModel = vehicleVM.VModel,
+                    VRegistrationNo = vehicleVM.VRegistrationNo,
+                    VChesisNo = vehicleVM.VChesisNo,
+                    VCapacity = vehicleVM.VCapacity,
                     Description = vehicleVM.Description,
                     VehicleTypeId = vehicleVM.VehicleTypeId
                 };

@@ -61,3 +61,12 @@ C:\Users\bcc\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleMana
 C:\Users\bcc\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\obj\Debug\VehicleManagementApp.Repository.Contracts.csprojResolveAssemblyReference.cache
 C:\Users\bcc\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\obj\Debug\VehicleManagementApp.Repository.Contracts.dll
 C:\Users\bcc\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\obj\Debug\VehicleManagementApp.Repository.Contracts.pdb
+E:\Web Application In C#\New Git Project VMA\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\bin\Debug\VehicleManagementApp.Repository.Contracts.dll
+E:\Web Application In C#\New Git Project VMA\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\bin\Debug\VehicleManagementApp.Repository.Contracts.pdb
+E:\Web Application In C#\New Git Project VMA\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\bin\Debug\VehicleManagementApp.Models.Contracts.dll
+E:\Web Application In C#\New Git Project VMA\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\bin\Debug\VehicleManagementApp.Models.dll
+E:\Web Application In C#\New Git Project VMA\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\bin\Debug\VehicleManagementApp.Models.Contracts.pdb
+E:\Web Application In C#\New Git Project VMA\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\bin\Debug\VehicleManagementApp.Models.pdb
+E:\Web Application In C#\New Git Project VMA\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\obj\Debug\VehicleManagementApp.Repository.Contracts.csprojResolveAssemblyReference.cache
+E:\Web Application In C#\New Git Project VMA\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\obj\Debug\VehicleManagementApp.Repository.Contracts.dll
+E:\Web Application In C#\New Git Project VMA\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\obj\Debug\VehicleManagementApp.Repository.Contracts.pdb

@@ -64,3 +64,14 @@ C:\Users\bcc\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleMana
 C:\Users\bcc\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\obj\Debug\VehicleManagementApp.BLL.Contracts.csprojResolveAssemblyReference.cache
 C:\Users\bcc\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\obj\Debug\VehicleManagementApp.BLL.Contracts.dll
 C:\Users\bcc\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\obj\Debug\VehicleManagementApp.BLL.Contracts.pdb
+E:\Web Application In C#\New Git Project VMA\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\bin\Debug\VehicleManagementApp.BLL.Contracts.dll
+E:\Web Application In C#\New Git Project VMA\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\bin\Debug\VehicleManagementApp.BLL.Contracts.pdb
+E:\Web Application In C#\New Git Project VMA\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\bin\Debug\VehicleManagementApp.Models.Contracts.dll
+E:\Web Application In C#\New Git Project VMA\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\bin\Debug\VehicleManagementApp.Models.dll
+E:\Web Application In C#\New Git Project VMA\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\bin\Debug\VehicleManagementApp.Repository.Contracts.dll
+E:\Web Application In C#\New Git Project VMA\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\bin\Debug\VehicleManagementApp.Models.Contracts.pdb
+E:\Web Application In C#\New Git Project VMA\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\bin\Debug\VehicleManagementApp.Models.pdb
+E:\Web Application In C#\New Git Project VMA\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\bin\Debug\VehicleManagementApp.Repository.Contracts.pdb
+E:\Web Application In C#\New Git Project VMA\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\obj\Debug\VehicleManagementApp.BLL.Contracts.csprojResolveAssemblyReference.cache
+E:\Web Application In C#\New Git Project VMA\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\obj\Debug\VehicleManagementApp.BLL.Contracts.dll
+E:\Web Application In C#\New Git Project VMA\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\obj\Debug\VehicleManagementApp.BLL.Contracts.pdb

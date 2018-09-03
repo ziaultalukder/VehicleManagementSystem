@@ -12,7 +12,20 @@ namespace VehicleManagementApp.ViewModels
         public int Id { get; set; }
 
         [Required]
+        [Display(Name = "Vehicle Name")]
         public string VehicleName { get; set; }
+        [Required]
+        [Display(Name = "Vehicle Model")]
+        public string VModel { get; set; }
+        [Required]
+        [Display(Name = "Vehicle Registration No")]
+        public string VRegistrationNo { get; set; }
+        [Required]
+        [Display(Name = "Vehicle Chesis No")]
+        public string VChesisNo { get; set; }
+        [Required]
+        [Display(Name = "Vehicle Capacity")]
+        public string VCapacity { get; set; }
 
         [Required]
         public string Description { get; set; }
