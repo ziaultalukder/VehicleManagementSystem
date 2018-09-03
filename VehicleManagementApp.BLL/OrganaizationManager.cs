@@ -29,7 +29,7 @@ namespace VehicleManagementApp.BLL
         public bool IsExistsByName(string name)
         {
             var organization = _repository.Get(c => c.Name.ToLower().Equals(name.ToLower()));
-            if (organization == null)
+            if (organization.Count > 0)
             {
                 return false;
             }
