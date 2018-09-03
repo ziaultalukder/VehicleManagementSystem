@@ -72,5 +72,6 @@ namespace VehicleManagementApp.Repository.Repository
         {
             return db.Set<T>().Where(x => x.IsDeleted == false || x.IsDeleted == withDeleted).ToList();
         }
+        
     }
 }

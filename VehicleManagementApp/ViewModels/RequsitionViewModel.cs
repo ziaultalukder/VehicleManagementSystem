@@ -32,6 +32,7 @@ namespace VehicleManagementApp.ViewModels
         //[DisplayFormat(DataFormatString = "{0:yyyy-MM-dd HH:mm}", ApplyFormatInEditMode = true)]
         public DateTime JouneyEnd { get; set; }
 
+        public string Status { get; set; }
 
         //[DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:dd/MMM/yyyy}")]
         public DateTime Time { get; set; }

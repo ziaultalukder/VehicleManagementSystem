@@ -324,8 +324,42 @@ body{
 
 /*footer*/
 
+/*requstion status start*/
+.reqStatus{}
+.reqStatus ul{}
+.reqStatus ul li{}
+.reqStatus ul li a{}
 
-
+.requsition_menu {
+	min-height: 850px;
+	background-color: #BDC3C7;
+}
+.requsition_menu ul{ margin: 0px;padding: 0px;}
+.requsition_menu ul li{ list-style: none;padding: 5px;}
+.requsition_menu ul li a {
+	text-decoration: none;
+	font-size: 22px;
+	font-family: lato;
+	padding: 0px;
+	display: block;
+	background-color: #ddd;
+	margin-left: 0px;
+	color: #000;
+	text-align: center;
+}
+.requsition_menu ul li a:hover{ color: red;}
+.welcome {
+	background-color: #f6f7f8;
+	min-height: 850px;
+	padding: 10px;
+}
+.welcome h1{}
+/**/
+/*requsition view style*/
+.requsitionView{}
+.requsitionView tr{}
+.requsitionView tr td{}
+/**/
 
 
 /* ==========================================================================

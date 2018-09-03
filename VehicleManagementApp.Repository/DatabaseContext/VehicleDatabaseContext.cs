@@ -24,5 +24,6 @@ namespace VehicleManagementApp.Repository.DatabaseContext
         public DbSet<Division> Divisions { get; set; }
         public DbSet<District> Districts { get; set; }
         public DbSet<Thana> Thanas { get; set; }
+        public DbSet<Manager> Managers { get; set; }
     }
 }

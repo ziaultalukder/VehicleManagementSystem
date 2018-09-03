@@ -1,9 +1,11 @@
-﻿@model IEnumerable<VehicleManagementApp.ViewModels.RequsitionViewModel>
+﻿@using VehicleManagementApp.Controllers
+@model IEnumerable<VehicleManagementApp.ViewModels.RequsitionViewModel>
 
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
     int sl = 1;
+    
 }
 
 <p>
@@ -34,7 +36,7 @@
             @Html.DisplayNameFor(model => model.EmployeeId)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.RequsitionStatusId)
+            @Html.DisplayNameFor(model => model.Status)
         </th>
         <th></th>
     </tr>
@@ -64,8 +66,16 @@
                 <td>
                     @Html.DisplayFor(modelItem => item.Employee.Name)
                 </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.RequsitionStatusId)
+                <td style="color: green; font-weight: bold">
+                    @if (item.Status != null)
+                    {
+                        @Html.DisplayFor(modelItem => item.Status)
+                    }
+                    else
+                    {
+                        @Html.Raw("Pending")
+                    }
+
                 </td>
                 <td>
                     @Html.ActionLink("Edit", "Edit", new {id = item.Id}, new {@class = "btn btn-primary btn-sm"}) 

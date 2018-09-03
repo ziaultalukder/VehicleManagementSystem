@@ -18,10 +18,9 @@ namespace VehicleManagementApp.Models.Models
         public string Description { get; set; }
         public DateTime JourneyStart { get; set; }
         public DateTime JouneyEnd { get; set; }
-
+        public string Status { get; set; }
         public int EmployeeId { get; set; }
         public Employee Employee { get; set; }
-
         public int? RequsitionStatusId { get; set; }
         public RequsitionStatus RequsitionStatus { get; set; }
         public bool IsDeleted { get; set; }

@@ -47,6 +47,7 @@
     <Compile Include="IDivisionManager.cs" />
     <Compile Include="IEmployeeManager.cs" />
     <Compile Include="IManager.cs" />
+    <Compile Include="IManagerManager.cs" />
     <Compile Include="IOrganaizationManager.cs" />
     <Compile Include="IRequsitionManager.cs" />
     <Compile Include="IRequsitionStatusManager.cs" />

@@ -462,6 +462,7 @@
     <Compile Include="Controllers\DivisionController.cs" />
     <Compile Include="Controllers\EmployeeController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ManagerController.cs" />
     <Compile Include="Controllers\OrganaizationController.cs" />
     <Compile Include="Controllers\RequsitionController.cs" />
     <Compile Include="Controllers\RequsitionStatusController.cs" />
@@ -480,6 +481,7 @@
     <Compile Include="ViewModels\DistrictViewModel.cs" />
     <Compile Include="ViewModels\DivisionViewModel.cs" />
     <Compile Include="ViewModels\EmployeeViewModel.cs" />
+    <Compile Include="ViewModels\ManagerViewModel.cs" />
     <Compile Include="ViewModels\OrganaizationViewModels.cs" />
     <Compile Include="ViewModels\RequsitionStatusViewModel.cs" />
     <Compile Include="ViewModels\RequsitionViewModel.cs" />
@@ -553,6 +555,12 @@
     <Content Include="Views\Thana\Create.cshtml" />
     <Content Include="Views\Thana\Edit.cshtml" />
     <Content Include="Views\Thana\Delete.cshtml" />
+    <Content Include="Views\Shared\_Dashboard.cshtml" />
+    <Content Include="Views\Manager\Index.cshtml" />
+    <Content Include="Views\Manager\New.cshtml" />
+    <Content Include="Views\Manager\View.cshtml" />
+    <Content Include="Views\Manager\Assign.cshtml" />
+    <Content Include="Views\Manager\OnProgress.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

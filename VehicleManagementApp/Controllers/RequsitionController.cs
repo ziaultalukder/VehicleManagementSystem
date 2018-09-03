@@ -42,8 +42,7 @@ namespace VehicleManagementApp.Controllers
                 requsitionVM.JourneyStart = allRequsition.JourneyStart;
                 requsitionVM.JouneyEnd = allRequsition.JouneyEnd;
                 requsitionVM.Employee = employee.Where(x => x.Id == allRequsition.EmployeeId).FirstOrDefault();
-                requsitionVM.RequsitionStatus =
-                    requstionStatus.Where(x => x.Id == allRequsition.RequsitionStatusId).FirstOrDefault();
+                requsitionVM.Status = allRequsition.Status;
                 requsitionViewList.Add(requsitionVM);
             }
             return View(requsitionViewList);

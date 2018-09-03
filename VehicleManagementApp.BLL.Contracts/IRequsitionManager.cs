@@ -9,5 +9,7 @@ namespace VehicleManagementApp.BLL.Contracts
 {
     public interface IRequsitionManager:IManager<Requsition>
     {
+        ICollection<Requsition> GetAllBySeen(string Status);
+        ICollection<Requsition> GetAllByNull(string Status);
     }
 }

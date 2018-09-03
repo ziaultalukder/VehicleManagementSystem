@@ -13,9 +13,11 @@ namespace VehicleManagementApp.Controllers
     {
         // GET: RequsitionStatus
         private IRequsitionStatusManager requsitionStatusManager;
+        private IRequsitionManager _requsitionManager;
 
-        public RequsitionStatusController(IRequsitionStatusManager manager)
+        public RequsitionStatusController(IRequsitionStatusManager manager, IRequsitionManager _requsition)
         {
+            this._requsitionManager = _requsition;
             this.requsitionStatusManager = manager;
         }
         public ActionResult Index()
@@ -120,5 +122,10 @@ namespace VehicleManagementApp.Controllers
                 return View();
             }
         }
+        ////////new 
+        
+
+
+
     }
 }

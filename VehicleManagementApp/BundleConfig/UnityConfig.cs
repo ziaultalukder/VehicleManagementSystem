@@ -88,6 +88,9 @@ namespace VehicleManagementApp
             
             container.RegisterType<IThanaManager, ThanaManager>();
             container.RegisterType<IThanaRepository, ThanaRepository>();
+
+            container.RegisterType<IManagerManager, ManagerManager>();
+            container.RegisterType<IManagerRepository, ManagerRepository>();
         }
     }
 }

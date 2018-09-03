@@ -47,6 +47,7 @@
     <Compile Include="Models\District.cs" />
     <Compile Include="Models\Division.cs" />
     <Compile Include="Models\Employee.cs" />
+    <Compile Include="Models\Manager.cs" />
     <Compile Include="Models\Organaization.cs" />
     <Compile Include="Models\Requsition.cs" />
     <Compile Include="Models\RequsitionStatus.cs" />
