@@ -31,3 +31,4 @@ C:\Users\bcc\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleMana
 C:\Users\bcc\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\bin\Debug\VehicleManagementApp.Models.Contracts.pdb
 C:\Users\bcc\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\obj\Debug\VehicleManagementApp.Models.Contracts.dll
 C:\Users\bcc\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\obj\Debug\VehicleManagementApp.Models.Contracts.pdb
+C:\Users\bcc\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\obj\Debug\VehicleManagementApp.Models.Contracts.csprojResolveAssemblyReference.cache
