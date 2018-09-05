@@ -359,6 +359,7 @@ D:\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleMana
 D:\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.csproj.GenerateResource.Cache
 D:\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.dll
 D:\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.pdb
+<<<<<<< HEAD
 C:\Users\bcc\Desktop\Removable Disk\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Repository\bin\Debug\VehicleManagementApp.Repository.dll.config
 C:\Users\bcc\Desktop\Removable Disk\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Repository\bin\Debug\VehicleManagementApp.Repository.dll
 C:\Users\bcc\Desktop\Removable Disk\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Repository\bin\Debug\VehicleManagementApp.Repository.pdb
@@ -399,3 +400,45 @@ C:\Users\bcc\Desktop\Removable Disk\VehicleManagementSystem\VehicleManagementSys
 C:\Users\bcc\Desktop\Removable Disk\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.csproj.GenerateResource.Cache
 C:\Users\bcc\Desktop\Removable Disk\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.dll
 C:\Users\bcc\Desktop\Removable Disk\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.pdb
+=======
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Repository\bin\Debug\VehicleManagementApp.Repository.dll.config
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Repository\bin\Debug\VehicleManagementApp.Repository.dll
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Repository\bin\Debug\VehicleManagementApp.Repository.pdb
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Repository\bin\Debug\EntityFramework.dll
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Repository\bin\Debug\EntityFramework.SqlServer.dll
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Repository\bin\Debug\VehicleManagementApp.Models.Contracts.dll
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Repository\bin\Debug\VehicleManagementApp.Models.dll
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Repository\bin\Debug\VehicleManagementApp.Repository.Contracts.dll
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Repository\bin\Debug\VehicleManagementApp.Models.Contracts.pdb
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Repository\bin\Debug\VehicleManagementApp.Models.pdb
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Repository\bin\Debug\VehicleManagementApp.Repository.Contracts.pdb
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Repository\bin\Debug\EntityFramework.xml
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Repository\bin\Debug\EntityFramework.SqlServer.xml
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.csprojResolveAssemblyReference.cache
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.organaizationAndDesignation.resources
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.vehicle.resources
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.vehicleModelChange.resources
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.Department.resources
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.Role.resources
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.Employee.resources
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.RequsitionStatus.resources
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.Comments.resources
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.Requsition.resources
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.RequsitionTableChange.resources
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.OrganaizationModelDescriptionFieldAdded.resources
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.CommentTableRequsitionFieldAdded.resources
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.DivisionAdded.resources
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.DistrictAdded.resources
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.ThanaAdded.resources
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.EmployeeTableChange.resources
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.RequsitionTableEmployeeIdNullable.resources
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.RequsitionManagerAdded.resources
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.RequsitionTableAddedColumnStatus.resources
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.changevihicletable.resources
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.EmployeeTableIsDriverAdded.resources
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.managerTableChangeDriverColumTypeChange.resources
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.RequsitionTableChanges.resources
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.csproj.GenerateResource.Cache
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.dll
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.pdb
+>>>>>>> dcd94c2bb010676695683b77cd53ae683a2b9163

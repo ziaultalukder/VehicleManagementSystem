@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using VehicleManagementApp.BLL.Contracts;
@@ -62,9 +63,35 @@ namespace VehicleManagementApp.Controllers
         }
 
         // GET: Employee/Details/5
-        public ActionResult Details(int id)
+        public ActionResult Details(int? id)
         {
-            return View();
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            var department = _departmentManager.GetAll();
+            var designation = _designationManager.GetAll();
+            var division = _divisionManager.GetAll();
+            var district = _districtManager.GetAll();
+            var thana = _thanaManager.GetAll();
+            Employee employee = _employeeManager.GetById((int)id);
+            EmployeeViewModel employeeVM = new EmployeeViewModel()
+            {
+                Id = employee.Id,
+                Name = employee.Name,
+                ContactNo = employee.ContactNo,
+                Email = employee.Email,
+                Address1 = employee.Address1,
+                Address2 = employee.Address2,
+                LicenceNo = employee.LicenceNo,
+                Department = department.Where(x => x.Id == employee.DepartmentId).FirstOrDefault(),
+                Designation = designation.Where(x => x.Id == employee.DesignationId).FirstOrDefault(),
+                Division = division.Where(x => x.Id == employee.DivisionId).FirstOrDefault(),
+                District = district.Where(x => x.Id == employee.DistrictId).FirstOrDefault(),
+                Thana = thana.Where(x => x.Id == employee.ThanaId).FirstOrDefault()
+
+            };
+            return View(employeeVM);
         }
 
         // GET: Employee/Create

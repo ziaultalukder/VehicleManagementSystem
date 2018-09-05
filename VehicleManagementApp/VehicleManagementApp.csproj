@@ -133,6 +133,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\Database1VMA.mdf" />
+    <Content Include="App_Data\Database1VMA_log.ldf">
+      <DependentUpon>Database1VMA.mdf</DependentUpon>
+    </Content>
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -562,7 +566,11 @@
     <Content Include="Views\Manager\Assign.cshtml" />
     <Content Include="Views\Manager\OnProgress.cshtml" />
     <Content Include="Views\Manager\AssignIndex.cshtml" />
+<<<<<<< HEAD
     <Content Include="Views\Requsition\DriverAndCar.cshtml" />
+=======
+    <Content Include="Views\Employee\Details.cshtml" />
+>>>>>>> dcd94c2bb010676695683b77cd53ae683a2b9163
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -571,7 +579,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="Views\User\" />
   </ItemGroup>
   <ItemGroup>
