@@ -143,6 +143,7 @@ namespace VehicleManagementApp.Controllers
             employeeVM.Address1 = employee.Address1;
             employeeVM.Address2 = employeeVM.Address2;
             employeeVM.LicenceNo = employee.LicenceNo;
+            employeeVM.IsDriver = employee.IsDriver;
             employeeVM.DepartmentId = employee.DepartmentId;
             employeeVM.DesignationId = employee.DesignationId;
             employeeVM.DivisionId = employee.DivisionId;

@@ -50,3 +50,7 @@ D:\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\bin\Debug\Vehic
 D:\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\bin\Debug\VehicleManagementApp.Models.Contracts.pdb
 D:\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\obj\Debug\VehicleManagementApp.Models.Contracts.dll
 D:\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\obj\Debug\VehicleManagementApp.Models.Contracts.pdb
+C:\Users\bcc\Desktop\Removable Disk\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\bin\Debug\VehicleManagementApp.Models.Contracts.dll
+C:\Users\bcc\Desktop\Removable Disk\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\bin\Debug\VehicleManagementApp.Models.Contracts.pdb
+C:\Users\bcc\Desktop\Removable Disk\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\obj\Debug\VehicleManagementApp.Models.Contracts.dll
+C:\Users\bcc\Desktop\Removable Disk\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\obj\Debug\VehicleManagementApp.Models.Contracts.pdb

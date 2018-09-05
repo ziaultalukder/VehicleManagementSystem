@@ -36,19 +36,6 @@
                     <td>@Html.DisplayFor(model => model.JouneyEnd)</td>
                 </tr>
             </table>
-            <div class="jumbotron">
-                <table class="table table-bordered">
-                    <tr>
-                        <td>Requition Status</td>
-                        <td>@Html.DisplayFor(model => model.Status)</td>
-                    </tr>
-                    <tr>
-                        <td>Driver Name</td>
-                        <td>@Html.DisplayFor(model => model.Employee.Name)</td>
-                    </tr>
-                </table>
-            </div>
-
             <div class="comment_section">
                 <form>
                     <div class="form-group">
@@ -61,6 +48,6 @@
     </div>
 </div>
 <p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Edit", "Edit", new {id = Model.Id}) |
     @Html.ActionLink("Back to List", "Index")
 </p>

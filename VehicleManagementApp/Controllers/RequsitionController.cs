@@ -17,13 +17,15 @@ namespace VehicleManagementApp.Controllers
         private IEmployeeManager _employeeManager;
         private IRequsitionStatusManager _requsitionStatusManager;
         private IManagerManager _managerManager;
+        private IVehicleManager vehicleManager;
 
-        public RequsitionController(IRequsitionManager requsition, IEmployeeManager employee, IRequsitionStatusManager requsitionStatus, IManagerManager manager)
+        public RequsitionController(IRequsitionManager requsition, IEmployeeManager employee, IRequsitionStatusManager requsitionStatus, IManagerManager manager, IVehicleManager vehicle)
         {
             this._requsitionManager = requsition;
             this._employeeManager = employee;
             this._requsitionStatusManager = requsitionStatus;
             this._managerManager = manager;
+            this.vehicleManager = vehicle;
         }
         public ActionResult Index()
         {
@@ -64,9 +66,6 @@ namespace VehicleManagementApp.Controllers
             requsitionViewModel.Id = requsition.Id;
             requsitionViewModel.Employee = employee.Where(c => c.Id == requsition.EmployeeId).FirstOrDefault();
             requsitionViewModel.Manager = manager.Where(c => c.RequsitionId == requsition.Id).FirstOrDefault();
-                
-            
-// requsition view model add property vehicle and employee
             
             if (requsition == null)
             {
@@ -75,13 +74,15 @@ namespace VehicleManagementApp.Controllers
             return View(requsition);
         }
 
+
         // GET: Requsition/Create
         public ActionResult Create()
         {
-            var employee = _employeeManager.GetAll();
+            //var employee = _employeeManager.GetAll();
+            var employees = _employeeManager.Get(c => c.IsDriver == false && c.IsDeleted == false);
 
             RequsitionViewModel requsitionVM = new RequsitionViewModel();
-            requsitionVM.Employees = employee;
+            requsitionVM.Employees = employees;
             return View(requsitionVM);
         }
 
