@@ -164,5 +164,18 @@ namespace VehicleManagementApp.Controllers
                 return View();
             }
         }
+        public JsonResult GetByDistrict(int? districtId)
+        {
+            if (districtId == null)
+            {
+                return null;
+            }
+
+            var thana = _thanaManager.GetAll();
+
+            var divisionCat = thana.Where(x => x.DistrictId == districtId).ToList();
+
+            return Json(divisionCat, JsonRequestBehavior.AllowGet);
+        }
     }
 }

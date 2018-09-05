@@ -11,6 +11,7 @@ namespace VehicleManagementApp.Models.Models
     public class Manager:IDeletable,IModel
     {
         public int Id { get; set; }
+        public string DriverNo { get; set; }
         public int RequsitionId { get; set; }
         public Requsition Requsition { get; set; }
 

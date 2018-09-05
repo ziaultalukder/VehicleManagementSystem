@@ -561,6 +561,7 @@
     <Content Include="Views\Manager\View.cshtml" />
     <Content Include="Views\Manager\Assign.cshtml" />
     <Content Include="Views\Manager\OnProgress.cshtml" />
+    <Content Include="Views\Manager\AssignIndex.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

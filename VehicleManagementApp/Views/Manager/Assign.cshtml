@@ -34,12 +34,24 @@
         </div>
 
         <div class="form-group">
-            @Html.LabelFor(model => model.EmployeeId, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.LabelFor(model => model.EmployeeId, htmlAttributes: new {@class = "control-label col-md-2"})
             <div class="col-md-10">
-                @Html.DropDownList("EmployeeId", null ,"Select Driver",  new { @class = "form-control"  })
-                @Html.ValidationMessageFor(model => model.EmployeeId, "", new { @class = "text-danger" })
+                @Html.DropDownList("EmployeeId", null, "Select Driver", new {@class = "form-control", id="employeeDD"})
+                @Html.ValidationMessageFor(model => model.EmployeeId, "", new {@class = "text-danger"})
             </div>
         </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.DriverNo, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("DriverNo", null, new { @class = "form-control", id = "DriverNumber" })
+
+                @*@Html.EditorFor(model=>model.DriverNo, new { htmlAttributes = new { @class = "form-control", id="DriverNumber"} })*@
+
+                @Html.ValidationMessageFor(model => model.DriverNo, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
 
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
@@ -52,3 +64,68 @@
 <div>
     @Html.ActionLink("Back to List", "New")
 </div>
+
+@section scripts{
+    <script>
+        $(document).ready(function() {
+
+            //$("#EmployeeId").change(function () {
+            //    var selectedId = $("#EmployeeId");
+            //    var targetId = "#DriverNumber";
+            //    GetEmployeeNumber(selectedId, targetId);
+            //    alert('');
+            //});
+
+            $("#employeeDD").change(function () {
+                var permanentDivisionId = $("#employeeDD").val();
+                var permanentTargetId = "#DriverNumber";
+                GetPermanentDistrictAndBind(permanentDivisionId, permanentTargetId);
+                alert('');
+            });
+        });
+        function GetPermanentDistrictAndBind(permanentDivisionId, permanentTargetId) {
+
+            var jsonData = { employeeId : permanentDivisionId };
+            $.ajax({
+                url: "/Employee/GetEmployePhoneNo",
+                data: jsonData,
+                type: "POST",
+                success: function (response) {
+                    $(permanentTargetId).empty();
+
+                    var options = "<option>Select.....</option>";
+                    $.each(response,
+                        function (key, district) {
+                            options += "<option value='" + district.Id + "'>" + district.ContactNo + "</option>";
+                        });
+                    $(permanentTargetId).append(options);
+                },
+                error: function (response) {
+
+                }
+            });
+        }
+
+        //function GetEmployeeNumber(selectedId, targetId) {
+        //    var jsonData = { employeeId: selectedId };
+
+        //    $.ajax({
+        //        ///district/GetByDivision
+        //        url: "/Employee/GetEmployePhoneNo",
+        //        data:jsonData,
+        //        type: "POST",
+        //        success:function(response) {
+        //            $(selectedId).emplty();
+        //            var options = "<option>Number.....</option>";
+        //            $.each(response,
+        //                function (key, Number) {
+        //                    options += "<option value='" + Number.Id + "'>" + Number.ContactNo + "</option>";
+        //            });
+        //        },
+        //        error: function (response) {
+                    
+        //        }
+        //    });
+        //}
+    </script>
+}

@@ -30,6 +30,8 @@ namespace VehicleManagementApp.Models.Models
         [StringLength(255)]
         public string LicenceNo { get; set; }
 
+        public bool IsDriver { get; set; }
+
         public int DepartmentId { get; set; }
         public Department Department { get; set; }
 

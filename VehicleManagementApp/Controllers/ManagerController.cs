@@ -13,18 +13,18 @@ namespace VehicleManagementApp.Controllers
 {
     public class ManagerController : Controller
     {
-        private IManagerRepository managerRepository;
+        private IManagerManager managerManager;
         private IRequsitionManager _requsitionManager;
         private IEmployeeManager _employeeManager;
-        private IVehicleRepository vehicleRepository;
+        private IVehicleManager vehicleManager;
 
-        public ManagerController(IRequsitionManager _requsition, IEmployeeManager employee, IManagerRepository manager,
-            IVehicleRepository vehicle)
+        public ManagerController(IRequsitionManager _requsition, IEmployeeManager employee, IManagerManager manager,
+            IVehicleManager vehicle)
         {
             this._employeeManager = employee;
             this._requsitionManager = _requsition;
-            this.managerRepository = manager;
-            this.vehicleRepository = vehicle;
+            this.managerManager = manager;
+            this.vehicleManager = vehicle;
         }
 
         // GET: Manager
@@ -82,6 +82,34 @@ namespace VehicleManagementApp.Controllers
             return View(requsitionVM);
         }
 
+        public ActionResult RequsitionAssign(int? id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            var employee = _employeeManager.GetAll();
+            var requsition = _requsitionManager.GetById((int)id);
+
+            RequsitionViewModel requsitionVM = new RequsitionViewModel()
+            {
+                Id = requsition.Id,
+                Form = requsition.Form,
+                To = requsition.To,
+                Description = requsition.Description,
+                JourneyStart = requsition.JourneyStart,
+                JouneyEnd = requsition.JouneyEnd,
+                Employee = employee.Where(x => x.Id == requsition.EmployeeId).FirstOrDefault()
+            };
+            requsition.Status = "Assign";
+            bool assign = _requsitionManager.Update(requsition);
+            if (assign)
+            {
+                return RedirectToAction("Assign");
+            }
+            return View(requsitionVM);
+        }
+
         [HttpGet]
         public ActionResult Assign(int? id)
         {
@@ -90,17 +118,19 @@ namespace VehicleManagementApp.Controllers
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
             Requsition requsition = _requsitionManager.GetById((int) id);
-            var employee = _employeeManager.GetAll();
-            var vehicle = vehicleRepository.GetAll();
             Manager manager = new Manager();
 
             ManagerViewModel managerVM = new ManagerViewModel();
             managerVM.Id = manager.Id;
             managerVM.RequsitionId = requsition.Id;
-            //managerVM.EmployeeId = requsition.EmployeeId;
+            managerVM.DriverNo = manager.DriverNo;
 
-            ViewBag.VehicleId = new SelectList(vehicleRepository.GetAll(), "Id", "VehicleName", manager.VehicleId);
-            ViewBag.EmployeeId = new SelectList(_employeeManager.GetAll(), "Id", "Name", manager.EmployeeId);
+            var employees = _employeeManager.Get(c => c.IsDriver == true && c.IsDeleted == false);
+
+            ViewBag.VehicleId = new SelectList(vehicleManager.GetAll(), "Id", "VehicleName", manager.VehicleId);
+            ViewBag.EmployeeId = new SelectList(employees, "Id", "Name", manager.EmployeeId);
+
+            ViewBag.DriverNo = new SelectListItem[] { new SelectListItem() { Value = "", Text = "Select..." } };
 
             managerVM.VehicleId = manager.VehicleId;
             return View(managerVM);
@@ -109,25 +139,47 @@ namespace VehicleManagementApp.Controllers
         [HttpPost]
         public ActionResult Assign(ManagerViewModel managerViewModel)
         {
+            Requsition requsition = new Requsition();
             Manager manager = new Manager();
             manager.Id = managerViewModel.Id;
+            manager.DriverNo = managerViewModel.DriverNo;
             manager.RequsitionId = managerViewModel.RequsitionId;
             manager.EmployeeId = managerViewModel.EmployeeId;
             manager.VehicleId = managerViewModel.VehicleId;
 
-            bool isSaved = managerRepository.Add(manager);
+            bool isSaved = managerManager.Add(manager);
+
+            RequsitionAssign(managerViewModel.Id);
+
             if (isSaved)
             {
                 TempData["msg"] = "Requsition Assign Successfully";
                 return RedirectToAction("New");
             }
+            
             return View();
         }
 
         public ActionResult AssignIndex()
         {
-            var manager = managerRepository.GetAll();
-            return View();
+            Manager manager = new Manager();
+            var employee = _employeeManager.GetAll();
+            var vehicle = vehicleManager.GetAll();
+            var managers = managerManager.GetAll();
+            var requsition = _requsitionManager.GetAll();
+
+            List<ManagerViewModel> managerViewModels = new List<ManagerViewModel>();
+            foreach (var allData in managers)
+            {
+                var managerVM = new ManagerViewModel();
+                managerVM.Employee = employee.Where(c => c.Id == allData.EmployeeId).FirstOrDefault();
+                managerVM.Vehicle = vehicle.Where(c => c.Id == allData.VehicleId).FirstOrDefault();
+                managerVM.Employee = employee.Where(c => c.Id == allData.EmployeeId).FirstOrDefault();
+                managerVM.Requsition = requsition.Where(c => c.Id == allData.RequsitionId).FirstOrDefault();
+                managerViewModels.Add(managerVM);
+            }
+
+            return View(managerViewModels);
         }
 
         public ActionResult Complete(int? id)

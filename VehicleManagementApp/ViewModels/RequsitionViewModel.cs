@@ -44,9 +44,16 @@ namespace VehicleManagementApp.ViewModels
         public IEnumerable<Employee> Employees { get; set; }
 
 
-        [Display(Name = "Status")]
-        public int? RequsitionStatusId { get; set; }
-        public RequsitionStatus RequsitionStatus { get; set; }
-        public IEnumerable<RequsitionStatus> RequsitionStatuses { get; set; }
+        [Display(Name = "Vehicle Name")]
+        public int VehicleId { get; set; }
+        public Vehicle Vehicle { get; set; }
+        public IEnumerable<Vehicle> Vehicles { get; set; }
+
+        [Display(Name = "Vehicle Name")]
+        public int ManagerId { get; set; }
+        public Manager Manager { get; set; }
+        public IEnumerable<Manager> Managers { get; set; }
+
+        
     }
 }

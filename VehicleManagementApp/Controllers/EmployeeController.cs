@@ -84,7 +84,9 @@ namespace VehicleManagementApp.Controllers
             employeeVM.Thanas = thana;
 
 
-            ViewBag.districtDropDown = new SelectListItem[] {new SelectListItem() {Value="", Text="Select..."} };
+            ViewBag.districtDropDown = new SelectListItem[] { new SelectListItem() { Value = "", Text = "Select..." } };
+            ViewBag.DistrictId = new SelectListItem[] { new SelectListItem() { Value = "", Text = "Select..." } };
+            ViewBag.ThanaId = new SelectListItem[] { new SelectListItem() { Value = "", Text = "Select..." } };
 
             //ViewBag.districtDropDown = new SelectLsistItem[] { new SelectListItem() { Value = "", Text = "Select..." } };
 
@@ -104,6 +106,7 @@ namespace VehicleManagementApp.Controllers
                 employee.Address1 = employeeVM.Address1;
                 employee.Address2 = employeeVM.Address2;
                 employee.LicenceNo = employeeVM.LicenceNo;
+                employee.IsDriver = employeeVM.IsDriver;
                 employee.DepartmentId = employeeVM.DepartmentId;
                 employee.DesignationId = employeeVM.DesignationId;
                 employee.DivisionId = employeeVM.DivisionId;
@@ -210,6 +213,18 @@ namespace VehicleManagementApp.Controllers
             {
                 return View();
             }
+        }
+
+        public JsonResult GetEmployePhoneNo(int? employeeId)
+        {
+            if (employeeId == null)
+            {
+                return null;
+            }
+
+            var employee = _employeeManager.GetAll();
+            var employeeNumber = employee.Where(c => c.Id == employeeId).ToList();
+            return Json(employeeNumber, JsonRequestBehavior.AllowGet);
         }
     }
 }

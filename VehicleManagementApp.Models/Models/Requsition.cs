@@ -21,8 +21,7 @@ namespace VehicleManagementApp.Models.Models
         public string Status { get; set; }
         public int EmployeeId { get; set; }
         public Employee Employee { get; set; }
-        public int? RequsitionStatusId { get; set; }
-        public RequsitionStatus RequsitionStatus { get; set; }
+        
         public bool IsDeleted { get; set; }
         public bool withDeleted()
         {

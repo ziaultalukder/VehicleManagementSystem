@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using VehicleManagementApp.Repository.Contracts;
@@ -51,6 +52,11 @@ namespace VehicleManagementApp.BLL.Base
         {
             return BaseRepository.GetAll(withDeleted);
         }
+
+        public virtual ICollection<T> Get(Expression<Func<T, bool>> query)
+        {
+            return BaseRepository.Get(query);
+        } 
         
     }
 }

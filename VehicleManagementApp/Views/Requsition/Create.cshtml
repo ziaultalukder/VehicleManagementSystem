@@ -38,18 +38,17 @@
                                 <div class="form-group">
                                     @Html.LabelFor(model => model.EmployeeId, htmlAttributes: new { @class = "control-label col-md-2" })
                                     <div class="col-md-10">
-                                        @Html.DropDownListFor(model => model.EmployeeId, new SelectList(Model.Employees, "Id", "Name"), "Employe Name",
-                                               new
-                                               {
-                                                   @class = "form-control ",
-                                                   ///* selectpicker*/
-                                                   //@value = @Model.Employees,
-                                                   //onchange = "this.form.submit();"
-
-                                               })
+                                        @Html.DropDownListFor(model => model.EmployeeId, new SelectList(Model.Employees, "Id", "Name"), "Employe Name", new { @class = "form-control " })
                                         @Html.ValidationMessageFor(model => model.EmployeeId, "", new { @class = "text-danger" })
                                     </div>
                                 </div>
+
+                                
+                                 @*selectpicker
+                                @value = @Model.Employees,
+                                onchange = "this.form.submit();"*@
+                                
+
 
                                 <div class="form-group">
                                     @Html.LabelFor(model => model.Form, htmlAttributes: new { @class = "control-label col-md-2" })
@@ -129,7 +128,7 @@
                                         @Html.DropDownListFor(model => model.EmployeeId, new SelectList(Model.Employees, "Id", "Name"), "Employe Name", 
                                                new
                                                {
-                                                   @class = "form-control selectpicker",
+                                                   @class = "form-control",
                                                    @value = @Model.Employees,
                                                    onchange = "this.form.submit();"
                                            })

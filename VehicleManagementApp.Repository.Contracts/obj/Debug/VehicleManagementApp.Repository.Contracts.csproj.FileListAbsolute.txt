@@ -70,3 +70,21 @@ E:\Web Application In C#\New Git Project VMA\VehicleManagementSystem\VehicleMana
 E:\Web Application In C#\New Git Project VMA\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\obj\Debug\VehicleManagementApp.Repository.Contracts.csprojResolveAssemblyReference.cache
 E:\Web Application In C#\New Git Project VMA\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\obj\Debug\VehicleManagementApp.Repository.Contracts.dll
 E:\Web Application In C#\New Git Project VMA\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\obj\Debug\VehicleManagementApp.Repository.Contracts.pdb
+C:\Users\Ziaul\Downloads\Compressed\VehicleManagementSystem-master\VehicleManagementSystem-master\VehicleManagementApp.Repository.Contracts\bin\Debug\VehicleManagementApp.Repository.Contracts.dll
+C:\Users\Ziaul\Downloads\Compressed\VehicleManagementSystem-master\VehicleManagementSystem-master\VehicleManagementApp.Repository.Contracts\bin\Debug\VehicleManagementApp.Repository.Contracts.pdb
+C:\Users\Ziaul\Downloads\Compressed\VehicleManagementSystem-master\VehicleManagementSystem-master\VehicleManagementApp.Repository.Contracts\bin\Debug\VehicleManagementApp.Models.Contracts.dll
+C:\Users\Ziaul\Downloads\Compressed\VehicleManagementSystem-master\VehicleManagementSystem-master\VehicleManagementApp.Repository.Contracts\bin\Debug\VehicleManagementApp.Models.dll
+C:\Users\Ziaul\Downloads\Compressed\VehicleManagementSystem-master\VehicleManagementSystem-master\VehicleManagementApp.Repository.Contracts\bin\Debug\VehicleManagementApp.Models.Contracts.pdb
+C:\Users\Ziaul\Downloads\Compressed\VehicleManagementSystem-master\VehicleManagementSystem-master\VehicleManagementApp.Repository.Contracts\bin\Debug\VehicleManagementApp.Models.pdb
+C:\Users\Ziaul\Downloads\Compressed\VehicleManagementSystem-master\VehicleManagementSystem-master\VehicleManagementApp.Repository.Contracts\obj\Debug\VehicleManagementApp.Repository.Contracts.csprojResolveAssemblyReference.cache
+C:\Users\Ziaul\Downloads\Compressed\VehicleManagementSystem-master\VehicleManagementSystem-master\VehicleManagementApp.Repository.Contracts\obj\Debug\VehicleManagementApp.Repository.Contracts.dll
+C:\Users\Ziaul\Downloads\Compressed\VehicleManagementSystem-master\VehicleManagementSystem-master\VehicleManagementApp.Repository.Contracts\obj\Debug\VehicleManagementApp.Repository.Contracts.pdb
+E:\VehicleManagementSystem-master\VehicleManagementApp.Repository.Contracts\bin\Debug\VehicleManagementApp.Repository.Contracts.dll
+E:\VehicleManagementSystem-master\VehicleManagementApp.Repository.Contracts\bin\Debug\VehicleManagementApp.Repository.Contracts.pdb
+E:\VehicleManagementSystem-master\VehicleManagementApp.Repository.Contracts\bin\Debug\VehicleManagementApp.Models.Contracts.dll
+E:\VehicleManagementSystem-master\VehicleManagementApp.Repository.Contracts\bin\Debug\VehicleManagementApp.Models.dll
+E:\VehicleManagementSystem-master\VehicleManagementApp.Repository.Contracts\bin\Debug\VehicleManagementApp.Models.Contracts.pdb
+E:\VehicleManagementSystem-master\VehicleManagementApp.Repository.Contracts\bin\Debug\VehicleManagementApp.Models.pdb
+E:\VehicleManagementSystem-master\VehicleManagementApp.Repository.Contracts\obj\Debug\VehicleManagementApp.Repository.Contracts.csprojResolveAssemblyReference.cache
+E:\VehicleManagementSystem-master\VehicleManagementApp.Repository.Contracts\obj\Debug\VehicleManagementApp.Repository.Contracts.dll
+E:\VehicleManagementSystem-master\VehicleManagementApp.Repository.Contracts\obj\Debug\VehicleManagementApp.Repository.Contracts.pdb

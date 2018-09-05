@@ -37,3 +37,12 @@ E:\Web Application In C#\New Git Project VMA\VehicleManagementSystem\VehicleMana
 E:\Web Application In C#\New Git Project VMA\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\obj\Debug\VehicleManagementApp.Models.Contracts.dll
 E:\Web Application In C#\New Git Project VMA\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\obj\Debug\VehicleManagementApp.Models.Contracts.pdb
 E:\Web Application In C#\New Git Project VMA\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\obj\Debug\VehicleManagementApp.Models.Contracts.csprojResolveAssemblyReference.cache
+C:\Users\Ziaul\Downloads\Compressed\VehicleManagementSystem-master\VehicleManagementSystem-master\VehicleManagementApp.Models.Contracts\bin\Debug\VehicleManagementApp.Models.Contracts.dll
+C:\Users\Ziaul\Downloads\Compressed\VehicleManagementSystem-master\VehicleManagementSystem-master\VehicleManagementApp.Models.Contracts\bin\Debug\VehicleManagementApp.Models.Contracts.pdb
+C:\Users\Ziaul\Downloads\Compressed\VehicleManagementSystem-master\VehicleManagementSystem-master\VehicleManagementApp.Models.Contracts\obj\Debug\VehicleManagementApp.Models.Contracts.dll
+C:\Users\Ziaul\Downloads\Compressed\VehicleManagementSystem-master\VehicleManagementSystem-master\VehicleManagementApp.Models.Contracts\obj\Debug\VehicleManagementApp.Models.Contracts.pdb
+E:\VehicleManagementSystem-master\VehicleManagementApp.Models.Contracts\bin\Debug\VehicleManagementApp.Models.Contracts.dll
+E:\VehicleManagementSystem-master\VehicleManagementApp.Models.Contracts\bin\Debug\VehicleManagementApp.Models.Contracts.pdb
+E:\VehicleManagementSystem-master\VehicleManagementApp.Models.Contracts\obj\Debug\VehicleManagementApp.Models.Contracts.dll
+E:\VehicleManagementSystem-master\VehicleManagementApp.Models.Contracts\obj\Debug\VehicleManagementApp.Models.Contracts.pdb
+E:\VehicleManagementSystem-master\VehicleManagementApp.Models.Contracts\obj\Debug\VehicleManagementApp.Models.Contracts.csprojResolveAssemblyReference.cache

@@ -16,14 +16,14 @@ namespace VehicleManagementApp.Controllers
         private IRequsitionManager _requsitionManager;
         private IEmployeeManager _employeeManager;
         private IRequsitionStatusManager _requsitionStatusManager;
-        private ICommentManager _commentManager;
+        private IManagerManager _managerManager;
 
-        public RequsitionController(IRequsitionManager requsition, IEmployeeManager employee, IRequsitionStatusManager requsitionStatus, ICommentManager comment)
+        public RequsitionController(IRequsitionManager requsition, IEmployeeManager employee, IRequsitionStatusManager requsitionStatus, IManagerManager manager)
         {
             this._requsitionManager = requsition;
             this._employeeManager = employee;
             this._requsitionStatusManager = requsitionStatus;
-            this._commentManager = comment;
+            this._managerManager = manager;
         }
         public ActionResult Index()
         {
@@ -55,7 +55,19 @@ namespace VehicleManagementApp.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
+
             Requsition requsition = _requsitionManager.GetById((int) id);
+            var employee = _employeeManager.Get(c => c.IsDriver == true && c.IsDeleted == false);
+            var manager = _managerManager.GetAll();
+
+            RequsitionViewModel requsitionViewModel = new RequsitionViewModel();
+            requsitionViewModel.Id = requsition.Id;
+            requsitionViewModel.Employee = employee.Where(c => c.Id == requsition.EmployeeId).FirstOrDefault();
+            requsitionViewModel.Manager = manager.Where(c => c.RequsitionId == requsition.Id).FirstOrDefault();
+                
+            
+// requsition view model add property vehicle and employee
+            
             if (requsition == null)
             {
                 return HttpNotFound();
@@ -88,7 +100,6 @@ namespace VehicleManagementApp.Controllers
                 requsition.JourneyStart = requsitionVM.JourneyStart;
                 requsition.JouneyEnd = requsitionVM.JouneyEnd;
                 requsition.EmployeeId = requsitionVM.EmployeeId;
-                requsition.RequsitionStatusId = requsitionVM.RequsitionStatusId;
 
                 bool isSaved = _requsitionManager.Add(requsition);
                 if (isSaved)
@@ -140,7 +151,6 @@ namespace VehicleManagementApp.Controllers
                 requsition.JourneyStart = requsitionVM.JourneyStart;
                 requsition.JouneyEnd = requsitionVM.JouneyEnd;
                 requsition.EmployeeId = requsitionVM.EmployeeId;
-                requsition.RequsitionStatusId = requsitionVM.RequsitionStatusId;
 
                 _requsitionManager.Update(requsition);
 

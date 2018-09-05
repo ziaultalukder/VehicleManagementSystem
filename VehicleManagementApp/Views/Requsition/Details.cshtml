@@ -36,6 +36,18 @@
                     <td>@Html.DisplayFor(model => model.JouneyEnd)</td>
                 </tr>
             </table>
+            <div class="jumbotron">
+                <table class="table table-bordered">
+                    <tr>
+                        <td>Requition Status</td>
+                        <td>@Html.DisplayFor(model => model.Status)</td>
+                    </tr>
+                    <tr>
+                        <td>Driver Name</td>
+                        <td>@Html.DisplayFor(model => model.Employee.Name)</td>
+                    </tr>
+                </table>
+            </div>
 
             <div class="comment_section">
                 <form>

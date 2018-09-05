@@ -136,6 +136,18 @@
     <Compile Include="Migrations\201809031829551_changevihicletable.Designer.cs">
       <DependentUpon>201809031829551_changevihicletable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201809041146346_EmployeeTableIsDriverAdded.cs" />
+    <Compile Include="Migrations\201809041146346_EmployeeTableIsDriverAdded.Designer.cs">
+      <DependentUpon>201809041146346_EmployeeTableIsDriverAdded.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201809041640533_managerTableChangeDriverColumTypeChange.cs" />
+    <Compile Include="Migrations\201809041640533_managerTableChangeDriverColumTypeChange.Designer.cs">
+      <DependentUpon>201809041640533_managerTableChangeDriverColumTypeChange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201809041720370_RequsitionTableChanges.cs" />
+    <Compile Include="Migrations\201809041720370_RequsitionTableChanges.Designer.cs">
+      <DependentUpon>201809041720370_RequsitionTableChanges.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="OrganaizationRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -227,6 +239,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201809031829551_changevihicletable.resx">
       <DependentUpon>201809031829551_changevihicletable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809041146346_EmployeeTableIsDriverAdded.resx">
+      <DependentUpon>201809041146346_EmployeeTableIsDriverAdded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809041640533_managerTableChangeDriverColumTypeChange.resx">
+      <DependentUpon>201809041640533_managerTableChangeDriverColumTypeChange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809041720370_RequsitionTableChanges.resx">
+      <DependentUpon>201809041720370_RequsitionTableChanges.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
