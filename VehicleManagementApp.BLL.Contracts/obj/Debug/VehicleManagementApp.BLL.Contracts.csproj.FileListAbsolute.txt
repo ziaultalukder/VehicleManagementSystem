@@ -108,3 +108,14 @@ D:\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\bin\Debug\VehicleM
 D:\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\obj\Debug\VehicleManagementApp.BLL.Contracts.csprojResolveAssemblyReference.cache
 D:\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\obj\Debug\VehicleManagementApp.BLL.Contracts.dll
 D:\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\obj\Debug\VehicleManagementApp.BLL.Contracts.pdb
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\bin\Debug\VehicleManagementApp.BLL.Contracts.dll
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\bin\Debug\VehicleManagementApp.BLL.Contracts.pdb
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\bin\Debug\VehicleManagementApp.Models.Contracts.dll
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\bin\Debug\VehicleManagementApp.Models.dll
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\bin\Debug\VehicleManagementApp.Repository.Contracts.dll
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\bin\Debug\VehicleManagementApp.Models.Contracts.pdb
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\bin\Debug\VehicleManagementApp.Models.pdb
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\bin\Debug\VehicleManagementApp.Repository.Contracts.pdb
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\obj\Debug\VehicleManagementApp.BLL.Contracts.csprojResolveAssemblyReference.cache
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\obj\Debug\VehicleManagementApp.BLL.Contracts.dll
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\obj\Debug\VehicleManagementApp.BLL.Contracts.pdb
