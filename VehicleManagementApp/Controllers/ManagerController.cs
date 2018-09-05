@@ -101,6 +101,7 @@ namespace VehicleManagementApp.Controllers
                 JouneyEnd = requsition.JouneyEnd,
                 Employee = employee.Where(x => x.Id == requsition.EmployeeId).FirstOrDefault()
             };
+
             requsition.Status = "Assign";
             bool assign = _requsitionManager.Update(requsition);
             if (assign)
@@ -112,6 +113,7 @@ namespace VehicleManagementApp.Controllers
 
         [HttpGet]
         public ActionResult Assign(int? id)
+
         {
             if (id == null)
             {
@@ -150,6 +152,7 @@ namespace VehicleManagementApp.Controllers
             bool isSaved = managerManager.Add(manager);
 
             RequsitionAssign(managerViewModel.Id);
+            Complete(managerViewModel.Id);
 
             if (isSaved)
             {
@@ -172,6 +175,7 @@ namespace VehicleManagementApp.Controllers
             foreach (var allData in managers)
             {
                 var managerVM = new ManagerViewModel();
+                managerVM.Id = allData.Id;
                 managerVM.Employee = employee.Where(c => c.Id == allData.EmployeeId).FirstOrDefault();
                 managerVM.Vehicle = vehicle.Where(c => c.Id == allData.VehicleId).FirstOrDefault();
                 managerVM.Employee = employee.Where(c => c.Id == allData.EmployeeId).FirstOrDefault();
@@ -188,12 +192,27 @@ namespace VehicleManagementApp.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Requsition requsition = _requsitionManager.GetById((int) id);
-            if (requsition.JouneyEnd == requsition.JourneyStart)
+            var employee = _employeeManager.GetAll();
+            var requsition = _requsitionManager.GetById((int)id);
+
+            RequsitionViewModel requsitionVM = new RequsitionViewModel()
             {
-                return RedirectToAction("Complete");
+                Id = requsition.Id,
+                Form = requsition.Form,
+                To = requsition.To,
+                Description = requsition.Description,
+                JourneyStart = requsition.JourneyStart,
+                JouneyEnd = requsition.JouneyEnd,
+                Employee = employee.Where(x => x.Id == requsition.EmployeeId).FirstOrDefault()
+            };
+
+            if (requsitionVM.JourneyStart == requsitionVM.JouneyEnd)
+            {
+                requsition.Status = "Complete";
+                _requsitionManager.Update(requsition);
+                return RedirectToAction("Assign");
             }
-            return View();
+            return View(requsitionVM);
         }
 
         public ActionResult OnProgress()
@@ -217,6 +236,26 @@ namespace VehicleManagementApp.Controllers
             }
             return View(requsitionViewModels);
         }
-    
+
+        public ActionResult DriverAndCar(int? id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            var manager = managerManager.GetAll();
+            Requsition requsition = _requsitionManager.GetById((int)id);
+            var vehicle = vehicleManager.GetAll();
+            var employee = _employeeManager.GetAll();
+
+            ManagerViewModel managerVM = new ManagerViewModel();
+            managerVM.RequsitionId = requsition.Id;
+            managerVM.Vehicle = vehicle.Where(c => c.Id == managerVM.VehicleId).FirstOrDefault();
+            managerVM.Employee = employee.Where(c => c.Id == managerVM.EmployeeId).FirstOrDefault();
+
+            return View();
+        }
+
+
     }
 }

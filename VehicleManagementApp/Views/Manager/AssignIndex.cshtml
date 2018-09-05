@@ -13,17 +13,18 @@
             @Html.Raw("SL")
         </th>
         <th>
+            @Html.DisplayNameFor(model => model.EmployeeId)
+        </th>
+        <th>
             @Html.DisplayNameFor(model => model.DriverNo)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.RequsitionId)
+            @Html.Raw("Requsition Form")
         </th>
         <th>
             @Html.DisplayNameFor(model => model.VehicleId)
         </th>
-        <th>
-            @Html.DisplayNameFor(model => model.EmployeeId)
-        </th>
+
         <th></th>
     </tr>
     </thead>
@@ -35,6 +36,9 @@
                     @(sl++)
                 </td>
                 <td>
+                    @Html.DisplayFor(modelItem => item.Employee.Name)
+                </td>
+                <td>
                     @Html.DisplayFor(modelItem => item.Employee.ContactNo)
                 </td>
                 <td>
@@ -44,11 +48,8 @@
                     @Html.DisplayFor(modelItem => item.Vehicle.VehicleName)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Employee.Name)
-                </td>
-                <td>
-                    @Html.ActionLink("Delete", "Delete", new {id = item.Id})
-                    @Html.ActionLink("View", "Delete", new {id = item.Id})
+                    @Html.ActionLink("Delete", "Assign", new { id = item.Id }, new { @class = "btn btn-danger btn-sm" })
+                    @*@Html.ActionLink("Re Assign", "Assign", new { id = item.Id }, new { @class = "btn btn-info btn-sm" })*@
                 </td>
             </tr>
         }
