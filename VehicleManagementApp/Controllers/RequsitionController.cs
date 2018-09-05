@@ -79,11 +79,9 @@ namespace VehicleManagementApp.Controllers
         public ActionResult Create()
         {
             var employee = _employeeManager.GetAll();
-            var requstionStatus = _requsitionStatusManager.GetAll();
 
             RequsitionViewModel requsitionVM = new RequsitionViewModel();
             requsitionVM.Employees = employee;
-            requsitionVM.RequsitionStatuses = requstionStatus;
             return View(requsitionVM);
         }
 
