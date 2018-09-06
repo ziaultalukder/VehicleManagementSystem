@@ -183,7 +183,6 @@ D:\VehicleManagementSystem\VehicleManagementApp.BLL\bin\Debug\EntityFramework.xm
 D:\VehicleManagementSystem\VehicleManagementApp.BLL\obj\Debug\VehicleManagementApp.BLL.csprojResolveAssemblyReference.cache
 D:\VehicleManagementSystem\VehicleManagementApp.BLL\obj\Debug\VehicleManagementApp.BLL.dll
 D:\VehicleManagementSystem\VehicleManagementApp.BLL\obj\Debug\VehicleManagementApp.BLL.pdb
-<<<<<<< HEAD
 C:\Users\bcc\Desktop\Removable Disk\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.BLL\bin\Debug\VehicleManagementApp.BLL.dll
 C:\Users\bcc\Desktop\Removable Disk\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.BLL\bin\Debug\VehicleManagementApp.BLL.pdb
 C:\Users\bcc\Desktop\Removable Disk\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.BLL\bin\Debug\VehicleManagementApp.BLL.Contracts.dll
@@ -201,7 +200,6 @@ C:\Users\bcc\Desktop\Removable Disk\VehicleManagementSystem\VehicleManagementSys
 C:\Users\bcc\Desktop\Removable Disk\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.BLL\obj\Debug\VehicleManagementApp.BLL.csprojResolveAssemblyReference.cache
 C:\Users\bcc\Desktop\Removable Disk\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.BLL\obj\Debug\VehicleManagementApp.BLL.dll
 C:\Users\bcc\Desktop\Removable Disk\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.BLL\obj\Debug\VehicleManagementApp.BLL.pdb
-=======
 G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.BLL\bin\Debug\VehicleManagementApp.BLL.dll
 G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.BLL\bin\Debug\VehicleManagementApp.BLL.pdb
 G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.BLL\bin\Debug\VehicleManagementApp.BLL.Contracts.dll
@@ -219,4 +217,20 @@ G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.BLL\bin\Debug\EntityFram
 G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.BLL\obj\Debug\VehicleManagementApp.BLL.csprojResolveAssemblyReference.cache
 G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.BLL\obj\Debug\VehicleManagementApp.BLL.dll
 G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.BLL\obj\Debug\VehicleManagementApp.BLL.pdb
->>>>>>> dcd94c2bb010676695683b77cd53ae683a2b9163
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.BLL\bin\Debug\VehicleManagementApp.BLL.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.BLL\bin\Debug\VehicleManagementApp.BLL.pdb
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.BLL\bin\Debug\VehicleManagementApp.BLL.Contracts.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.BLL\bin\Debug\VehicleManagementApp.Models.Contracts.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.BLL\bin\Debug\VehicleManagementApp.Models.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.BLL\bin\Debug\VehicleManagementApp.Repository.Contracts.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.BLL\bin\Debug\VehicleManagementApp.Repository.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.BLL\bin\Debug\EntityFramework.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.BLL\bin\Debug\VehicleManagementApp.BLL.Contracts.pdb
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.BLL\bin\Debug\VehicleManagementApp.Models.Contracts.pdb
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.BLL\bin\Debug\VehicleManagementApp.Models.pdb
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.BLL\bin\Debug\VehicleManagementApp.Repository.Contracts.pdb
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.BLL\bin\Debug\VehicleManagementApp.Repository.pdb
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.BLL\bin\Debug\EntityFramework.xml
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.BLL\obj\Debug\VehicleManagementApp.BLL.csprojResolveAssemblyReference.cache
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.BLL\obj\Debug\VehicleManagementApp.BLL.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.BLL\obj\Debug\VehicleManagementApp.BLL.pdb

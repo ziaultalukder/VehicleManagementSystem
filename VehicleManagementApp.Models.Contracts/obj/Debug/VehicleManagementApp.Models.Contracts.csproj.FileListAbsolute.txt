@@ -50,14 +50,16 @@ D:\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\bin\Debug\Vehic
 D:\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\bin\Debug\VehicleManagementApp.Models.Contracts.pdb
 D:\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\obj\Debug\VehicleManagementApp.Models.Contracts.dll
 D:\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\obj\Debug\VehicleManagementApp.Models.Contracts.pdb
-<<<<<<< HEAD
 C:\Users\bcc\Desktop\Removable Disk\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\bin\Debug\VehicleManagementApp.Models.Contracts.dll
 C:\Users\bcc\Desktop\Removable Disk\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\bin\Debug\VehicleManagementApp.Models.Contracts.pdb
 C:\Users\bcc\Desktop\Removable Disk\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\obj\Debug\VehicleManagementApp.Models.Contracts.dll
 C:\Users\bcc\Desktop\Removable Disk\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\obj\Debug\VehicleManagementApp.Models.Contracts.pdb
-=======
 G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\bin\Debug\VehicleManagementApp.Models.Contracts.dll
 G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\bin\Debug\VehicleManagementApp.Models.Contracts.pdb
 G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\obj\Debug\VehicleManagementApp.Models.Contracts.dll
 G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\obj\Debug\VehicleManagementApp.Models.Contracts.pdb
->>>>>>> dcd94c2bb010676695683b77cd53ae683a2b9163
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\bin\Debug\VehicleManagementApp.Models.Contracts.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\bin\Debug\VehicleManagementApp.Models.Contracts.pdb
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\obj\Debug\VehicleManagementApp.Models.Contracts.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\obj\Debug\VehicleManagementApp.Models.Contracts.pdb
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\obj\Debug\VehicleManagementApp.Models.Contracts.csprojResolveAssemblyReference.cache

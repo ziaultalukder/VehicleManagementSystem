@@ -75,7 +75,6 @@ D:\VehicleManagementSystem\VehicleManagementApp.Models\bin\Debug\VehicleManageme
 D:\VehicleManagementSystem\VehicleManagementApp.Models\obj\Debug\VehicleManagementApp.Models.csprojResolveAssemblyReference.cache
 D:\VehicleManagementSystem\VehicleManagementApp.Models\obj\Debug\VehicleManagementApp.Models.dll
 D:\VehicleManagementSystem\VehicleManagementApp.Models\obj\Debug\VehicleManagementApp.Models.pdb
-<<<<<<< HEAD
 C:\Users\bcc\Desktop\Removable Disk\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Models\bin\Debug\VehicleManagementApp.Models.dll
 C:\Users\bcc\Desktop\Removable Disk\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Models\bin\Debug\VehicleManagementApp.Models.pdb
 C:\Users\bcc\Desktop\Removable Disk\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Models\bin\Debug\VehicleManagementApp.Models.Contracts.dll
@@ -83,7 +82,6 @@ C:\Users\bcc\Desktop\Removable Disk\VehicleManagementSystem\VehicleManagementSys
 C:\Users\bcc\Desktop\Removable Disk\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Models\obj\Debug\VehicleManagementApp.Models.csprojResolveAssemblyReference.cache
 C:\Users\bcc\Desktop\Removable Disk\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Models\obj\Debug\VehicleManagementApp.Models.dll
 C:\Users\bcc\Desktop\Removable Disk\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Models\obj\Debug\VehicleManagementApp.Models.pdb
-=======
 G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Models\bin\Debug\VehicleManagementApp.Models.dll
 G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Models\bin\Debug\VehicleManagementApp.Models.pdb
 G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Models\bin\Debug\VehicleManagementApp.Models.Contracts.dll
@@ -91,4 +89,10 @@ G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Models\bin\Debug\Vehicle
 G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Models\obj\Debug\VehicleManagementApp.Models.csprojResolveAssemblyReference.cache
 G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Models\obj\Debug\VehicleManagementApp.Models.dll
 G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Models\obj\Debug\VehicleManagementApp.Models.pdb
->>>>>>> dcd94c2bb010676695683b77cd53ae683a2b9163
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Models\bin\Debug\VehicleManagementApp.Models.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Models\bin\Debug\VehicleManagementApp.Models.pdb
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Models\bin\Debug\VehicleManagementApp.Models.Contracts.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Models\bin\Debug\VehicleManagementApp.Models.Contracts.pdb
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Models\obj\Debug\VehicleManagementApp.Models.csprojResolveAssemblyReference.cache
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Models\obj\Debug\VehicleManagementApp.Models.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Models\obj\Debug\VehicleManagementApp.Models.pdb

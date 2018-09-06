@@ -704,7 +704,6 @@ D:\VehicleManagementSystem\VehicleManagementApp\bin\System.Web.Webpages.Razor.xm
 D:\VehicleManagementSystem\VehicleManagementApp\bin\System.Web.Helpers.xml
 D:\VehicleManagementSystem\VehicleManagementApp\bin\System.Web.Mvc.xml
 D:\VehicleManagementSystem\VehicleManagementApp\bin\EntityFramework.xml
-<<<<<<< HEAD
 C:\Users\bcc\Desktop\Removable Disk\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\ApplicationInsights.config
 C:\Users\bcc\Desktop\Removable Disk\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\roslyn\csc.exe
 C:\Users\bcc\Desktop\Removable Disk\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
@@ -770,7 +769,6 @@ C:\Users\bcc\Desktop\Removable Disk\VehicleManagementSystem\VehicleManagementSys
 C:\Users\bcc\Desktop\Removable Disk\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\obj\Debug\VehicleManagementApp.csprojResolveAssemblyReference.cache
 C:\Users\bcc\Desktop\Removable Disk\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\obj\Debug\VehicleManagementApp.dll
 C:\Users\bcc\Desktop\Removable Disk\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\obj\Debug\VehicleManagementApp.pdb
-=======
 G:\Git VMA\VehicleManagementSystem\VehicleManagementApp\bin\ApplicationInsights.config
 G:\Git VMA\VehicleManagementSystem\VehicleManagementApp\bin\roslyn\csc.exe
 G:\Git VMA\VehicleManagementSystem\VehicleManagementApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
@@ -836,4 +834,68 @@ G:\Git VMA\VehicleManagementSystem\VehicleManagementApp\bin\EntityFramework.xml
 G:\Git VMA\VehicleManagementSystem\VehicleManagementApp\obj\Debug\VehicleManagementApp.csprojResolveAssemblyReference.cache
 G:\Git VMA\VehicleManagementSystem\VehicleManagementApp\obj\Debug\VehicleManagementApp.dll
 G:\Git VMA\VehicleManagementSystem\VehicleManagementApp\obj\Debug\VehicleManagementApp.pdb
->>>>>>> dcd94c2bb010676695683b77cd53ae683a2b9163
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\ApplicationInsights.config
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\roslyn\csc.exe
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\roslyn\vbc.exe
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\VehicleManagementApp.dll.config
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\VehicleManagementApp.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\VehicleManagementApp.pdb
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\Microsoft.AI.Web.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\System.Web.Helpers.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\System.Web.Mvc.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\System.Web.Razor.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\System.Web.Webpages.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\System.Web.Webpages.Razor.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\Unity.Abstractions.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\Unity.Container.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\Unity.Mvc.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\VehicleManagementApp.BLL.Contracts.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\VehicleManagementApp.BLL.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\VehicleManagementApp.Models.Contracts.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\VehicleManagementApp.Models.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\VehicleManagementApp.Repository.Contracts.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\VehicleManagementApp.Repository.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\WebActivatorEx.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\EntityFramework.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\VehicleManagementApp.BLL.Contracts.pdb
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\VehicleManagementApp.BLL.pdb
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\VehicleManagementApp.Models.Contracts.pdb
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\VehicleManagementApp.Models.pdb
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\VehicleManagementApp.Repository.Contracts.pdb
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\VehicleManagementApp.Repository.pdb
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\Microsoft.AI.Web.xml
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\Unity.Mvc.xml
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\System.Web.Razor.xml
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\System.Web.Webpages.xml
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\System.Web.Webpages.Razor.xml
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\System.Web.Helpers.xml
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\System.Web.Mvc.xml
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\bin\EntityFramework.xml
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\obj\Debug\VehicleManagementApp.csprojResolveAssemblyReference.cache
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\obj\Debug\VehicleManagementApp.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp\obj\Debug\VehicleManagementApp.pdb

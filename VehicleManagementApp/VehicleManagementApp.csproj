@@ -566,11 +566,8 @@
     <Content Include="Views\Manager\Assign.cshtml" />
     <Content Include="Views\Manager\OnProgress.cshtml" />
     <Content Include="Views\Manager\AssignIndex.cshtml" />
-<<<<<<< HEAD
     <Content Include="Views\Requsition\DriverAndCar.cshtml" />
-=======
     <Content Include="Views\Employee\Details.cshtml" />
->>>>>>> dcd94c2bb010676695683b77cd53ae683a2b9163
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
