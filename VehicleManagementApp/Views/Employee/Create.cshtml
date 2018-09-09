@@ -159,7 +159,7 @@
                     <div class="form-group">
                         <div class="col-md-offset-2 col-md-10">
                             <div class="checkbox">
-                                @Html.CheckBoxFor(m => m.IsDriver, new { })
+                                @Html.CheckBoxFor(m => m.IsDriver, new {id="checkbox" })
                                 @Html.LabelFor(m => m.IsDriver)
                             </div>
                         </div>
@@ -170,11 +170,11 @@
                         <div class="col-md-10">
                             @if ("IsDriver".IsBool() == false)
                             {
-                                @Html.EditorFor(model => model.LicenceNo, new { htmlAttributes = new { @class = "form-control", required = true } })
+                                @Html.EditorFor(model => model.LicenceNo, new { htmlAttributes = new { @class = "form-control", required = true, disabled="disabled", id="licenseNo"} })
                             }
                             else
                             {
-                                @Html.EditorFor(model => model.LicenceNo, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.EditorFor(model => model.LicenceNo, new { htmlAttributes = new { @class = "form-control", required = false, disabled = "disabled", id ="licenseNo"} })
                             }
 
 
@@ -228,6 +228,18 @@
                 var selectedthanaId = $("#DistrictDD2").val();
                 var targetid = "#thanaDD2";
                 GetThanaAndBind(selectedthanaId, targetid);
+            });
+
+            //isDriver checked box
+            $("#checkbox").change(function () {
+                $("#licenseNo").attr('disabled',! this.checked);
+                //var st = this.checked;
+                //if (st) {
+                //    $("#licenseNo").attr("disabled", false);
+                //} else {
+                //    $("#licenseNo").attr("disabled", true);
+                //}
+
             });
 
         });
