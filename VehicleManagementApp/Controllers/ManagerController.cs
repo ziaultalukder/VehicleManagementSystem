@@ -149,6 +149,7 @@ namespace VehicleManagementApp.Controllers
 
             bool isSaved = managerManager.Add(manager);
             RequsitionAssign(managerViewModel.Id);
+
             VehicleStatusChange(managerViewModel.VehicleId);
             DriverAssigned(managerViewModel.EmployeeId);
 
@@ -204,6 +205,9 @@ namespace VehicleManagementApp.Controllers
 
             return View(managerViewModels);
         }
+
+
+
         public ActionResult OnProgress()
         {
             Requsition requsition = new Requsition();
@@ -225,6 +229,7 @@ namespace VehicleManagementApp.Controllers
             }
             return View(requsitionViewModels);
         }
+
         public ActionResult DriverAndCar(int? id)
         {
             if (id == null)
@@ -243,6 +248,7 @@ namespace VehicleManagementApp.Controllers
 
             return View();
         }
+
         public ActionResult DriverMessage(int? id)
         {
             if (id == null)
@@ -426,6 +432,7 @@ namespace VehicleManagementApp.Controllers
             return View(managerViewModels);
         }
 
+        [HttpGet]
         public ActionResult CheckOutEdit(int? id)
         {
             if (id == null)
@@ -434,20 +441,26 @@ namespace VehicleManagementApp.Controllers
             }
             var AssignManager = managerManager.GetById((int)id);
 
+            ManagerViewModel managerViewModel = new ManagerViewModel();
+
+            managerViewModel.Id = AssignManager.Id;
+            managerViewModel.RequsitionId= AssignManager.RequsitionId;
+            managerViewModel.VehicleId = AssignManager.VehicleId;
+            managerViewModel.EmployeeId = AssignManager.EmployeeId;
+
+            return View(managerViewModel);
+        }
+
+        [HttpPost]
+        public ActionResult CheckOutEdit(ManagerViewModel managerViewModel)
+        {
             Manager manager = new Manager();
-            manager.Id = AssignManager.Id;
-            manager.RequsitionId= AssignManager.RequsitionId;
-            manager.VehicleId = AssignManager.VehicleId;
-            manager.EmployeeId = AssignManager.EmployeeId;
-            manager.Status = "Excute";
-
-            bool isUpdate = managerManager.Update(manager);
-
-            if (isUpdate)
-            {
-                return RedirectToAction("CheckOut");
-            }
-            
+            manager.Id = managerViewModel.Id;
+            manager.RequsitionId = managerViewModel.RequsitionId;
+            manager.VehicleId = managerViewModel.VehicleId;
+            manager.EmployeeId = managerViewModel.EmployeeId;
+            manager.Status = "Execute";
+            managerManager.Update(manager);
 
             return View();
         }

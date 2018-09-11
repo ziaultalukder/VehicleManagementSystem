@@ -75,41 +75,33 @@ namespace VehicleManagementApp.Controllers
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
 
-            Requsition requsition = _requsitionManager.GetById((int) id);
+            Requsition requsition = _requsitionManager.GetById((int)id);
             var employee = _employeeManager.Get(c => c.IsDriver == true && c.IsDeleted == false);
+            var manager = _managerManager.GetAll();
 
+            RequsitionViewModel requsitionViewModel = new RequsitionViewModel();
+            requsitionViewModel.Id = requsition.Id;
+            requsitionViewModel.Form = requsition.Form;
+            requsitionViewModel.To = requsition.To;
+            requsitionViewModel.Description = requsition.Description;
+            requsitionViewModel.Employee = employee.Where(c => c.Id == requsition.EmployeeId).FirstOrDefault();
+            requsitionViewModel.Manager = manager.Where(c => c.RequsitionId == requsition.Id).FirstOrDefault();
 
-            CommentViewModel commentViewModel = new CommentViewModel();
-            
-            commentViewModel.RequsitionViewModelId = requsition.Id;
-            commentViewModel.RequsitionViewModel.Form = requsition.Form;
-            commentViewModel.RequsitionViewModel.To = requsition.To;
-            commentViewModel.RequsitionViewModel.Description = requsition.Description;
-            commentViewModel.RequsitionViewModel.JourneyStart = requsition.JourneyStart;
-            commentViewModel.RequsitionViewModel.JouneyEnd = requsition.JouneyEnd;
-
-            //commentViewModel.RequsitionViewModel.EmployeeId = requsition.EmployeeId;
-
-            //RequsitionViewModel requsitionViewModel = new RequsitionViewModel();
-            //requsitionViewModel.Id = requsition.Id;
-            //requsitionViewModel.Employee = employee.Where(c => c.Id == requsition.EmployeeId).FirstOrDefault();
-
-
-            return View(commentViewModel);
+            if (requsition == null)
+            {
+                return HttpNotFound();
+            }
+            return View(requsitionViewModel);
         }
 
 
         // GET: Requsition/Create
         public ActionResult Create()
         {
-            //var employee = _employeeManager.GetAll();
-            var employee = _employeeManager.GetAll();
-            var empl = employee.Where(c => c.IsDriver == false);
             var employees = _employeeManager.Get(c => c.IsDriver == false && c.IsDeleted == false);
-
             RequsitionViewModel requsitionVM = new RequsitionViewModel();
-            
-            requsitionVM.Employees = empl;
+            requsitionVM.Employees = employees;
+
             return View(requsitionVM);
         }
 

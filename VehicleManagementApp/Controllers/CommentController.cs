@@ -4,13 +4,23 @@ using System.Linq;
 using System.Web;
 using Microsoft.AspNet.Identity;
 using System.Web.Mvc;
+using VehicleManagementApp.BLL.Contracts;
 using VehicleManagementApp.Models.Models;
-
+using VehicleManagementApp.ViewModels;
+using System.Reflection.Emit;
+using System.Text.RegularExpressions;
+using System.Data.Entity;
 
 namespace VehicleManagementApp.Controllers
 {
     public class CommentController : Controller
     {
+        private ICommentManager commentManager;
+
+        public CommentController(ICommentManager comment)
+        {
+            this.commentManager = comment;
+        }
         // GET: Comment
         public ActionResult Index()
         {
@@ -32,14 +42,15 @@ namespace VehicleManagementApp.Controllers
 
         // POST: Comment/Create
         [HttpPost]
-        public ActionResult Create(Comment comment)
+        public ActionResult Create(RequsitionViewModel RequsitionViewModel)
         {
+            Comment comment = new Comment();
+
+            commentManager.Add(comment);
+            return RedirectToAction("Index");
             try
             {
-                var userId = User.Identity.GetUserId();
-
-
-                return RedirectToAction("Index");
+                
             }
             catch
             {

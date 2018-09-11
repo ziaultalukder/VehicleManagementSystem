@@ -97,3 +97,39 @@ D:\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\bin\Debug\V
 D:\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\obj\Debug\VehicleManagementApp.Repository.Contracts.csprojResolveAssemblyReference.cache
 D:\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\obj\Debug\VehicleManagementApp.Repository.Contracts.dll
 D:\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\obj\Debug\VehicleManagementApp.Repository.Contracts.pdb
+C:\Users\bcc\Desktop\Removable Disk\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\bin\Debug\VehicleManagementApp.Repository.Contracts.dll
+C:\Users\bcc\Desktop\Removable Disk\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\bin\Debug\VehicleManagementApp.Repository.Contracts.pdb
+C:\Users\bcc\Desktop\Removable Disk\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\bin\Debug\VehicleManagementApp.Models.Contracts.dll
+C:\Users\bcc\Desktop\Removable Disk\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\bin\Debug\VehicleManagementApp.Models.dll
+C:\Users\bcc\Desktop\Removable Disk\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\bin\Debug\VehicleManagementApp.Models.Contracts.pdb
+C:\Users\bcc\Desktop\Removable Disk\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\bin\Debug\VehicleManagementApp.Models.pdb
+C:\Users\bcc\Desktop\Removable Disk\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\obj\Debug\VehicleManagementApp.Repository.Contracts.csprojResolveAssemblyReference.cache
+C:\Users\bcc\Desktop\Removable Disk\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\obj\Debug\VehicleManagementApp.Repository.Contracts.dll
+C:\Users\bcc\Desktop\Removable Disk\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\obj\Debug\VehicleManagementApp.Repository.Contracts.pdb
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\bin\Debug\VehicleManagementApp.Repository.Contracts.dll
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\bin\Debug\VehicleManagementApp.Repository.Contracts.pdb
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\bin\Debug\VehicleManagementApp.Models.Contracts.dll
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\bin\Debug\VehicleManagementApp.Models.dll
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\bin\Debug\VehicleManagementApp.Models.Contracts.pdb
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\bin\Debug\VehicleManagementApp.Models.pdb
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\obj\Debug\VehicleManagementApp.Repository.Contracts.csprojResolveAssemblyReference.cache
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\obj\Debug\VehicleManagementApp.Repository.Contracts.dll
+G:\Git VMA\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\obj\Debug\VehicleManagementApp.Repository.Contracts.pdb
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\bin\Debug\VehicleManagementApp.Repository.Contracts.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\bin\Debug\VehicleManagementApp.Repository.Contracts.pdb
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\bin\Debug\VehicleManagementApp.Models.Contracts.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\bin\Debug\VehicleManagementApp.Models.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\bin\Debug\VehicleManagementApp.Models.Contracts.pdb
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\bin\Debug\VehicleManagementApp.Models.pdb
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\obj\Debug\VehicleManagementApp.Repository.Contracts.csprojResolveAssemblyReference.cache
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\obj\Debug\VehicleManagementApp.Repository.Contracts.dll
+C:\Users\Ziaul\Desktop\VehicleManagementSystem\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\obj\Debug\VehicleManagementApp.Repository.Contracts.pdb
+E:\Web Application In C#\New Git Files VMA\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\bin\Debug\VehicleManagementApp.Repository.Contracts.dll
+E:\Web Application In C#\New Git Files VMA\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\bin\Debug\VehicleManagementApp.Repository.Contracts.pdb
+E:\Web Application In C#\New Git Files VMA\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\bin\Debug\VehicleManagementApp.Models.Contracts.dll
+E:\Web Application In C#\New Git Files VMA\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\bin\Debug\VehicleManagementApp.Models.dll
+E:\Web Application In C#\New Git Files VMA\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\bin\Debug\VehicleManagementApp.Models.Contracts.pdb
+E:\Web Application In C#\New Git Files VMA\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\bin\Debug\VehicleManagementApp.Models.pdb
+E:\Web Application In C#\New Git Files VMA\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\obj\Debug\VehicleManagementApp.Repository.Contracts.csprojResolveAssemblyReference.cache
+E:\Web Application In C#\New Git Files VMA\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\obj\Debug\VehicleManagementApp.Repository.Contracts.dll
+E:\Web Application In C#\New Git Files VMA\VehicleManagementSystem\VehicleManagementApp.Repository.Contracts\obj\Debug\VehicleManagementApp.Repository.Contracts.pdb

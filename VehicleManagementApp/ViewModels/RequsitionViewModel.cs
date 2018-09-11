@@ -52,5 +52,8 @@ namespace VehicleManagementApp.ViewModels
 
         public int EmployeeViewModelId { get; set; }
         public EmployeeViewModel EmployeeViewModel { get; set; }
+
+        public int CommentViewModelId { get; set; }
+        public CommentViewModel CommentViewModel { get; set; }
     }
 }

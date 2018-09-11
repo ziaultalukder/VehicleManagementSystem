@@ -8,41 +8,38 @@
 
 <table class="table table-bordered table-striped" id="myTable">
     <thead>
-        <tr>
-            <th>@Html.Raw("SL")</th>
-            <th>
-                @Html.Raw("Requsition From")
-            </th>
-            <th>
-                @Html.Raw("Requsition To")
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.VehicleId)
-            </th>
-            <th></th>
-        </tr>
+    <tr>
+        <th>@Html.Raw("SL")</th>
+        <th>
+            @Html.Raw("Requsition From")
+        </th>
+        <th>
+            @Html.Raw("Requsition To")
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VehicleId)
+        </th>
+        <th></th>
+    </tr>
     </thead>
     <tbody>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>@(sl++)</td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Requsition.Form)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Requsition.To)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Vehicle.VehicleName)
-                </td>
-                <td>
-                    @Html.ActionLink("Check Out", "CheckOutEdit", new { id = item.Id }, new {@class="btn btn-info"}) 
-                </td>
-            </tr>
-        }
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@(sl++)</td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Requsition.Form)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Requsition.To)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Vehicle.VehicleName)
+            </td>
+            <td>
+                @Html.ActionLink("Check Out", "CheckOutEdit", new {id = item.Id}, new {@class = "btn btn-info"})
+            </td>
+        </tr>
+    }
     </tbody>
-
-    
-
 </table>
