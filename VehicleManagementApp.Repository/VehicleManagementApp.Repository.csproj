@@ -148,6 +148,14 @@
     <Compile Include="Migrations\201809041720370_RequsitionTableChanges.Designer.cs">
       <DependentUpon>201809041720370_RequsitionTableChanges.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201809090941105_VehicleTableAddFieldStatus.cs" />
+    <Compile Include="Migrations\201809090941105_VehicleTableAddFieldStatus.Designer.cs">
+      <DependentUpon>201809090941105_VehicleTableAddFieldStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201809101717276_ManagerTableStatusFieldAdded.cs" />
+    <Compile Include="Migrations\201809101717276_ManagerTableStatusFieldAdded.Designer.cs">
+      <DependentUpon>201809101717276_ManagerTableStatusFieldAdded.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="OrganaizationRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -248,6 +256,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201809041720370_RequsitionTableChanges.resx">
       <DependentUpon>201809041720370_RequsitionTableChanges.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809090941105_VehicleTableAddFieldStatus.resx">
+      <DependentUpon>201809090941105_VehicleTableAddFieldStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809101717276_ManagerTableStatusFieldAdded.resx">
+      <DependentUpon>201809101717276_ManagerTableStatusFieldAdded.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

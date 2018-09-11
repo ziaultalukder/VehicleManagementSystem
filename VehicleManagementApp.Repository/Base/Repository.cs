@@ -70,7 +70,7 @@ namespace VehicleManagementApp.Repository.Repository
         VehicleDatabaseContext db = new VehicleDatabaseContext();
         public override ICollection<T> GetAll(bool withDeleted = false)
         {
-            return db.Set<T>().Where(x => x.IsDeleted == false || x.IsDeleted == withDeleted).ToList();
+            return db.Set<T>().Where(x => x.IsDeleted == false || x.IsDeleted == withDeleted).AsNoTracking().ToList();
         }
         
     }

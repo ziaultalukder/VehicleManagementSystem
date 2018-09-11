@@ -17,18 +17,34 @@
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
         @Html.HiddenFor(model => model.Id)
 
-        @*<div class="form-group">
-            @Html.LabelFor(model => model.RequsitionId, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.RequsitionId, htmlAttributes: new {@class = "control-label col-md-2"})
             <div class="col-md-10">
-                @Html.EditorFor(model => model.RequsitionId, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.RequsitionId, "", new { @class = "text-danger" })
+                @Html.HiddenFor(model => model.RequsitionId, new {htmlAttributes = new {@class = "form-control"}})
+                @Html.ValidationMessageFor(model => model.RequsitionId, "", new {@class = "text-danger"})
             </div>
-        </div>*@
+        </div>
 
         <div class="form-group">
             @Html.LabelFor(model => model.VehicleId, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.DropDownList("VehicleId",null,"Select Car",  new { @class = "form-control"  })
+                @Html.DropDownListFor(model=>model.VehicleId, new SelectList(Model.Vehicles, "Id", "VehicleName"), " Select Car ",  new { @class = "form-control"  })
+                @Html.ValidationMessageFor(model => model.VehicleId, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.EmployeeId, htmlAttributes: new {@class = "control-label col-md-2"})
+            <div class="col-md-10">
+                @Html.DropDownListFor(model=>model.EmployeeId, new SelectList(Model.Employees,"Id", "Name") , "Select Driver", new {@class = "form-control", id="employeeDD"})
+                @Html.ValidationMessageFor(model => model.EmployeeId, "", new {@class = "text-danger"})
+            </div>
+        </div>
+
+        @*<div class="form-group">
+            @Html.LabelFor(model => model.VehicleId, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("VehicleId",null, " Select Car ",  new { @class = "form-control"  })
                 @Html.ValidationMessageFor(model => model.VehicleId, "", new { @class = "text-danger" })
             </div>
         </div>
@@ -39,19 +55,7 @@
                 @Html.DropDownList("EmployeeId", null, "Select Driver", new {@class = "form-control", id="employeeDD"})
                 @Html.ValidationMessageFor(model => model.EmployeeId, "", new {@class = "text-danger"})
             </div>
-        </div>
-
-        <div class="form-group">
-            @Html.LabelFor(model => model.DriverNo, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.DropDownList("DriverNo", null, new { @class = "form-control", id = "DriverNumber" })
-
-                @*@Html.EditorFor(model=>model.DriverNo, new { htmlAttributes = new { @class = "form-control", id="DriverNumber"} })*@
-
-                @Html.ValidationMessageFor(model => model.DriverNo, "", new { @class = "text-danger" })
-            </div>
-        </div>
-
+        </div>*@
 
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
@@ -65,36 +69,3 @@
     @Html.ActionLink("Back to List", "New")
 </div>
 
-@section scripts{
-    <script>
-        $(document).ready(function() {
-            $("#employeeDD").change(function () {
-                var permanentDivisionId = $("#employeeDD").val();
-                var permanentTargetId = "#DriverNumber";
-                GetPermanentDistrictAndBind(permanentDivisionId, permanentTargetId);
-            });
-        });
-        function GetPermanentDistrictAndBind(permanentDivisionId, permanentTargetId) {
-
-            var jsonData = { employeeId : permanentDivisionId };
-            $.ajax({
-                url: "/Employee/GetEmployePhoneNo",
-                data: jsonData,
-                type: "POST",
-                success: function (response) {
-                    $(permanentTargetId).empty();
-
-                    var options = "<option>Select.....</option>";
-                    $.each(response,
-                        function (key, district) {
-                            options += "<option value='" + district.Id + "'>" + district.ContactNo + "</option>";
-                        });
-                    $(permanentTargetId).append(options);
-                },
-                error: function (response) {
-
-                }
-            });
-        }
-    </script>
-}

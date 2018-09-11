@@ -12,6 +12,7 @@ namespace VehicleManagementApp.Models.Models
     {
         public int Id { get; set; }
         public string DriverNo { get; set; }
+        public string Status { get; set; }
         public int RequsitionId { get; set; }
         public Requsition Requsition { get; set; }
 
@@ -20,6 +21,7 @@ namespace VehicleManagementApp.Models.Models
 
         public int EmployeeId { get; set; }
         public Employee Employee { get; set; }
+
         public bool IsDeleted { get; set; }
         public bool withDeleted()
         {

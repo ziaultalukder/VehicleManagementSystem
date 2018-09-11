@@ -13,8 +13,12 @@ namespace VehicleManagementApp.ViewModels
         public int CommntId { get; set; }
         public Comment Commnt { get; set; }
         public IEnumerable<Comment> Commentss { get; set; }
+
         public int EmployeeId { get; set; }
         public Employee Employee { get; set; }
         public IEnumerable<Employee> Employees { get; set; }
+
+        public int RequsitionViewModelId { get; set; }
+        public RequsitionViewModel RequsitionViewModel { get; set; }
     }
 }

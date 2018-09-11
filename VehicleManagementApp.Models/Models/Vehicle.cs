@@ -18,6 +18,7 @@ namespace VehicleManagementApp.Models.Models
         public string VChesisNo { get; set; }
         public string VCapacity { get; set; }
         public string Description { get; set; }
+        public string Status { get; set; }
         public int VehicleTypeId { get; set; }
         public VehicleType VehicleType { get; set; }
         public bool IsDeleted { get; set; }

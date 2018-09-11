@@ -8,9 +8,12 @@
     
 }
 
-<p>
-    @Html.ActionLink("Create New Requsition", "Create")
-</p>
+<div class="row">
+    <div class="col-md-12">
+        @Html.ActionLink("New Requsition", "Create", new { id = "" }, new { @class = "btn btn-default btn-lg" })
+    </div>
+</div>
+<br/>
 <table class="table table-bordered table-striped" id="myTable">
     <thead>
     <tr>

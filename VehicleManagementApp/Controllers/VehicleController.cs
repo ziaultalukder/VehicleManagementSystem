@@ -42,6 +42,28 @@ namespace VehicleManagementApp.Controllers
             }
             return View(vehicleVM);
         }
+        public ActionResult VehicleList()
+        {
+            var vehicle = _vehicleManager.GetAll();
+            var vehicleType = _typeManager.GetAll();
+
+            List<VehicleViewModel> vehicleVM = new List<VehicleViewModel>();
+            foreach (var vehicledata in vehicle)
+            {
+                var vechileViewModel = new VehicleViewModel();
+                vechileViewModel.Id = vehicledata.Id;
+                vechileViewModel.VehicleName = vehicledata.VehicleName;
+                vechileViewModel.VModel = vehicledata.VModel;
+                vechileViewModel.VRegistrationNo = vehicledata.VRegistrationNo;
+                vechileViewModel.VChesisNo = vehicledata.VChesisNo;
+                vechileViewModel.VCapacity = vehicledata.VCapacity;
+                vechileViewModel.Description = vehicledata.Description;
+                vechileViewModel.VehicleType = vehicleType.Where(x => x.Id == vehicledata.VehicleTypeId).FirstOrDefault();
+                vehicleVM.Add(vechileViewModel);
+            }
+            ViewBag.TotalVehicle = vehicle.Count;
+            return View(vehicleVM);
+        }
 
         // GET: Vehicle/Details/5
         public ActionResult Details(int? id)

@@ -29,6 +29,9 @@ namespace VehicleManagementApp.Controllers
         }
         public ActionResult Index()
         {
+
+            GetRequsitionComplete();
+
             var requsition = _requsitionManager.GetAll();
             var employee = _employeeManager.GetAll();
             var requstionStatus = _requsitionStatusManager.GetAll();
@@ -50,6 +53,20 @@ namespace VehicleManagementApp.Controllers
             return View(requsitionViewList);
         }
 
+        private void GetRequsitionComplete()
+        {
+            var requsition = _requsitionManager.GetAll();
+            foreach (var allRequest in requsition)
+            {
+                var today = DateTime.Now;
+                if (allRequest.JouneyEnd < today)
+                {
+                    allRequest.Status = "Complete";
+                    _requsitionManager.Update(allRequest);
+                }
+            }
+        }
+
         // GET: Requsition/Details/5
         public ActionResult Details(int? id)
         {
@@ -60,18 +77,25 @@ namespace VehicleManagementApp.Controllers
 
             Requsition requsition = _requsitionManager.GetById((int) id);
             var employee = _employeeManager.Get(c => c.IsDriver == true && c.IsDeleted == false);
-            var manager = _managerManager.GetAll();
 
-            RequsitionViewModel requsitionViewModel = new RequsitionViewModel();
-            requsitionViewModel.Id = requsition.Id;
-            requsitionViewModel.Employee = employee.Where(c => c.Id == requsition.EmployeeId).FirstOrDefault();
-            requsitionViewModel.Manager = manager.Where(c => c.RequsitionId == requsition.Id).FirstOrDefault();
+
+            CommentViewModel commentViewModel = new CommentViewModel();
             
-            if (requsition == null)
-            {
-                return HttpNotFound();
-            }
-            return View(requsition);
+            commentViewModel.RequsitionViewModelId = requsition.Id;
+            commentViewModel.RequsitionViewModel.Form = requsition.Form;
+            commentViewModel.RequsitionViewModel.To = requsition.To;
+            commentViewModel.RequsitionViewModel.Description = requsition.Description;
+            commentViewModel.RequsitionViewModel.JourneyStart = requsition.JourneyStart;
+            commentViewModel.RequsitionViewModel.JouneyEnd = requsition.JouneyEnd;
+
+            //commentViewModel.RequsitionViewModel.EmployeeId = requsition.EmployeeId;
+
+            //RequsitionViewModel requsitionViewModel = new RequsitionViewModel();
+            //requsitionViewModel.Id = requsition.Id;
+            //requsitionViewModel.Employee = employee.Where(c => c.Id == requsition.EmployeeId).FirstOrDefault();
+
+
+            return View(commentViewModel);
         }
 
 
@@ -79,10 +103,13 @@ namespace VehicleManagementApp.Controllers
         public ActionResult Create()
         {
             //var employee = _employeeManager.GetAll();
+            var employee = _employeeManager.GetAll();
+            var empl = employee.Where(c => c.IsDriver == false);
             var employees = _employeeManager.Get(c => c.IsDriver == false && c.IsDeleted == false);
 
             RequsitionViewModel requsitionVM = new RequsitionViewModel();
-            requsitionVM.Employees = employees;
+            
+            requsitionVM.Employees = empl;
             return View(requsitionVM);
         }
 

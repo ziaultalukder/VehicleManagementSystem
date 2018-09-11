@@ -10,8 +10,10 @@ namespace VehicleManagementApp.ViewModels
     public class ManagerViewModel
     {
         public int Id { get; set; }
-
+        public string DriverName { get; set; }
         public string DriverNo { get; set; }
+        //public string EmployeeName { get; set; }
+        public string EmployeNumber { get; set; }
 
         [Display(Name = "Requsition")]
         public int RequsitionId { get; set; }
@@ -27,5 +29,7 @@ namespace VehicleManagementApp.ViewModels
         public int EmployeeId { get; set; }
         public Employee Employee { get; set; }
         public IEnumerable<Employee> Employees { get; set; }
+
+
     }
 }

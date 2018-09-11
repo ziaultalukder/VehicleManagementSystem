@@ -37,7 +37,32 @@
 
         <tr>
             <td></td>
-            <td style="margin-top: 50px;">@Html.ActionLink("Back to List", "New", new {@class= "btn btn-default" })</td>
+            <td>@Html.ActionLink("Back to List", "New", new {@class = "btn btn-default"})</td>
+            <td>@Html.ActionLink("Assign", "id=assign_Confirm", new {id = "Id"}, new {@class = "btn btn-info btn-lg"})</td>
+        </tr>
+
+        <tr id="assign_Confirm">
+            <td>Driver Name </td>
+            <td>Mr. Zia</td>
+
+            <td>Vehicle Name </td>
+            <td>Toyota</td>
+        </tr>
+        <tr>
+
         </tr>
     </table>
+
 </div>
+
+@section scripts{
+    <script>
+        $(document).ready(function() {
+            $("#assign_Confirm").click(function() {
+                $("#assign_Confirm").show();
+                $("#assign_Confirm").hide();
+
+            });
+        });
+    </script>
+}

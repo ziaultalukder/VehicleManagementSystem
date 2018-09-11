@@ -20,7 +20,7 @@ namespace VehicleManagementApp.Models.Models
         public DateTime JouneyEnd { get; set; }
         public string Status { get; set; }
         public int EmployeeId { get; set; }
-        public Employee Employee { get; set; }
+        public virtual Employee Employee { get; set; }
         
         public bool IsDeleted { get; set; }
         public bool withDeleted()

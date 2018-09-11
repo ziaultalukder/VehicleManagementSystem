@@ -639,9 +639,6 @@ E:\VehicleManagementSystem-master\VehicleManagementApp\bin\EntityFramework.xml
 E:\VehicleManagementSystem-master\VehicleManagementApp\obj\Debug\VehicleManagementApp.csprojResolveAssemblyReference.cache
 E:\VehicleManagementSystem-master\VehicleManagementApp\obj\Debug\VehicleManagementApp.dll
 E:\VehicleManagementSystem-master\VehicleManagementApp\obj\Debug\VehicleManagementApp.pdb
-D:\VehicleManagementSystem\VehicleManagementApp\obj\Debug\VehicleManagementApp.csprojResolveAssemblyReference.cache
-D:\VehicleManagementSystem\VehicleManagementApp\obj\Debug\VehicleManagementApp.dll
-D:\VehicleManagementSystem\VehicleManagementApp\obj\Debug\VehicleManagementApp.pdb
 D:\VehicleManagementSystem\VehicleManagementApp\bin\ApplicationInsights.config
 D:\VehicleManagementSystem\VehicleManagementApp\bin\roslyn\csc.exe
 D:\VehicleManagementSystem\VehicleManagementApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
@@ -665,6 +662,7 @@ D:\VehicleManagementSystem\VehicleManagementApp\bin\Microsoft.AI.ServerTelemetry
 D:\VehicleManagementSystem\VehicleManagementApp\bin\Microsoft.AI.Web.dll
 D:\VehicleManagementSystem\VehicleManagementApp\bin\Microsoft.AI.WindowsServer.dll
 D:\VehicleManagementSystem\VehicleManagementApp\bin\Microsoft.ApplicationInsights.dll
+D:\VehicleManagementSystem\VehicleManagementApp\bin\Microsoft.AspNet.Identity.Core.dll
 D:\VehicleManagementSystem\VehicleManagementApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\VehicleManagementSystem\VehicleManagementApp\bin\Microsoft.Web.Infrastructure.dll
 D:\VehicleManagementSystem\VehicleManagementApp\bin\System.Web.Helpers.dll
@@ -695,6 +693,7 @@ D:\VehicleManagementSystem\VehicleManagementApp\bin\Microsoft.AI.ServerTelemetry
 D:\VehicleManagementSystem\VehicleManagementApp\bin\Microsoft.AI.Web.xml
 D:\VehicleManagementSystem\VehicleManagementApp\bin\Microsoft.AI.WindowsServer.xml
 D:\VehicleManagementSystem\VehicleManagementApp\bin\Microsoft.ApplicationInsights.xml
+D:\VehicleManagementSystem\VehicleManagementApp\bin\Microsoft.AspNet.Identity.Core.xml
 D:\VehicleManagementSystem\VehicleManagementApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 D:\VehicleManagementSystem\VehicleManagementApp\bin\Unity.Mvc.xml
 D:\VehicleManagementSystem\VehicleManagementApp\bin\System.Web.Razor.xml
@@ -704,3 +703,6 @@ D:\VehicleManagementSystem\VehicleManagementApp\bin\System.Web.Webpages.Razor.xm
 D:\VehicleManagementSystem\VehicleManagementApp\bin\System.Web.Helpers.xml
 D:\VehicleManagementSystem\VehicleManagementApp\bin\System.Web.Mvc.xml
 D:\VehicleManagementSystem\VehicleManagementApp\bin\EntityFramework.xml
+D:\VehicleManagementSystem\VehicleManagementApp\obj\Debug\VehicleManagementApp.csprojResolveAssemblyReference.cache
+D:\VehicleManagementSystem\VehicleManagementApp\obj\Debug\VehicleManagementApp.dll
+D:\VehicleManagementSystem\VehicleManagementApp\obj\Debug\VehicleManagementApp.pdb

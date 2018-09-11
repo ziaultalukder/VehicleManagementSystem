@@ -46,7 +46,6 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="logo_images pull-left">
-
                         <a href="#"><img src="~/img/logo.png" class="img-responsive" alt="logo"></a>
                     </div>
                 </div>
@@ -94,12 +93,20 @@
                                         <li>@Html.ActionLink("Designation", "Index", "Designation")</li>
                                     </ul>
                                 </li>
+                                <li>@Html.ActionLink("Driver", "Driver", "Employee")</li>
                             </ul>
                         </li>
                         <li>@Html.ActionLink("Requsition", "Index", "Requsition")</li>
-                        <li>@Html.ActionLink("Requsition Queue","Index","Manager")</li>
-                        <li><a href="#aboutus">About Us</a></li>
-                        <li><a href="#contactUs">Contact Us</a></li>
+                        <li>@Html.ActionLink("Requsition Queue", "Index", "Manager")</li>
+                        <li class="dropdown">
+                            <a href="#">Gate Pass</a>
+                            <ul class="dropdown-menu">
+                                <li>@Html.ActionLink("Check In", "sdfsdf", "Manager")</li>
+                                <li>@Html.ActionLink("Check Out", "CheckOut", "Manager")</li>
+                            </ul>
+                        </li>
+                        <li><a href="aboutus">About Us</a></li>
+                        <li><a href="contactUs">Contact Us</a></li>
                     </ul>
                 </div><!--/.nav-collapse -->
             </div>
@@ -124,7 +131,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="theme text-centre">
-                            <p class="text-centre"> All right Reserved 2017</p>
+                            <p class="text-centre"> All right Reserved @DateTime.Now.Year</p>
                         </div>
                     </div>
                 </div>

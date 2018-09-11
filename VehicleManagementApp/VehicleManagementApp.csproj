@@ -71,6 +71,10 @@
       <HintPath>..\packages\Microsoft.ApplicationInsights.2.0.0\lib\net45\Microsoft.ApplicationInsights.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.1\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
       <Private>True</Private>
@@ -456,6 +460,7 @@
     <Compile Include="BundleConfig\RouteConfig.cs" />
     <Compile Include="BundleConfig\UnityConfig.cs" />
     <Compile Include="BundleConfig\UnityMvcActivator.cs" />
+    <Compile Include="Controllers\CommentController.cs" />
     <Compile Include="Controllers\DepartmentController.cs" />
     <Compile Include="Controllers\DesignationController.cs" />
     <Compile Include="Controllers\DistrictController.cs" />
@@ -563,15 +568,27 @@
     <Content Include="Views\Manager\OnProgress.cshtml" />
     <Content Include="Views\Manager\AssignIndex.cshtml" />
     <Content Include="Views\Requsition\DriverAndCar.cshtml" />
+    <Content Include="Views\Employee\Driver.cshtml" />
+    <Content Include="Views\Employee\DriverList.cshtml" />
+    <Content Include="Views\Vehicle\VehicleList.cshtml" />
+    <Content Include="Views\Manager\Complete.cshtml" />
+    <Content Include="Views\Manager\Car.cshtml" />
+    <Content Include="Views\Manager\AssignCar.cshtml" />
+    <Content Include="Views\Manager\NonAssignCar.cshtml" />
+    <Content Include="Views\Requsition\_CommentPartial.cshtml" />
+    <Content Include="Views\Manager\CheckOut.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
+      <SubType>Designer</SubType>
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
+      <SubType>Designer</SubType>
     </None>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Comment\" />
     <Folder Include="Views\User\" />
   </ItemGroup>
   <ItemGroup>

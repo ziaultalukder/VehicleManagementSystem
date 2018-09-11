@@ -69,7 +69,8 @@
                     @Html.DisplayFor(modelItem => item.VCapacity)
                 </td>
 
-                <td>@Html.Raw(item.Description.Length > 80 ? item.Description.Substring(0, 80) : item.Description)@Html.DisplayFor(modelItem => item.Description)
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
                 </td>
                 
                 <td>

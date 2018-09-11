@@ -1,10 +1,9 @@
-﻿@model VehicleManagementApp.Models.Models.Requsition
+﻿@model VehicleManagementApp.ViewModels.CommentViewModel
 
 @{
     ViewBag.Title = "Details";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
 
 <div class="container">
     <div class="row">
@@ -17,36 +16,31 @@
                 </tr>
                 <tr>
                     <td>Form</td>
-                    <td>@Html.DisplayFor(model => model.Form)</td>
+                    <td>@Html.DisplayFor(model => model.RequsitionViewModel.Form)</td>
                 </tr>
                 <tr>
                     <td>To</td>
-                    <td>@Html.DisplayFor(model => model.To)</td>
+                    <td>@Html.DisplayFor(model => model.RequsitionViewModel.To)</td>
                 </tr>
                 <tr>
                     <td>Description</td>
-                    <td>@Html.DisplayFor(model => model.Description)</td>
+                    <td>@Html.DisplayFor(model => model.RequsitionViewModel.Description)</td>
                 </tr>
                 <tr>
                     <td>Start Time</td>
-                    <td>@Html.DisplayFor(model => model.JourneyStart)</td>
+                    <td>@Html.DisplayFor(model => model.RequsitionViewModel.JourneyStart)</td>
                 </tr>
                 <tr>
                     <td>End Time</td>
-                    <td>@Html.DisplayFor(model => model.JouneyEnd)</td>
+                    <td>@Html.DisplayFor(model => model.RequsitionViewModel.JouneyEnd)</td>
                 </tr>
             </table>
-            <div class="comment_section">
-                <form>
-                    <div class="form-group">
-                        <label for="comment">Comment:</label>
-                        <textarea class="form-control" rows="4" id="comment"></textarea>
-                    </div>
-                </form>
-            </div>
         </div>
     </div>
 </div>
+
+
+
 <p>
     @Html.ActionLink("Edit", "Edit", new {id = Model.Id}) |
     @Html.ActionLink("Back to List", "Index")

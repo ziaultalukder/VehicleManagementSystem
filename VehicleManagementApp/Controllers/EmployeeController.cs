@@ -34,7 +34,7 @@ namespace VehicleManagementApp.Controllers
         {
             var department = _departmentManager.GetAll();
             var designation = _designationManager.GetAll();
-            var employee = _employeeManager.GetAll();
+            var employee = _employeeManager.Get(c=>c.IsDriver == false && c.IsDeleted == false);
             var division = _divisionManager.GetAll();
             var district = _districtManager.GetAll();
             var thana = _thanaManager.GetAll();
@@ -48,7 +48,7 @@ namespace VehicleManagementApp.Controllers
                 employeeVM.ContactNo = emploeedata.ContactNo;
                 employeeVM.Email = emploeedata.Email;
                 employeeVM.Address1 = emploeedata.Address1;
-                employeeVM.Address2 = employeeVM.Address2;
+                employeeVM.Address2 = emploeedata.Address2;
                 employeeVM.LicenceNo = emploeedata.LicenceNo;
                 employeeVM.Department = department.Where(x => x.Id == emploeedata.DepartmentId).FirstOrDefault();
                 employeeVM.Designation = designation.Where(x => x.Id == emploeedata.DesignationId).FirstOrDefault();
@@ -141,7 +141,7 @@ namespace VehicleManagementApp.Controllers
             employeeVM.ContactNo = employee.ContactNo;
             employeeVM.Email = employee.Email;
             employeeVM.Address1 = employee.Address1;
-            employeeVM.Address2 = employeeVM.Address2;
+            employeeVM.Address2 = employee.Address2;
             employeeVM.LicenceNo = employee.LicenceNo;
             employeeVM.IsDriver = employee.IsDriver;
             employeeVM.DepartmentId = employee.DepartmentId;
@@ -173,6 +173,7 @@ namespace VehicleManagementApp.Controllers
                 employee.Address1 = employeeVM.Address1;
                 employee.Address2 = employeeVM.Address2;
                 employee.LicenceNo = employeeVM.LicenceNo;
+                employee.IsDriver = employeeVM.IsDriver;
                 employee.DepartmentId = employeeVM.DepartmentId;
                 employee.DesignationId = employeeVM.DesignationId;
                 employee.DivisionId = employeeVM.DivisionId;
@@ -216,6 +217,37 @@ namespace VehicleManagementApp.Controllers
             }
         }
 
+        public ActionResult Driver()
+        {
+            var employee = _employeeManager.Get(c => c.IsDriver == true && c.IsDeleted == false);
+            var department = _departmentManager.GetAll();
+            var designation = _designationManager.GetAll();
+            var division = _divisionManager.GetAll();
+            var district = _districtManager.GetAll();
+            var thana = _thanaManager.GetAll();
+
+            List<EmployeeViewModel> employeeViewList = new List<EmployeeViewModel>();
+            foreach (var emploeedata in employee)
+            {
+                var employeeVM = new EmployeeViewModel();
+                employeeVM.Id = emploeedata.Id;
+                employeeVM.Name = emploeedata.Name;
+                employeeVM.ContactNo = emploeedata.ContactNo;
+                employeeVM.Email = emploeedata.Email;
+                employeeVM.Address1 = emploeedata.Address1;
+                employeeVM.Address2 = emploeedata.Address2;
+                employeeVM.LicenceNo = emploeedata.LicenceNo;
+                employeeVM.Department = department.Where(x => x.Id == emploeedata.DepartmentId).FirstOrDefault();
+                employeeVM.Designation = designation.Where(x => x.Id == emploeedata.DesignationId).FirstOrDefault();
+                employeeVM.Division = division.Where(x => x.Id == emploeedata.DivisionId).FirstOrDefault();
+                employeeVM.District = district.Where(x => x.Id == emploeedata.DistrictId).FirstOrDefault();
+                employeeVM.Thana = thana.Where(x => x.Id == emploeedata.ThanaId).FirstOrDefault();
+
+                employeeViewList.Add(employeeVM);
+            }
+            return View(employeeViewList);
+        }
+
         public JsonResult GetEmployePhoneNo(int? employeeId)
         {
             if (employeeId == null)
@@ -227,5 +259,33 @@ namespace VehicleManagementApp.Controllers
             var employeeNumber = employee.Where(c => c.Id == employeeId).ToList();
             return Json(employeeNumber, JsonRequestBehavior.AllowGet);
         }
+
+        public ActionResult DriverList()
+        {
+            var driverList = _employeeManager.Get(c => c.IsDriver == true && c.IsDeleted == false);
+            var department = _departmentManager.GetAll();
+            var designation = _designationManager.GetAll();
+
+            List<EmployeeViewModel> AllDriverList = new List<EmployeeViewModel>();
+            foreach (var emploeedata in driverList)
+            {
+                var employeeVM = new EmployeeViewModel();
+                employeeVM.Id = emploeedata.Id;
+                employeeVM.Name = emploeedata.Name;
+                employeeVM.ContactNo = emploeedata.ContactNo;
+                employeeVM.Email = emploeedata.Email;
+                employeeVM.Address1 = emploeedata.Address1;
+                employeeVM.Address2 = emploeedata.Address2;
+                employeeVM.LicenceNo = emploeedata.LicenceNo;
+                employeeVM.IsDriver = emploeedata.IsDriver;
+                employeeVM.Department = department.Where(x => x.Id == emploeedata.DepartmentId).FirstOrDefault();
+                employeeVM.Designation = designation.Where(x => x.Id == emploeedata.DesignationId).FirstOrDefault();
+
+                AllDriverList.Add(employeeVM);
+            }
+            ViewBag.TotalDriver = driverList.Count;
+            return View(AllDriverList);
+        }
+
     }
 }

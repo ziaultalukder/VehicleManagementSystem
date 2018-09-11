@@ -22,25 +22,21 @@ namespace VehicleManagementApp.ViewModels
 
         [Required]
         [Display(Name = "Journey Start")]
-        //[DataType(DataType.DateTime)]
-        //[DisplayFormat(DataFormatString = "{0:yyyy-MM-dd HH:mm}", ApplyFormatInEditMode = true)]
         public DateTime JourneyStart { get; set; }
 
         [Required]
         [Display(Name = "Journey End")]
-        //[DataType(DataType.DateTime)]
-        //[DisplayFormat(DataFormatString = "{0:yyyy-MM-dd HH:mm}", ApplyFormatInEditMode = true)]
         public DateTime JouneyEnd { get; set; }
 
         public string Status { get; set; }
 
-        //[DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:dd/MMM/yyyy}")]
+        [DataType(DataType.Time)]
         public DateTime Time { get; set; }
 
 
         [Display(Name = "Employee")]
         public int EmployeeId { get; set; }
-        public Employee Employee { get; set; }
+        public virtual Employee Employee { get; set; }
         public IEnumerable<Employee> Employees { get; set; }
 
 
@@ -54,6 +50,7 @@ namespace VehicleManagementApp.ViewModels
         public Manager Manager { get; set; }
         public IEnumerable<Manager> Managers { get; set; }
 
-        
+        public int EmployeeViewModelId { get; set; }
+        public EmployeeViewModel EmployeeViewModel { get; set; }
     }
 }
