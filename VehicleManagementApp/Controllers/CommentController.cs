@@ -44,13 +44,15 @@ namespace VehicleManagementApp.Controllers
         [HttpPost]
         public ActionResult Create(RequsitionViewModel RequsitionViewModel)
         {
-            Comment comment = new Comment();
-
-            commentManager.Add(comment);
-            return RedirectToAction("Index");
+            
             try
             {
-                
+                Comment comment = new Comment();
+                comment.RequsitionId = RequsitionViewModel.Id;
+                comment.Comments = RequsitionViewModel.CommentViewModel.Comments;
+
+                commentManager.Add(comment);
+                return RedirectToAction("Details", "Requsition");
             }
             catch
             {

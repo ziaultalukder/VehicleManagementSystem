@@ -1,4 +1,5 @@
-﻿@model VehicleManagementApp.ViewModels.RequsitionViewModel
+﻿@using VehicleManagementApp.ViewModels
+@model VehicleManagementApp.ViewModels.RequsitionViewModel
 @{
     ViewBag.Title = "Details";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -34,52 +35,67 @@
                     <td>@Html.DisplayFor(model => model.JouneyEnd)</td>
                 </tr>
             </table>
-            <div class="comment_section">
-                <form>
-                    <div class="form-group">
-                        <label for="comment">Comment:</label>
-                        <textarea class="form-control" rows="4" id="comment"></textarea>
-                    </div>
-                </form>
-            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12 pull-left">
+        <div>
+            @using (Html.BeginForm("CreateComment", "Requsition"))
+            {
+                @Html.AntiForgeryToken()
 
+
+                <div class="form-group">
+                    @Html.HiddenFor(model => model.Id, htmlAttributes: new {@class = "control-label col-md-2"})
+                    <div class="col-md-10">
+                        @Html.HiddenFor(model => model.Id, new {htmlAttributes = new {@class = "form-control"}})
+                        @Html.ValidationMessageFor(model => model.Id, "", new {@class = "text-danger"})
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-md-4">Comment</label>
+                    @*@Html.LabelFor(model => model.CommentViewModel.Comments, htmlAttributes: new {@class = "control-label col-md-2"})*@
+                    <div class="col-md-12">
+                        @Html.EditorFor(model => model.CommentViewModel.Comments, new {htmlAttributes = new {@class = "form-control"}})
+                        @Html.ValidationMessageFor(model => model.CommentViewModel.Comments, "", new {@class = "text-danger"})
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-4">
+                        <br/>
+                        <input type="submit" value="Post Comment" class="btn btn-default"/>
+                    </div>
+                </div>
+            }
+        </div>
+
+    </div>
+    <div class="col-md-12">
+        <div class="comment_text">
+            <table class="table">
+                <tr>
+                    <th>Your Comment :</th>
+                </tr>
+                
+                @*@foreach (var item in Model.CommentViewModel.Comments)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(model => model.CommentViewModel.Comments)</td>
+                    </tr>
+                }*@
+            </table>
         </div>
     </div>
 </div>
 
-<div>
-    @using (Html.BeginForm("Create", "Comment"))
-    {
-        @Html.AntiForgeryToken()
-        <div class="form-horizontal">
-
-            <div class="form-group">
-                @Html.LabelFor(model => model.Id, htmlAttributes: new {@class = "control-label col-md-2"})
-                <div class="col-md-10">
-                    @Html.EditorFor(model => model.Id, new {htmlAttributes = new {@class = "form-control"}})
-                    @Html.ValidationMessageFor(model => model.Id, "", new {@class = "text-danger"})
-                </div>
-            </div>
-
-            <div class="form-group">
-                @Html.LabelFor(model => model.CommentViewModel.Comments, htmlAttributes: new {@class = "control-label col-md-2"})
-                <div class="col-md-10">
-                    @Html.EditorFor(model => model.CommentViewModel.Comments, new {htmlAttributes = new {@class = "form-control"}})
-                    @Html.ValidationMessageFor(model => model.CommentViewModel.Comments, "", new {@class = "text-danger"})
-                </div>
-            </div>
-            <div class="form-group">
-                <div class="col-md-offset-2 col-md-10">
-                    <input type="submit" value="Create" class="btn btn-default" />
-                </div>
-            </div>
-        </div>
-    }
-</div>
 
 
 
 <p>
+    <br/>
     @Html.ActionLink("Edit", "Edit", new {id = Model.Id}) |
     @Html.ActionLink("Back to List", "Index")
 </p>

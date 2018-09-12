@@ -29,13 +29,7 @@
             <th>
                 @Html.DisplayNameFor(model => model.LicenceNo)
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DepartmentId)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DesignationId)
-            </th>
-
+            
             <th></th>
         </tr>
     </thead>
@@ -57,12 +51,6 @@
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.LicenceNo)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Department.Name)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Designation.Name)
                 </td>
                 <td>
                     @Html.ActionLink("Details", "Details", new { id = item.Id }, new { @class = "btn btn-info btn-sm" })

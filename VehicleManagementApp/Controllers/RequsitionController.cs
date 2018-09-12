@@ -18,14 +18,16 @@ namespace VehicleManagementApp.Controllers
         private IRequsitionStatusManager _requsitionStatusManager;
         private IManagerManager _managerManager;
         private IVehicleManager vehicleManager;
+        private ICommentManager commentManager;
 
-        public RequsitionController(IRequsitionManager requsition, IEmployeeManager employee, IRequsitionStatusManager requsitionStatus, IManagerManager manager, IVehicleManager vehicle)
+        public RequsitionController(IRequsitionManager requsition, IEmployeeManager employee, IRequsitionStatusManager requsitionStatus, IManagerManager manager, IVehicleManager vehicle, ICommentManager comment)
         {
             this._requsitionManager = requsition;
             this._employeeManager = employee;
             this._requsitionStatusManager = requsitionStatus;
             this._managerManager = manager;
             this.vehicleManager = vehicle;
+            this.commentManager = comment;
         }
         public ActionResult Index()
         {
@@ -210,6 +212,19 @@ namespace VehicleManagementApp.Controllers
             {
                 return View();
             }
+        }
+
+        public ActionResult CreateComment(RequsitionViewModel requsitionViewModel)
+        {
+            Comment comment = new Comment();
+            comment.RequsitionId = requsitionViewModel.Id;
+            comment.Comments = requsitionViewModel.CommentViewModel.Comments;
+            bool isSaved = commentManager.Add(comment);
+            if (isSaved)
+            {
+                return RedirectToAction("Details");
+            }
+            return View();
         }
     }
 }

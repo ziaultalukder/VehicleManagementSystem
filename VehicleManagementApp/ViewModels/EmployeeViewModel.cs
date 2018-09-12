@@ -22,6 +22,8 @@ namespace VehicleManagementApp.ViewModels
         public string Address2 { get; set; }
         public string LicenceNo { get; set; }
         public bool IsDriver { get; set; }
+
+        public string Status { get; set; }
         
         [Display(Name = "Department")]
         [Required]

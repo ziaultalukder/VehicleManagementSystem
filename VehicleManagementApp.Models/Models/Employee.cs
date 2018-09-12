@@ -32,6 +32,8 @@ namespace VehicleManagementApp.Models.Models
 
         public bool IsDriver { get; set; }
 
+        public string Status { get; set; }
+
         public int DepartmentId { get; set; }
         public Department Department { get; set; }
 

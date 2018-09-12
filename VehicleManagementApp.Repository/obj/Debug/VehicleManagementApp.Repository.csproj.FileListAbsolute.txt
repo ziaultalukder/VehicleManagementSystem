@@ -521,3 +521,5 @@ E:\Web Application In C#\New Git Files VMA\VehicleManagementSystem\VehicleManage
 E:\Web Application In C#\New Git Files VMA\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.csproj.GenerateResource.Cache
 E:\Web Application In C#\New Git Files VMA\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.dll
 E:\Web Application In C#\New Git Files VMA\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.pdb
+D:\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.CommentModelChanges.resources
+D:\VehicleManagementSystem\VehicleManagementApp.Repository\obj\Debug\VehicleManagementApp.Repository.Migrations.EmployeeTableStatusFieldAdded.resources

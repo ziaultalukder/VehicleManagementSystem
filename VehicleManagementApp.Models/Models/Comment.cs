@@ -12,11 +12,8 @@ namespace VehicleManagementApp.Models.Models
     {
         public int Id { get; set; }
         public string Comments { get; set; }
-        public int CommntId { get; set; }
+        public int? CommntId { get; set; }
         public Comment Commnt { get; set; }
-
-        public int EmployeeId { get; set; }
-        public Employee Employee { get; set; }
 
         public int RequsitionId { get; set; }
         public Requsition Requsition { get; set; }

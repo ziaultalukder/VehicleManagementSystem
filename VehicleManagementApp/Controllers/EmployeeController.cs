@@ -286,33 +286,5 @@ namespace VehicleManagementApp.Controllers
             var employeeNumber = employee.Where(c => c.Id == employeeId).ToList();
             return Json(employeeNumber, JsonRequestBehavior.AllowGet);
         }
-
-        public ActionResult DriverList()
-        {
-            var driverList = _employeeManager.Get(c => c.IsDriver == true && c.IsDeleted == false);
-            var department = _departmentManager.GetAll();
-            var designation = _designationManager.GetAll();
-
-            List<EmployeeViewModel> AllDriverList = new List<EmployeeViewModel>();
-            foreach (var emploeedata in driverList)
-            {
-                var employeeVM = new EmployeeViewModel();
-                employeeVM.Id = emploeedata.Id;
-                employeeVM.Name = emploeedata.Name;
-                employeeVM.ContactNo = emploeedata.ContactNo;
-                employeeVM.Email = emploeedata.Email;
-                employeeVM.Address1 = emploeedata.Address1;
-                employeeVM.Address2 = emploeedata.Address2;
-                employeeVM.LicenceNo = emploeedata.LicenceNo;
-                employeeVM.IsDriver = emploeedata.IsDriver;
-                employeeVM.Department = department.Where(x => x.Id == emploeedata.DepartmentId).FirstOrDefault();
-                employeeVM.Designation = designation.Where(x => x.Id == emploeedata.DesignationId).FirstOrDefault();
-
-                AllDriverList.Add(employeeVM);
-            }
-            ViewBag.TotalDriver = driverList.Count;
-            return View(AllDriverList);
-        }
-
     }
 }

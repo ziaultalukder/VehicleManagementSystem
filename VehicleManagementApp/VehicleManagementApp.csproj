@@ -145,6 +145,9 @@
     <Content Include="App_Data\Database1VMA_log.ldf">
       <DependentUpon>Database1VMA.mdf</DependentUpon>
     </Content>
+    <Content Include="Content\bootstrap-1.1.0.css" />
+    <Content Include="Content\bootstrap-1.1.0.min.css" />
+    <Content Include="Content\bootstrap-datetimepicker.min.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -308,6 +311,7 @@
     <Content Include="Content\DataTables\swf\flashExport.swf" />
     <Content Include="Content\Site.css" />
     <Content Include="css\animate.css" />
+    <Content Include="css\bootstrap-datetimepicker.min.css" />
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\font-awesome.min.css" />
     <Content Include="css\jquery.datetimepicker.min.css" />
@@ -335,6 +339,7 @@
     <Content Include="img\slider\5.jpg" />
     <Content Include="img\slider\6.jpg" />
     <Content Include="img\slider\7.jpg" />
+    <Content Include="js\bootstrap-datetimepicker.min.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\jquery.fitvids.js" />
     <Content Include="js\jquery.slicknav.min.js" />
@@ -350,6 +355,7 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="scripts\bootstrap-datetimepicker.min.js" />
     <Content Include="scripts\bootstrap.js" />
     <Content Include="scripts\bootstrap.min.js" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -577,7 +583,6 @@
     <Content Include="Views\Manager\AssignIndex.cshtml" />
     <Content Include="Views\Requsition\DriverAndCar.cshtml" />
     <Content Include="Views\Employee\Driver.cshtml" />
-    <Content Include="Views\Employee\DriverList.cshtml" />
     <Content Include="Views\Vehicle\VehicleList.cshtml" />
     <Content Include="Views\Manager\Complete.cshtml" />
     <Content Include="Views\Manager\Car.cshtml" />
@@ -586,8 +591,9 @@
     <Content Include="Views\Requsition\_CommentPartial.cshtml" />
     <Content Include="Views\Manager\CheckOut.cshtml" />
     <Content Include="Views\Employee\Details.cshtml" />
-    <Content Include="Views\Manager\_CheckOutPartial.cshtml" />
     <Content Include="Views\Manager\CheckOutEdit.cshtml" />
+    <Content Include="Views\Manager\DriverList.cshtml" />
+    <Content Include="Views\Manager\CheckIn.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
       <SubType>Designer</SubType>

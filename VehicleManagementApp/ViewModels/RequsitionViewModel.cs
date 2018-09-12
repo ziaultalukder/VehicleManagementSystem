@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -30,9 +31,6 @@ namespace VehicleManagementApp.ViewModels
 
         public string Status { get; set; }
 
-        [DataType(DataType.Time)]
-        public DateTime Time { get; set; }
-
 
         [Display(Name = "Employee")]
         public int EmployeeId { get; set; }
@@ -55,5 +53,6 @@ namespace VehicleManagementApp.ViewModels
 
         public int CommentViewModelId { get; set; }
         public CommentViewModel CommentViewModel { get; set; }
+        
     }
 }

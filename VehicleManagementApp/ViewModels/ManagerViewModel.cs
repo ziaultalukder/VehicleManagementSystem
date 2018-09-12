@@ -10,6 +10,7 @@ namespace VehicleManagementApp.ViewModels
     public class ManagerViewModel
     {
         public int Id { get; set; }
+        public string Status { get; set; }
         public string DriverName { get; set; }
         public string DriverNo { get; set; }
         //public string EmployeeName { get; set; }

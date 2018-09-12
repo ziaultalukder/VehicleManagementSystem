@@ -701,7 +701,6 @@ D:\VehicleManagementSystem\VehicleManagementApp\bin\System.Web.Webpages.Deployme
 D:\VehicleManagementSystem\VehicleManagementApp\bin\System.Web.Webpages.Razor.xml
 D:\VehicleManagementSystem\VehicleManagementApp\bin\System.Web.Helpers.xml
 D:\VehicleManagementSystem\VehicleManagementApp\bin\System.Web.Mvc.xml
-D:\VehicleManagementSystem\VehicleManagementApp\bin\EntityFramework.xml
 D:\VehicleManagementSystem\VehicleManagementApp\obj\Debug\VehicleManagementApp.csprojResolveAssemblyReference.cache
 D:\VehicleManagementSystem\VehicleManagementApp\obj\Debug\VehicleManagementApp.dll
 D:\VehicleManagementSystem\VehicleManagementApp\obj\Debug\VehicleManagementApp.pdb

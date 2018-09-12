@@ -87,8 +87,15 @@
             </div>
             <div id="navbar" class="collapse navbar-collapse">
                 <ul>
-                    <li>@Html.ActionLink("Home", "Index", "Manager")</li>
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
                     <li>@Html.ActionLink("Inbox", "Inbox", "Requsition")</li>
+                    <li class="dropdown">
+                        <a href="#">Gate Pass</a>
+                        <ul class="dropdown-menu">
+                            <li>@Html.ActionLink("Check In", "CheckIn", "Manager")</li>
+                            <li>@Html.ActionLink("Check Out", "CheckOut", "Manager")</li>
+                        </ul>
+                    </li>
                 </ul>
             </div><!--/.nav-collapse -->
         </div>
@@ -106,8 +113,8 @@
                     <li>@Html.ActionLink("Assign (" + countAssign + ")", "AssignIndex", "Manager")</li>
                     <li>@Html.ActionLink("Complete(" + countComplete + ")", "Complete", "Manager")</li>
                     <li>@Html.ActionLink("Cancle", "Index", "Manager")</li>
-                    <li>@Html.ActionLink("Driver", "DriverList", "Employee")</li>
-                    
+                    <li>@Html.ActionLink("Driver", "DriverList", "Manager")</li>
+
                     <li>@Html.ActionLink("Total Vehicle", "Car", "Manager")</li>
                     <li>@Html.ActionLink("Assigned Car("+ totalCar + ")", "AssignCar", "Manager")</li>
                     <li>@Html.ActionLink("Free Vehicle("+ totalfree + ")", "NonAssignCar", "Manager")</li>
