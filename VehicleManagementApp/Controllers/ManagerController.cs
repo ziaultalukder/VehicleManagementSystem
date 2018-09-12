@@ -163,9 +163,14 @@ namespace VehicleManagementApp.Controllers
 
             bool isSaved = managerManager.Add(manager);
 
-            //RequsitionAssign(managerViewModel.Id);
-            //VehicleStatusChange(managerViewModel.VehicleId);
+
+            RequsitionAssign(managerViewModel.Id);
+            VehicleStatusChange(managerViewModel.VehicleId);
             DriverAssigned(managerViewModel.EmployeeId);
+
+
+            RequsitionAssign(managerViewModel.Id);
+            Complete(managerViewModel.Id);
 
 
             if (isSaved)
@@ -234,6 +239,36 @@ namespace VehicleManagementApp.Controllers
 
             return View(managerViewModels);
         }
+
+        public ActionResult Complete(int? id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            var employee = _employeeManager.GetAll();
+            var requsition = _requsitionManager.GetById((int)id);
+
+            RequsitionViewModel requsitionVM = new RequsitionViewModel()
+            {
+                Id = requsition.Id,
+                Form = requsition.Form,
+                To = requsition.To,
+                Description = requsition.Description,
+                JourneyStart = requsition.JourneyStart,
+                JouneyEnd = requsition.JouneyEnd,
+                Employee = employee.Where(x => x.Id == requsition.EmployeeId).FirstOrDefault()
+            };
+
+            if (requsitionVM.JourneyStart == requsitionVM.JouneyEnd)
+            {
+                requsition.Status = "Complete";
+                _requsitionManager.Update(requsition);
+                return RedirectToAction("Assign");
+            }
+            return View();
+        }
+
         public ActionResult OnProgress()
         {
             Requsition requsition = new Requsition();
@@ -255,6 +290,7 @@ namespace VehicleManagementApp.Controllers
             }
             return View(requsitionViewModels);
         }
+
         public ActionResult DriverAndCar(int? id)
         {
             if (id == null)
@@ -273,6 +309,7 @@ namespace VehicleManagementApp.Controllers
 
             return View();
         }
+
         public ActionResult DriverMessage(int? id)
         {
             if (id == null)
@@ -541,6 +578,7 @@ namespace VehicleManagementApp.Controllers
             return View(managerViewModels);
         }
 
+        [HttpGet]
         public ActionResult CheckIn(int? id)
         {
             if (id == null)

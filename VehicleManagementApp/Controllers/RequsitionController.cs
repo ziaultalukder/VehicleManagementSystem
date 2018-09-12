@@ -6,7 +6,9 @@ using System.Web;
 using System.Web.Mvc;
 using VehicleManagementApp.BLL.Contracts;
 using VehicleManagementApp.Models.Models;
+using VehicleManagementApp.Repository.Migrations;
 using VehicleManagementApp.ViewModels;
+using Requsition = VehicleManagementApp.Models.Models.Requsition;
 
 namespace VehicleManagementApp.Controllers
 {
@@ -18,9 +20,12 @@ namespace VehicleManagementApp.Controllers
         private IRequsitionStatusManager _requsitionStatusManager;
         private IManagerManager _managerManager;
         private IVehicleManager vehicleManager;
+
         private ICommentManager commentManager;
 
-        public RequsitionController(IRequsitionManager requsition, IEmployeeManager employee, IRequsitionStatusManager requsitionStatus, IManagerManager manager, IVehicleManager vehicle, ICommentManager comment)
+        public RequsitionController(IRequsitionManager requsition, IEmployeeManager employee,
+            IRequsitionStatusManager requsitionStatus, IManagerManager manager, IVehicleManager vehicle,
+            ICommentManager comment)
         {
             this._requsitionManager = requsition;
             this._employeeManager = employee;
@@ -29,6 +34,7 @@ namespace VehicleManagementApp.Controllers
             this.vehicleManager = vehicle;
             this.commentManager = comment;
         }
+        
         public ActionResult Index()
         {
 
@@ -103,7 +109,6 @@ namespace VehicleManagementApp.Controllers
             var employees = _employeeManager.Get(c => c.IsDriver == false && c.IsDeleted == false);
             RequsitionViewModel requsitionVM = new RequsitionViewModel();
             requsitionVM.Employees = employees;
-
             return View(requsitionVM);
         }
 

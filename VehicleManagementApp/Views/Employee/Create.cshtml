@@ -167,7 +167,11 @@
                     <div class="form-group">
                         <div class="col-md-offset-2 col-md-10">
                             <div class="checkbox">
+<<<<<<< HEAD
                                 @Html.CheckBoxFor(m => m.IsDriver, new { id = "checkbox" })
+=======
+                                @Html.CheckBoxFor(m => m.IsDriver, new {id="checkbox" })
+>>>>>>> e9953d9b8523cb9af3da0b70dfaab4323aebe492
                                 @Html.LabelFor(m => m.IsDriver)
                             </div>
                         </div>
@@ -183,9 +187,26 @@
                                     @Html.EditorFor(model => model.LicenceNo, new { htmlAttributes = new { @class = "form-control", required = false, disabled = "disabled", id = "licenseNo" } })
                                 }
 
+<<<<<<< HEAD
 
                                 @Html.ValidationMessageFor(model => model.LicenceNo, "", new { @class = "text-danger" })
                             </div>
+=======
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.LicenceNo, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @if ("IsDriver".IsBool() == false)
+                            {
+                                @Html.EditorFor(model => model.LicenceNo, new { htmlAttributes = new { @class = "form-control", required = true, disabled="disabled", id="licenseNo"} })
+                            }
+                            else
+                            {
+                                @Html.EditorFor(model => model.LicenceNo, new { htmlAttributes = new { @class = "form-control", required = false, disabled = "disabled", id ="licenseNo"} })
+                            }
+
+
+                            @Html.ValidationMessageFor(model => model.LicenceNo, "", new { @class = "text-danger" })
+>>>>>>> e9953d9b8523cb9af3da0b70dfaab4323aebe492
                         </div>
 
                         <div class="form-group">
