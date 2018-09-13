@@ -67,3 +67,4 @@ E:\Web Application In C#\New Git Files VMA\VehicleManagementSystem\VehicleManage
 E:\Web Application In C#\New Git Files VMA\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\bin\Debug\VehicleManagementApp.Models.Contracts.pdb
 E:\Web Application In C#\New Git Files VMA\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\obj\Debug\VehicleManagementApp.Models.Contracts.dll
 E:\Web Application In C#\New Git Files VMA\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\obj\Debug\VehicleManagementApp.Models.Contracts.pdb
+D:\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\obj\Debug\VehicleManagementApp.Models.Contracts.csprojResolveAssemblyReference.cache

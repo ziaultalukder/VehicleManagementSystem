@@ -239,7 +239,6 @@ namespace VehicleManagementApp.Controllers
 
             return View(managerViewModels);
         }
-
         public ActionResult Complete(int? id)
         {
             if (id == null)
@@ -268,7 +267,6 @@ namespace VehicleManagementApp.Controllers
             }
             return View();
         }
-
         public ActionResult OnProgress()
         {
             Requsition requsition = new Requsition();
@@ -290,7 +288,6 @@ namespace VehicleManagementApp.Controllers
             }
             return View(requsitionViewModels);
         }
-
         public ActionResult DriverAndCar(int? id)
         {
             if (id == null)
@@ -309,7 +306,6 @@ namespace VehicleManagementApp.Controllers
 
             return View();
         }
-
         public ActionResult DriverMessage(int? id)
         {
             if (id == null)
@@ -547,13 +543,15 @@ namespace VehicleManagementApp.Controllers
             manager.EmployeeId = managerViewModel.EmployeeId;
             manager.Status = "Execute";
             bool isUpdate =  managerManager.Update(manager);
+
+            
+
             if (isUpdate)
             {
                 return RedirectToAction("CheckOut");
             }
             return View();
         }
-
         public ActionResult CheckIn()
         {
             var Manager = managerManager.Get(c => c.Status == "Execute" && c.IsDeleted == false);
@@ -577,23 +575,6 @@ namespace VehicleManagementApp.Controllers
 
             return View(managerViewModels);
         }
-
-        [HttpGet]
-        public ActionResult CheckIn(int? id)
-        {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-            var manager = managerManager.GetById((int)id);
-
-            Manager managerobj = new Manager();
-            managerobj.Id = manager.Id;
-            managerobj.RequsitionId = manager.RequsitionId;
-            managerobj.VehicleId = manager.VehicleId;
-            managerobj.EmployeeId = manager.EmployeeId;
-            managerobj.Status = "Complete";
-            return View();
-        }
+        
     }
 }
