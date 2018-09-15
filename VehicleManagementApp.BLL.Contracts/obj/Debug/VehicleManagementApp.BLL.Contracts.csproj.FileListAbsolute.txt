@@ -152,3 +152,14 @@ E:\Web Application In C#\New Git Files VMA\VehicleManagementSystem\VehicleManage
 E:\Web Application In C#\New Git Files VMA\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\obj\Debug\VehicleManagementApp.BLL.Contracts.csprojResolveAssemblyReference.cache
 E:\Web Application In C#\New Git Files VMA\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\obj\Debug\VehicleManagementApp.BLL.Contracts.dll
 E:\Web Application In C#\New Git Files VMA\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\obj\Debug\VehicleManagementApp.BLL.Contracts.pdb
+E:\Web Application In C#\New Git Files VMA\VMS New Letest Code Change Project\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\bin\Debug\VehicleManagementApp.BLL.Contracts.dll
+E:\Web Application In C#\New Git Files VMA\VMS New Letest Code Change Project\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\bin\Debug\VehicleManagementApp.BLL.Contracts.pdb
+E:\Web Application In C#\New Git Files VMA\VMS New Letest Code Change Project\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\bin\Debug\VehicleManagementApp.Models.Contracts.dll
+E:\Web Application In C#\New Git Files VMA\VMS New Letest Code Change Project\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\bin\Debug\VehicleManagementApp.Models.dll
+E:\Web Application In C#\New Git Files VMA\VMS New Letest Code Change Project\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\bin\Debug\VehicleManagementApp.Repository.Contracts.dll
+E:\Web Application In C#\New Git Files VMA\VMS New Letest Code Change Project\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\bin\Debug\VehicleManagementApp.Models.Contracts.pdb
+E:\Web Application In C#\New Git Files VMA\VMS New Letest Code Change Project\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\bin\Debug\VehicleManagementApp.Models.pdb
+E:\Web Application In C#\New Git Files VMA\VMS New Letest Code Change Project\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\bin\Debug\VehicleManagementApp.Repository.Contracts.pdb
+E:\Web Application In C#\New Git Files VMA\VMS New Letest Code Change Project\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\obj\Debug\VehicleManagementApp.BLL.Contracts.csprojResolveAssemblyReference.cache
+E:\Web Application In C#\New Git Files VMA\VMS New Letest Code Change Project\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\obj\Debug\VehicleManagementApp.BLL.Contracts.dll
+E:\Web Application In C#\New Git Files VMA\VMS New Letest Code Change Project\VehicleManagementSystem\VehicleManagementApp.BLL.Contracts\obj\Debug\VehicleManagementApp.BLL.Contracts.pdb
