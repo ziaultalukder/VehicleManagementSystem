@@ -268,3 +268,20 @@ E:\Web Application In C#\New Git Files VMA\VMS New Letest Code Change Project\Ve
 E:\Web Application In C#\New Git Files VMA\VMS New Letest Code Change Project\VehicleManagementSystem\VehicleManagementApp.BLL\obj\Debug\VehicleManagementApp.BLL.csprojResolveAssemblyReference.cache
 E:\Web Application In C#\New Git Files VMA\VMS New Letest Code Change Project\VehicleManagementSystem\VehicleManagementApp.BLL\obj\Debug\VehicleManagementApp.BLL.dll
 E:\Web Application In C#\New Git Files VMA\VMS New Letest Code Change Project\VehicleManagementSystem\VehicleManagementApp.BLL\obj\Debug\VehicleManagementApp.BLL.pdb
+C:\Users\Khalid\Desktop\project\VehicleManagementSystem\VehicleManagementApp.BLL\bin\Debug\VehicleManagementApp.BLL.dll
+C:\Users\Khalid\Desktop\project\VehicleManagementSystem\VehicleManagementApp.BLL\bin\Debug\VehicleManagementApp.BLL.pdb
+C:\Users\Khalid\Desktop\project\VehicleManagementSystem\VehicleManagementApp.BLL\bin\Debug\VehicleManagementApp.BLL.Contracts.dll
+C:\Users\Khalid\Desktop\project\VehicleManagementSystem\VehicleManagementApp.BLL\bin\Debug\VehicleManagementApp.Models.Contracts.dll
+C:\Users\Khalid\Desktop\project\VehicleManagementSystem\VehicleManagementApp.BLL\bin\Debug\VehicleManagementApp.Models.dll
+C:\Users\Khalid\Desktop\project\VehicleManagementSystem\VehicleManagementApp.BLL\bin\Debug\VehicleManagementApp.Repository.Contracts.dll
+C:\Users\Khalid\Desktop\project\VehicleManagementSystem\VehicleManagementApp.BLL\bin\Debug\VehicleManagementApp.Repository.dll
+C:\Users\Khalid\Desktop\project\VehicleManagementSystem\VehicleManagementApp.BLL\bin\Debug\EntityFramework.dll
+C:\Users\Khalid\Desktop\project\VehicleManagementSystem\VehicleManagementApp.BLL\bin\Debug\VehicleManagementApp.BLL.Contracts.pdb
+C:\Users\Khalid\Desktop\project\VehicleManagementSystem\VehicleManagementApp.BLL\bin\Debug\VehicleManagementApp.Models.Contracts.pdb
+C:\Users\Khalid\Desktop\project\VehicleManagementSystem\VehicleManagementApp.BLL\bin\Debug\VehicleManagementApp.Models.pdb
+C:\Users\Khalid\Desktop\project\VehicleManagementSystem\VehicleManagementApp.BLL\bin\Debug\VehicleManagementApp.Repository.Contracts.pdb
+C:\Users\Khalid\Desktop\project\VehicleManagementSystem\VehicleManagementApp.BLL\bin\Debug\VehicleManagementApp.Repository.pdb
+C:\Users\Khalid\Desktop\project\VehicleManagementSystem\VehicleManagementApp.BLL\bin\Debug\EntityFramework.xml
+C:\Users\Khalid\Desktop\project\VehicleManagementSystem\VehicleManagementApp.BLL\obj\Debug\VehicleManagementApp.BLL.csprojResolveAssemblyReference.cache
+C:\Users\Khalid\Desktop\project\VehicleManagementSystem\VehicleManagementApp.BLL\obj\Debug\VehicleManagementApp.BLL.dll
+C:\Users\Khalid\Desktop\project\VehicleManagementSystem\VehicleManagementApp.BLL\obj\Debug\VehicleManagementApp.BLL.pdb

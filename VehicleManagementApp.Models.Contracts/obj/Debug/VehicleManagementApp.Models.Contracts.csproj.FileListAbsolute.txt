@@ -73,3 +73,8 @@ E:\Web Application In C#\New Git Files VMA\VMS New Letest Code Change Project\Ve
 E:\Web Application In C#\New Git Files VMA\VMS New Letest Code Change Project\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\obj\Debug\VehicleManagementApp.Models.Contracts.dll
 E:\Web Application In C#\New Git Files VMA\VMS New Letest Code Change Project\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\obj\Debug\VehicleManagementApp.Models.Contracts.pdb
 E:\Web Application In C#\New Git Files VMA\VMS New Letest Code Change Project\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\obj\Debug\VehicleManagementApp.Models.Contracts.csprojResolveAssemblyReference.cache
+C:\Users\Khalid\Desktop\project\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\bin\Debug\VehicleManagementApp.Models.Contracts.dll
+C:\Users\Khalid\Desktop\project\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\bin\Debug\VehicleManagementApp.Models.Contracts.pdb
+C:\Users\Khalid\Desktop\project\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\obj\Debug\VehicleManagementApp.Models.Contracts.csprojResolveAssemblyReference.cache
+C:\Users\Khalid\Desktop\project\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\obj\Debug\VehicleManagementApp.Models.Contracts.dll
+C:\Users\Khalid\Desktop\project\VehicleManagementSystem\VehicleManagementApp.Models.Contracts\obj\Debug\VehicleManagementApp.Models.Contracts.pdb
